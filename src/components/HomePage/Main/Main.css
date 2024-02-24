@@ -1,0 +1,63 @@
+
+
+
+.main-dev{
+    display: flex;
+    width: 100%;
+    min-height: 85vh;
+    background-color: #181818;
+}
+.main-right{
+    width: 55%;
+    min-height: 100%;
+    /* background-color: aqua; */
+}
+.main-left{
+    position: relative;
+    width: 45%;
+    min-height: 100%;
+    /* background-color: rebeccapurple; */
+}
+.heading-section{
+    position: absolute;
+    left: 5%;
+    width: 65%;
+    height: 100%;
+    color: white;
+    z-index: 100;
+    /* background-color: white; */
+}
+.video-section{
+    width: 100%;
+    height: 100%;
+    /* background-color: blue; */
+    border-radius: 50% 0px 0px 50%;
+}
+.video-section .dwb-video{
+    height: 100%;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 50% 0px 0px 50%;
+}
+
+
+.heading-section h1{
+    line-height: 5px;
+}
+.heading-section .heading-one{
+    font-weight: 500;
+    font-size: 5rem;
+    line-height: 5rem;
+   
+}
+.heading-section .heading-three{
+    font-weight: 500;
+    font-size: 5rem;
+    line-height: 5rem;
+   
+}
+
+.heading-two{
+    font-size: 7.5rem;
+    color: rgb(255, 186, 83);
+}
