@@ -31,8 +31,9 @@
     cursor: pointer;
 }
 .Ourclients-home-list{
-    width: 90%;
-    height: 60%;
+    width: 100%;
+    padding: 0px 2rem;
+    height: 80%;
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -48,4 +49,7 @@
     
     /* background-color: white; */
     /* border: 1px solid white; */
+}
+.clients img{
+    width: 120px;
 }

@@ -12,7 +12,7 @@
     align-items: center;
 }
 .drawer-links{
-    width: 30vw !important;
+    width: 30vw;
     height: 100vh;
     padding: 2rem 3rem;
 }

@@ -29,7 +29,7 @@ function Blogs() {
               },
             }}
           >
-            All Services <ArrowOutwardIcon />
+            All Blogs <ArrowOutwardIcon />
           </Button>
         </Box>
         </div>

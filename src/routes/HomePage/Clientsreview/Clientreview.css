@@ -75,7 +75,7 @@
 .reviews {
     padding: 1rem 2rem;
     width: 80%;
-    min-height: 28vh !important;
+    min-height: 28vh;
     background-color: #222222;
     animation: scrollAnimation 20s linear infinite;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Typography } from '@mui/material';
-import Logo from '../../../Assets/Images/logo.svg';
+import Logo from '../../../src/Assets/Images/logo.svg';
 import './Navbar.css'
 import AnchorTemporaryDrawer from './AnchorTemporaryDrawer';
 
