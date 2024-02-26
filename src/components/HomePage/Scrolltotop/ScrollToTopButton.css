@@ -1,9 +1,7 @@
-/* ScrollToTopButton.css */
-
 .progress {
   position: fixed;
-  bottom: 100px;
-  right: 100px;
+  bottom: 90px;
+  right: 100px; /* Adjusted to start from the left */
   height: 70px;
   width: 70px;
   display: none;
@@ -16,16 +14,18 @@
 
 .progress-value {
   display: block;
-  height: calc(100% - 5px);
-  width: calc(100% - 5px);
-  background-color: #181818;
+  height: calc(100% - 3px);
+  width: calc(100% - 3px);
+  background: linear-gradient(to left, #181818 0%, rgb(0, 0, 0) 0%); /* Reverse the gradient direction */
   border-radius: 50%;
   display: grid;
   place-items: center;
   font-size: 35px;
-  color: #262626;
+  color: #000000;
 }
-.custom-upwardarrow{
+
+
+.custom-upwardarrow {
   font-size: 3rem !important; /* Adjust the font size to increase the arrow size */
   color: white; 
 }

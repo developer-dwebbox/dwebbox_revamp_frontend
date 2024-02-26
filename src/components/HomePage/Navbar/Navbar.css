@@ -1,20 +1,40 @@
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 50px;
-    background-color: #181818;
-    color: white;
-    align-items: center;
-    height: 100px;
-}
-.logo{
-    /* background-color: antiquewhite; */
-   
-}
 .nav-links{
     display: flex;
-    width: 30%;
-    margin-left: 30px;
-    /* background-color: antiquewhite; */
     justify-content: space-between;
+    margin-left: -30%;
+    /* background-color: blueviolet; */
+}
+.logo{
+    
+}
+.nav-menu-btn{
+    display: flex;
+    align-items: center;
+}
+.drawer-links{
+    width: 30vw !important;
+    height: 100vh;
+    padding: 2rem 3rem;
+}
+.drawer-links h2{
+    margin-top: 2rem;
+}
+.drawer-links p{
+    margin-top: 2rem;
+}
+.cursor{
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    transition: 0.1s;
+    transform: translate(-50%,-50%);
+    z-index: 10000;
+    pointer-events: none;
+    mix-blend-mode: screen;
+    background-color:#F17C24; /* Specify the cursor color */
+}
+.nav-links:hover ~ .cursor {
+   transform: scale(5); 
 }

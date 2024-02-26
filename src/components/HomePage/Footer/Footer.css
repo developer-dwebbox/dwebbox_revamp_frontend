@@ -18,6 +18,7 @@
     width: 40%;
     color: white;
 }
+
 .footer-links{
     display: flex;
     justify-content: space-between;
@@ -27,9 +28,33 @@
 }
 .footer-Address{
     color: white;
+    margin-left: 3rem;
+}
+.footer-Address h3{
+    font-size: 26px;
+    font-family: "DM Sans", sans-serif;
+
 }
 .footer-Address p{
-    width: 60%;
+    font-family: "DM Sans", sans-serif;
+
+    width: 70%;
+    font-size: 22px;
+    margin-top: 1.2rem;
+}
+.footer-social-icons h3{
+    font-size: 26px;
+    font-family: "DM Sans", sans-serif;
+
+}
+.footer-social-icons p{
+    font-family: "DM Sans", sans-serif;
+
+    font-size: 20px;
+    margin-top: 1rem;
+}
+.footer-social-icons p:hover{
+    cursor: pointer;
 }
 .connect-dewebbox{
     display: flex;
@@ -38,13 +63,15 @@
     height: 80%;
 }
 .connect-dewebbox h1{
+    
 color: #F17C24;
 font-size: 55px;
-margin-top: -40px;
+margin-top: 10px;
 }
 .connect-dewebbox h2{
     color: white;
     font-size: 40px;
+    margin-top: 20px;
 }
 .footer-para{
     width: 90%;
@@ -56,6 +83,8 @@ margin-top: -40px;
 .footer-para p{
     text-align: center;
     font-size: 18px;
+    font-family: "DM Sans", sans-serif;
+
 }
 .footer-span{
     font-size: 16px;

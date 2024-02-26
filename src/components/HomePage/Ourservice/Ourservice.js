@@ -23,12 +23,12 @@ function Ourservice() {
           justifyContent: 'space-between',
           alignItems: 'center',
           width: '90%',
-          height: '10vh',
-          marginTop: '3rem',
+          height: '12vh',
+          marginTop: '2rem',
         }}
       >
         <Box className='ourservice-heading-first'>
-          <Typography variant="h2" sx={{ color: 'white', fontSize: '40px', fontWeight: 400 }}>
+          <Typography variant="h2" sx={{ color: 'white', fontSize: '52px', fontWeight: 400 }}>
             Our Services
           </Typography>
         </Box>
@@ -53,7 +53,7 @@ function Ourservice() {
         </Box>
       </Box>
       <Box className='ourservice-paragraph' sx={{ width: '90%' }}>
-        <Typography variant="body1" sx={{ color: 'white', fontSize: '20px', fontWeight: 300, lineHeight: '35px',width:'67%' }}>
+        <Typography variant="body1" sx={{fontFamily:"DM Sans", color: 'white', fontSize: '30px', fontWeight: 300, lineHeight: '35px',width:'67%' }}>
           From the initial stages of understanding your requirements to the final implementation, we guide you every step
           of the way.
         </Typography>

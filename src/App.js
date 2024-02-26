@@ -11,6 +11,7 @@ import Techstack from './components/HomePage/Techstack/Techstack';
 import Blogs from './components/HomePage/Blogs/Blogs';
 import Footer from './components/HomePage/Footer/Footer';
 import ScrollToTopButton from './components/HomePage/Scrolltotop/ScrollToTopButton';
+import Bgimage from './components/HomePage/Bgimagesection/Bgimage';
 function App() {
   return (
     <div>
@@ -25,6 +26,7 @@ function App() {
 <Clientreview/>
 <Techstack/>
 <Blogs/>
+<Bgimage/>
 <Footer/>
     </div>
   );

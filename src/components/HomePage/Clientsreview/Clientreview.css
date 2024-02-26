@@ -13,13 +13,41 @@
     /* background-color: rgb(142, 255, 217); */
 }
 .reviewleft-firstbox h2{
-    font-size: 40px;
+    font-size: 50px;
+    margin: 20px 0px;
+    font-family: "DM Sans", sans-serif;
+
+}
+.reviewleft-firstbox h6{
+    margin: 20px 0px;
+    font-size: 24px;
+    font-family: "DM Sans", sans-serif;
+
+}
+.reviewleft-firstbox p{
+    font-family: "DM Sans", sans-serif;
+    margin: 30px 0px;
+    font-size: 22px;
 }
 .reviewleft-secondbox{
-    width: 35%;
+    width: 75%;
+    font-family: "DM Sans", sans-serif;
     display: flex;
     color: white;
     justify-content: space-between;
+    margin: 30px 0px;
+}
+.tenkuser h1{
+    font-size: 50px;
+}
+.tenkuser p{
+    font-size: 22px;
+}
+.hundredproject h1{
+    font-size: 50px;
+}
+.hundredproject p{
+    font-size: 22px;
 }
 .reviewright {
     width: 50%;
@@ -28,6 +56,7 @@
     align-items: center;
     /* background-color: rgb(211, 124, 254); */
     overflow: hidden;
+
 }
 
 .reviewscollar {
@@ -44,10 +73,36 @@
 }
 
 .reviews {
+    padding: 1rem 2rem;
     width: 80%;
-    padding: 40px 0px;
-    background-color: white;
+    min-height: 28vh !important;
+    background-color: #222222;
     animation: scrollAnimation 20s linear infinite;
+}
+
+.reviews-para p{
+    color: white;
+    font-size: 16px;
+    font-weight: 200;
+    font-family: "DM Sans", sans-serif;
+
+}
+
+
+
+.user-reviews{
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+    color: white;
+}
+.user-reviews p{
+    font-size: 12px;
+    margin-top: 3px;
+}
+.user-reviews img{
+    width: 50px;
+    margin-right: 1rem;
 }
 
 

@@ -1,0 +1,78 @@
+.Bgimage {
+    width: 100%;
+    height: 90vh;
+    background-color: #181818;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+  }
+  
+  .bgimagesection {
+    width: 70%;
+    height: 70%;
+    background-image: url('../../../Assets/Images/Rectangle 55.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+  }
+  
+  /* If you want to style the content inside bgimagesection, you can add styles here */
+  .bgimagesection .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Example styling for text color */
+  }
+  .bgcontentsection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 80%;
+    height: 50%;
+    background-color: #101010;
+    left: 0;
+    /* bottom: 10px; */
+    top: 200px;
+    z-index: 100;
+    padding: 0px 60px;
+  }
+  .bgcontentheading h1{
+    color: white;
+    font-size: 52px;
+    
+  }
+  .bgcontentheading span{
+    color: #F17C24;
+    font-family: "Salgesis";
+    font-size: 55px;
+  }
+  .bgcontentheading{
+    width: 70%;
+   
+  }
+  
+  .bgcontentbtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     width: 170px;
+     height: 170px;
+     background-color: white;
+     border-radius: 50%;
+     transition: background-color 0.5s ease-in-out; /* Smooth transition for background color */
+
+  }
+  .bgcontentbtn:hover{
+    background-color: #F17C24;
+    cursor: pointer;
+    color: white;
+  }
+  .bgcontentbtn p{
+    font-size: 20px;
+    font-family: "DM Sans", sans-serif;
+
+  }
