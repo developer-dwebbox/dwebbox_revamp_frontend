@@ -15,12 +15,42 @@ html,body{
 
 @media only screen and (max-width: 700px) {
 
+  .navbar{
+    padding: 0px 30px !important;
+  }
 
+  .main-dev{
+   min-height: 120vh !important;
+  }
+  .main-left{
+    min-height: 10vh !important;
+  }
+
+  .heading-section .heading-one,
+  .heading-section .heading-three {
+    
+    font-size: 45px !important;
+    margin-top: 2rem !important;
+    
+  }
+  .heading-section h1{
+    font-size: 50px !important;
+    line-height: 3rem !important;
+    margin-top: 1rem !important;
+  }
+  .video-section .dwb-video{
+    height: 50% !important;
+    border-radius: 0% !important;
+    margin-top: 5rem !important;
+  }
+  .marquee__content li{
+    font-size: 22px !important;
+  }
   .nav-links{
     display: none !important;
   }
   .drawer-links {
-     width: 70vw !important;
+     width: 75vw !important;
   }
 
   .webdev{
@@ -45,10 +75,22 @@ width: 100% !important;
     height: 55px !important;
     width: 55px !important;
     right: 40px !important;
-    bottom: 210px !important;
+    bottom: 160px !important;
   }
 
 
+.ourservice-paragraph p{
+  width: 90% !important;
+  font-size: 20px !important;
+}
+.ourservice-btn button{
+  width: 160px !important;
+  height: 45px !important;
+}
+
+.ourservice-heading-first h2{
+  font-size: 28px;
+}
 
   .Ourclients-home {
 height: 120vh !important;
@@ -124,11 +166,11 @@ margin: 0rem 2rem !important;
   }
   .Techstack-skills {
 margin-top: 3rem !important;
-gap: 0.8rem !important;
+gap: 1.8rem !important;
   }
   .skills {
-     width: 140px !important;
-     height: 60px !important;
+     width: 150px !important;
+     height: 70px !important;
   }
   .Techstack-heading p {
     font-size: 16px !important;
@@ -208,7 +250,8 @@ padding: 20px 20px !important;
 
 
 .Footer{
-  height: 100vh !important;
+  /* background-color: #181818; */
+  height: 120vh !important;
 }
 .footer-Address p {
   width: 100% !important;

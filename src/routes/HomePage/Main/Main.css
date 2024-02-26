@@ -13,7 +13,7 @@
   .main-left {
     position: relative;
     width: 100%;
-    min-height: 100%;
+    min-height: 95vh;
   }
   
   .heading-section {
@@ -47,7 +47,7 @@
   .heading-section .heading-three {
     font-weight: 500;
     margin-top: 5rem;
-    font-size: 5rem;
+    font-size: 110px;
     line-height: 5rem;
   }
   
