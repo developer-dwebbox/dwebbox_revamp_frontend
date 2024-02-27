@@ -33,23 +33,18 @@
 }
 .footer-Address h3{
     font-size: 26px;
-    font-family: "DM Sans", sans-serif;
 
 }
 .footer-Address p{
-    font-family: "DM Sans", sans-serif;
-
     width: 70%;
     font-size: 22px;
     margin-top: 1.2rem;
 }
 .footer-social-icons h3{
     font-size: 26px;
-    font-family: "DM Sans", sans-serif;
 
 }
 .footer-social-icons p{
-    font-family: "DM Sans", sans-serif;
 
     font-size: 20px;
     margin-top: 1rem;
@@ -68,6 +63,8 @@
 color: #F17C24;
 font-size: 55px;
 margin-top: 10px;
+font-family: Salgesis !important;
+
 }
 .connect-dewebbox h2{
     color: white;
@@ -84,7 +81,6 @@ margin-top: 10px;
 .footer-para p{
     text-align: center;
     font-size: 18px;
-    font-family: "DM Sans", sans-serif;
     margin: 1rem 0rem;
 
 }

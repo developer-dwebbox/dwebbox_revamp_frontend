@@ -46,7 +46,7 @@
   }
   .bgcontentheading span{
     color: #F17C24;
-    font-family: "Salgesis";
+    font-family: 'Salgesis' !important;
     font-size: 55px;
   }
   .bgcontentheading{
@@ -73,6 +73,4 @@
   }
   .bgcontentbtn p{
     font-size: 20px;
-    font-family: "DM Sans", sans-serif;
-
   }

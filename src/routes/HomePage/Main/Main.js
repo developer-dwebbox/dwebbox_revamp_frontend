@@ -12,7 +12,7 @@ function Main() {
           <Typography variant="h1" className='heading-one'>
             We develop
           </Typography>
-          <Typography variant="h1" className='heading-two' sx={{ color: 'rgb(255, 186, 83)', fontSize: '7.5rem',fontFamily:"Salgesis sans-sarif",fontWeight:"600" }}>
+          <Typography variant="h1" className='heading-two'>
             digital products
           </Typography>
           <Typography variant="h1" className='heading-three'>

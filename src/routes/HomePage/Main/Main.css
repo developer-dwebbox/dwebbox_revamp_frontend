@@ -52,12 +52,13 @@
   }
   
   .heading-two {
-    font-size: 7.5rem;
-    color: #ffa412;
-    font-size: 7.5rem;
-    background-image: linear-gradient(to right, #FF9F00 0%, #FFC600 100%);
-    -webkit-background-clip: text; /* for webkit browsers */
-    /* -webkit-text-fill-color: transparent; for webkit browsers */
-    color: transparent; 
+    font-size: 32px;
+    background: linear-gradient( #FF9F00, #FFC600);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #FF9F00;
+    background-size: 100%; 
+    font-family: 'Salgesis' !important;
   }
+  
+  
   
