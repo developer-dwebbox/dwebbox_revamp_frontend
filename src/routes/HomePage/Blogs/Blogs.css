@@ -17,6 +17,8 @@
 }
 .blog-heading h1{
     color: white;
+    font-size: 55px;
+    font-weight: 500;
 }
 .blog-button button{
     width: 180px;
@@ -57,20 +59,27 @@ background-color: #181818;
     background-color: #181818;
 }
 .blog-one-img{
-    width: 50%;
+    width: 70%;
     height: 100%;
 }
 .blog-one-content{
     height: 100%;
 }
 .blog-one-content p{
+    font-family: DM Sans;
+    font-weight: 400;
     margin: 20px 40px;
+    font-size: 16px;
     margin-top: 30px;
-    color: white;
+    color: rgb(233, 233, 233);
 }
 .blog-one-content h3{
     margin: 15px 40px;
     color: white;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+    width: 70%;
 }
 
 .blog-one-content button{

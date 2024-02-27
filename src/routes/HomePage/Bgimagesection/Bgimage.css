@@ -41,13 +41,15 @@
   }
   .bgcontentheading h1{
     color: white;
-    font-size: 52px;
+    font-size: 55px;
+    font-weight: 600;
     
   }
   .bgcontentheading span{
     color: #F17C24;
     font-family: 'Salgesis' !important;
     font-size: 55px;
+    font-weight: 400;
   }
   .bgcontentheading{
     width: 70%;
@@ -72,5 +74,7 @@
     color: white;
   }
   .bgcontentbtn p{
+    font-family: "DM Sans";
     font-size: 20px;
+    font-weight: 400;
   }

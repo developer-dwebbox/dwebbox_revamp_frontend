@@ -37,7 +37,9 @@
 }
 .footer-Address p{
     width: 70%;
+    font-family: 'DM Sans';
     font-size: 22px;
+    font-weight: 400;
     margin-top: 1.2rem;
 }
 .footer-social-icons h3{
@@ -61,13 +63,14 @@
 .connect-dewebbox h1{
     
 color: #F17C24;
-font-size: 55px;
+font-size: 50px;
 margin-top: 10px;
+font-weight: 400;
 font-family: Salgesis !important;
 
 }
 .connect-dewebbox h2{
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 40px;
     margin-top: 20px;
 }
@@ -80,12 +83,21 @@ font-family: Salgesis !important;
 }
 .footer-para p{
     text-align: center;
-    font-size: 18px;
+    font-size: 22px;
     margin: 1rem 0rem;
+    font-family: 'DM Sans';
+    font-weight: 400;
 
 }
 .footer-span{
-    font-size: 16px;
+    font-size: 22px;
     color: rgb(188, 187, 187);
     margin-left: 5px;
+    font-family: 'DM Sans';
+    font-weight: 400;
+}
+.social-links p{
+    font-family: 'DM Sans';
+    font-weight: 400;
+   font-size: 20px;
 }

@@ -22,7 +22,11 @@ html,body{
 }
 @font-face {
   font-family: DM Sans18ptLight;
-  src: url(../src/Assets/fonts/DM_Sans/static/DMSans_18pt-Light.ttf);
+  src: url(../src/Assets/fonts/DM_Sans/static/DMSans_18pt-Thin.ttf);
+}
+@font-face {
+  font-family: DM Sans;
+  src: url(../src/Assets/fonts/DM_Sans/static/DMSans-Medium.ttf);
 }
 @font-face {
   font-family: DM BlackBold;

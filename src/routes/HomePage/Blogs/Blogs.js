@@ -42,13 +42,15 @@ function Blogs() {
         </div>
         <div className='blog-one-content' >
            <p>AUGUST 6, 2022</p>
-           <h3>Creative advertising in our life became a info noise</h3>
+           <h3>Creative Advertising in our life became a info noise</h3>
            <Box>
           <Button
             variant="outlined"
             sx={{
               border: '2px solid white',
               color: 'white',
+              fontFamily:'DM Sans',
+              fontSize:'14.69px',
               width: '170px',
               height: '50px',
               borderRadius: '50px',
@@ -73,13 +75,15 @@ function Blogs() {
       </div>
       <div className='blog-one-content' >
 <p>AUGUST 6, 2022</p>
-<h3>Creative advertising in our life became a info noise</h3>
+<h3>Creative Advertising in our life became a info noise</h3>
 <Box>
           <Button
             variant="outlined"
             sx={{
               border: '2px solid white',
               color: 'white',
+              fontFamily:'DM Sans',
+              fontSize:'14.69px',
               width: '170px',
               height: '50px',
               borderRadius: '50px',

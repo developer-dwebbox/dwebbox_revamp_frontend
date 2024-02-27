@@ -13,37 +13,55 @@
     /* background-color: rgb(142, 255, 217); */
 }
 .reviewleft-firstbox h2{
-    font-size: 50px;
+    font-size: 55px;
     margin: 20px 0px;
+    font-family: "DM Sans";
+    font-weight: 500;
 
 }
 .reviewleft-firstbox h6{
     margin: 20px 0px;
     font-size: 24px;
+    font-family: "DM Sans";
+    line-height: 10px !important;
+    font-weight: 400;
 
 }
 .reviewleft-firstbox p{
-    margin: 30px 0px;
-    font-size: 22px;
+    margin: 20px 0px;
+    font-size: 24px;
+    font-weight: 250;
+    font-family: "DM Sans18ptLight";
+    width: 70%;
 }
 .reviewleft-secondbox{
     width: 75%;
     display: flex;
     color: white;
     justify-content: space-between;
-    margin: 30px 0px;
+    margin: 20px 0px;
 }
 .tenkuser h1{
-    font-size: 50px;
+    font-size: 51px;
+    font-family: "DM Sans";
+    font-weight: 500;
+
 }
 .tenkuser p{
-    font-size: 22px;
+    font-size: 24px;
+    font-family: "DM Sans";
+    font-weight: 400;
 }
 .hundredproject h1{
-    font-size: 50px;
+    font-size: 51px;
+    font-family: "DM Sans";
+    font-weight: 500;
 }
 .hundredproject p{
-    font-size: 22px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "DM Sans";
+    width: 80%;
 }
 .reviewright {
     width: 50%;
@@ -57,7 +75,7 @@
 
 .reviewscollar {
     width: 100%;
-    height: 70%;
+    height: 80%;
     background-color: #181818;
     display: flex;
     justify-content: center;
@@ -71,16 +89,18 @@
 .reviews {
     padding: 1rem 2rem;
     width: 80%;
-    min-height: 28vh;
+    min-height: 40vh;
     background-color: #222222;
     animation: scrollAnimation 20s linear infinite;
 }
 
 .reviews-para p{
-    color: white;
-    font-size: 16px;
-    font-weight: 200;
-
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 250;
+    font-family: "DM Sans18ptLight";
+    line-height: 25px;
+    margin-bottom: 5px;
 }
 
 
@@ -91,13 +111,20 @@
     margin-top: 0.5rem;
     color: white;
 }
+.user-reviews h6{
+    font-family: "DM Sans";
+    font-size: 23px;
+    font-weight: 500;
+}
 .user-reviews p{
-    font-size: 12px;
-    margin-top: 3px;
+    font-size: 16px;
+    font-family: "DM Sans";
+    font-weight: 400;
+    margin-top: 2px;
 }
 .user-reviews img{
-    width: 50px;
-    margin-right: 1rem;
+    width: 73px;
+    margin-right: 0.6rem;
 }
 
 
