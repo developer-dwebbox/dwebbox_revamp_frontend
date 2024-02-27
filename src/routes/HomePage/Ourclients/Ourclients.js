@@ -30,7 +30,7 @@ function Ourclients() {
               },
             }}
           >
-            All Services <ArrowOutwardIcon />
+            All Clients <ArrowOutwardIcon />
           </Button>
         </Box>
         

@@ -48,7 +48,7 @@ function Ourservice() {
               },
             }}
           >
-            All Clients <ArrowOutwardIcon />
+            All Services <ArrowOutwardIcon />
           </Button>
         </Box>
       </Box>

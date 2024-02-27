@@ -22,7 +22,7 @@ html,body{
 }
 @font-face {
   font-family: DM Sans18ptLight;
-  src: url(../src/Assets/fonts/DM_Sans/static/DMSans_18pt-Thin.ttf);
+  src: url(../src/Assets/fonts/DM_Sans/static/DMSans_18pt-Light.ttf);
 }
 @font-face {
   font-family: DM Sans;
@@ -35,14 +35,16 @@ html,body{
 
 @media only screen and (max-width: 700px) {
 
-
+.cursor{
+  display: none;
+}
 
   .navbar{
     padding: 0px 30px !important;
   }
 
   .main-dev{
-   min-height: 120vh !important;
+   min-height: 85vh !important;
   }
   .main-left{
     min-height: 10vh !important;
@@ -51,8 +53,10 @@ html,body{
   .heading-section .heading-one,
   .heading-section .heading-three {
     
-    font-size: 45px !important;
+    font-size: 50px !important;
     margin-top: 2rem !important;
+    font-weight: 400;
+    width: 110% !important;
     
   }
   .heading-section h1{
@@ -63,8 +67,13 @@ html,body{
   .video-section .dwb-video{
     height: 50% !important;
     border-radius: 0% !important;
-    margin-top: 5rem !important;
+    margin-top: 10rem !important;
   }
+  .animation-section {
+    height: 40vh !important;
+  }
+    
+
   .marquee__content li{
     font-size: 22px !important;
   }
@@ -88,9 +97,21 @@ width: 100% !important;
 .webdevheading p{
   width: 80% !important;
   font-size: 16px !important;
+  font-family: "DM Sans18ptLight";
+  font-weight: 250;
+  margin: 10px 30px !important;
+}
+.webdevheading button{
+  font-size: 16px !important;
+  font-family: "DM Sans";
+  margin: 10px 30px !important;
+
 }
 .webdevheading h1{
+  margin: 0px 30px !important;
+  margin-top: 70px !important;
   font-size: 24px !important;
+  font-weight: 500 !important;
 }
 
   .progress {
@@ -336,6 +357,7 @@ padding: 20px 20px !important;
 }
 .footer-para p{
   font-size: 17px !important;
+  margin: 0px !important;
   margin-top: 2rem !important;
 }
 
