@@ -42,7 +42,7 @@
   
   .slick-images-heading{
    text-align:initial;
-   margin-left: 5rem;
+   margin-left: 0rem;
    margin-top: 0.5rem;
     /* width: 500px; */
     /* display: flex; */
@@ -50,12 +50,12 @@
   }
   
   .slick-images img {
-    margin: 0 5rem; /* Adjust the margin as needed */
+    margin: 0 0rem; /* Adjust the margin as needed */
     width: 95% !important;
   }
   .slick-images{
     width: 120%;
-    margin: 0rem 1rem !important;
+    margin: 0rem 0rem !important;
   }
   
   
@@ -77,7 +77,7 @@
 
   @media screen and (max-width: 768px) {
     .Homeportfolio{
-      height: 90vh !important;
+      height: 80vh !important;
     }
     .Homeportfolio-heading{
       font-size: 22px;

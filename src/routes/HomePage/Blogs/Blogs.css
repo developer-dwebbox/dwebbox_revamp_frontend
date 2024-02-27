@@ -37,13 +37,15 @@ background-color: #181818;
     justify-content: space-between;
 }
 .blog-one{
-    width: 48%;
+    padding: 0.3rem;
+    width: 50%;
     height: 80%;
     background-color: #181818;
     border: 1px solid white;
 }
 .blog-two{
-    width: 48%;
+    padding: 0.3rem;
+    width: 50%;
     height: 80%;
     background-color: #181818;
     border: 1px solid white;
@@ -55,7 +57,7 @@ background-color: #181818;
     background-color: #181818;
 }
 .blog-one-img{
-    width: 40%;
+    width: 50%;
     height: 100%;
 }
 .blog-one-content{

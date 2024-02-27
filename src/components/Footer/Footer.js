@@ -11,11 +11,16 @@ function Footer() {
          </div>
          <div className='footer-links' >
              <div className='footer-social-icons'>
-                   <h3>Social</h3>
+             <div className='social-heading' >
+             <h3>Social</h3>
+             </div>
+                   <div className='social-links' >
                    <p>LINKEDIN</p>
                    <p>INSTAGRAM</p>
                    <p>UPWORK</p>
                    <p>FACEBOOK</p>
+                   </div>
+                  
                    
              </div>
              <div className='footer-Address'>
