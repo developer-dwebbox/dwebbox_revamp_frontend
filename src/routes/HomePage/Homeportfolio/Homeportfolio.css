@@ -13,6 +13,13 @@
   .Homeportfolio h1{
       margin-left: 30px;
       margin-bottom: 30px;
+      margin-top: 1rem;
+  }
+  .slick-images-heading{
+    font-size: 30px ;
+  }
+  .slick-images-heading{
+    font-size: 30px ;
   }
   .custom-arrow {
     position: absolute;
@@ -44,8 +51,13 @@
   
   .slick-images img {
     margin: 0 5rem; /* Adjust the margin as needed */
-    width: 460px !important;
+    width: 95% !important;
   }
+  .slick-images{
+    width: 120%;
+    margin: 0rem 1rem !important;
+  }
+  
   
   .portfolioButton button{
     margin-top: 1.8rem;
@@ -62,3 +74,52 @@
     cursor: pointer;
   }
   
+
+  @media screen and (max-width: 768px) {
+    .Homeportfolio{
+      height: 90vh !important;
+    }
+    .Homeportfolio-heading{
+      font-size: 22px;
+    }
+    .custom-arrow {
+      bottom: -40px; /* Adjust arrow position for smaller screens */
+      width: 40px;
+      height: 40px;
+      font-size: 24px; /* Adjust icon size */
+    }
+  .slick-images-heading{
+    font-size: 12px !important;
+  }
+  .slick-images-heading{
+    font-size: 12px !important;
+  }
+    .custom-prev {
+      left: 80%;
+      bottom: -90%;
+    }
+  
+    .custom-next {
+      right: 22%;
+      bottom: -90%;
+    }
+  
+    
+
+    .slick-images-heading {
+      margin-left: 0; /* Reset margin */
+    }
+    .portfolioButton button{
+      margin-top: 0.5rem;
+      margin-left: 1rem;
+      width: 160px;
+      height: 40px;
+    border: 1px solid black;
+    border-radius: 50px;
+    color: black;
+    }
+    .swipercomponent{
+      margin-bottom: 3rem;
+    }
+   
+  }

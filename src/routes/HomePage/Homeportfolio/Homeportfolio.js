@@ -47,7 +47,7 @@ function Homeportfolio() {
       </div>
       <div className='swipercomponent'>
         <Slider {...settings}>
-          <div className='slick-images' >
+          <div className='slick-images'  >
             <img src={rectangleimage1} alt="Image 1" />
             <h2 className='slick-images-heading' >Mobile Shoestore</h2>
             <h3   className='slick-images-heading' >UI/UX Design</h3>
@@ -67,7 +67,7 @@ function Homeportfolio() {
       </div>
       <div className='AllPortfolioButton'>
       <div className='portfolioButton' >
-      <Button>All Portfolio <ArrowOutwardIcon/></Button>
+      <Button>All Projects <ArrowOutwardIcon/></Button>
       </div>
        
       </div>
