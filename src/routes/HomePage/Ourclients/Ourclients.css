@@ -31,25 +31,18 @@
     cursor: pointer;
 }
 .Ourclients-home-list{
-    width: 100%;
-    padding: 0px 2rem;
+    width: 90%;
     height: 80%;
     display:flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    /* justify-content: center; */
-    align-content: center;
-    
-    /* background-color: white; */
+    gap: 1% 10%;
 }
+
 .clients{
-    width: 160px;
-    height: 75px;
-    margin: 0rem 3rem;
-    
-    /* background-color: white; */
-    /* border: 1px solid white; */
+    width: 200px;
+    height: 10px;
 }
+
 .clients img{
-    width: 120px;
+    width: 176px;
 }
