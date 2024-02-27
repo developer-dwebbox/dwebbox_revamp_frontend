@@ -12,7 +12,7 @@ export default function AnchorTemporaryDrawer() {
 
   return (
     <div>
-      <Button onClick={() => setOpen(true)} sx={{ color: 'white' }}>Menu <DragHandleIcon sx={{ color: 'white' }} /></Button>
+      <Button onClick={() => setOpen(true)} sx={{ color: 'white' }}> <div className='menu-button-div' >Menu</div> <DragHandleIcon sx={{ color: 'white' }} /></Button>
       <Drawer
         anchor={"right"}
         open={open}
@@ -25,12 +25,15 @@ export default function AnchorTemporaryDrawer() {
             <CloseIcon sx={{fontSize:"40px"}} />
           </Button>
           <p>MENU</p>
+          <h2>Portfolio</h2>
+          <h2>Services</h2>
+          <h2>Clients</h2>
           <h2>About Us</h2>
-          <h2>Contact Us</h2>
           <h2>Our Team</h2>
+          <h2>Contact Us</h2>
           <h2>Blogs</h2>
-          <p>GET IN TOUCH</p>
-          <p>connect@dwebbox.com</p>
+          <p className='getInTouch-p'>GET IN TOUCH</p>
+          <p className='connectdwb-p'>connect@dwebbox.com</p>
         </div>
       </Drawer>
     </div>

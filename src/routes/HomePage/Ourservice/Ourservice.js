@@ -53,7 +53,7 @@ function Ourservice() {
         </Box>
       </Box>
       <Box className='ourservice-paragraph' sx={{ width: '90%' }}>
-        <Typography variant="body1" sx={{fontFamily:" DM Sans18ptLight", color: 'white', fontSize: '30px', fontWeight: 250, lineHeight: '35px',width:'67%' }}>
+        <Typography variant="body1" sx={{fontFamily:'DM Sans_18pt-ExtraLight', color: 'white', fontSize: '30px', fontWeight: 250, lineHeight: '35px',width:'67%' }}>
           From the initial stages of understanding your requirements to the final implementation, we guide you every step
           of the way.
         </Typography>

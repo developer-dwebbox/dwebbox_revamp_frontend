@@ -23,6 +23,12 @@ html,body{
 @font-face {
   font-family: DM Sans18ptLight;
   src: url(../src/Assets/fonts/DM_Sans/static/DMSans_18pt-Light.ttf);
+
+}
+
+@font-face {
+  font-family: DM Sans_18pt-ExtraLight;
+  src: url(../src/Assets/fonts/DM_Sans/static/DMSans_18pt-ExtraLight.ttf);
 }
 @font-face {
   font-family: DM Sans;
@@ -35,6 +41,9 @@ html,body{
 
 @media only screen and (max-width: 700px) {
 
+  .menu-button-div{
+    display: none;
+  }
 .cursor{
   display: none;
 }
@@ -67,7 +76,7 @@ html,body{
   .video-section .dwb-video{
     height: 50% !important;
     border-radius: 0% !important;
-    margin-top: 10rem !important;
+    margin-top: 15rem !important;
   }
   .animation-section {
     height: 40vh !important;
@@ -97,7 +106,7 @@ width: 100% !important;
 .webdevheading p{
   width: 80% !important;
   font-size: 16px !important;
-  font-family: "DM Sans18ptLight";
+  font-family: 'DM Sans_18pt-ExtraLight' ;
   font-weight: 250;
   margin: 10px 30px !important;
 }
@@ -169,6 +178,10 @@ height: 60px !important;
     padding: 1rem 1rem !important;
     width: 90% !important;
   }
+  .reviewleft-secondbox {
+    width: 90% !important;
+  }
+
   
   .reviewleft-firstbox h2 {
    font-size: 24px !important;
@@ -194,6 +207,11 @@ height: 60px !important;
   .reviews-para p{
     font-size: 16px !important;
   }
+  .reviews-para{
+    display: flex !important;
+    flex-direction: column-reverse !important;
+  }
+
   .user-reviews img{
     width: 59px !important;
   }
@@ -213,7 +231,7 @@ height: 60px !important;
     font-size: 40px !important;
   }
   .Techstack{
-    height: 120vh !important;
+    height: 130vh !important;
   }
   .Techstack-heading p {
      margin-top: 1rem !important;
@@ -229,6 +247,7 @@ gap: 1.8rem !important;
   }
   .Techstack-heading p {
     font-size: 16px !important;
+    font-family: 'DM Sans_18pt-ExtraLight' ;
     line-height: 1.2rem !important;
   }
   .Blogs-section {
@@ -310,6 +329,8 @@ padding: 20px 20px !important;
   height: 100vh !important;
 }
 .footer-Address p {
+  font-family: 'DM Sans_18pt-ExtraLight' !important;
+  font-size: 16px !important;
   width: 100% !important;
 }
 .footer-social-icons{
@@ -333,6 +354,7 @@ padding: 20px 20px !important;
   display: flex;
 }
 .social-links p{
+  font-family: 'DM Sans_18pt-ExtraLight' !important;
   font-size: 14px !important;
   margin-right: 10px;
 }

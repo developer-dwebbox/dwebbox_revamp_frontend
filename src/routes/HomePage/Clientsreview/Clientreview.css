@@ -94,6 +94,10 @@
     animation: scrollAnimation 20s linear infinite;
 }
 
+.reviews-para{
+    display: flex;
+    flex-direction: column;
+}
 .reviews-para p{
     color: #FFFFFF;
     font-size: 20px;

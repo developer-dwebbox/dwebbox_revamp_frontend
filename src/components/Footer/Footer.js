@@ -1,6 +1,8 @@
 import React from 'react';
 import './Footer.css'
 import FooterLogo from '../../Assets/Images/logo.svg'
+import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
+
 
 function Footer() {
   return (
@@ -28,7 +30,7 @@ function Footer() {
                 <p>70, Ratnajyot Industrial Estate,
 2nd Floor, Irla Lane,
 Vile Parle (W), Mumbai, Maharashtra 400056</p>
-<p>+91 9167871033</p>
+<p className='mobile-number' >+91 9167871033</p>
 <p>+91 9773050560</p>
                 </div>
          </div>
@@ -36,7 +38,12 @@ Vile Parle (W), Mumbai, Maharashtra 400056</p>
       <div className='connect-dewebbox'>
        <div className='collab-section'>
           <h2>Let's collaborate.</h2>
-          <h1>connect@dwebbox.com</h1>
+          <div className='arrow-heading' >
+          <h1>connect@dwebbox.com </h1>
+          <ArrowOutwardIcon sx={{color:"white",fontSize:"50px",fontWeight:"700",marginTop:"5px"}} />
+          </div>
+         
+          
        </div>
       </div>
       <div className='footer-para'>

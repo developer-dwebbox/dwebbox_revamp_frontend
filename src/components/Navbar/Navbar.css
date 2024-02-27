@@ -21,6 +21,10 @@
 }
 .drawer-links p{
     margin-top: 2rem;
+    font-size: 24px;
+    font-weight: 300;
+    font-family: "DM Sans_18pt-ExtraLight";
+
 }
 .cursor{
     position: fixed;
@@ -37,4 +41,21 @@
 }
 .nav-links:hover ~ .cursor {
    transform: scale(5); 
+}
+.getInTouch-p{
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "DM Sans_18pt-ExtraLight";
+    color: rgb(110, 110, 110);
+
+}
+
+.connectdwb-p{
+    margin-top: 3px !important;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: "DM Sans18ptLight";
+    color: black;
+    text-decoration: underline;
 }
