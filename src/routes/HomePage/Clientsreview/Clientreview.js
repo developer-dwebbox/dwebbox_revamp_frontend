@@ -14,11 +14,11 @@ function Clientreview() {
      <div className='line-inside-review'></div>
      <div className='reviewleft-secondbox' >
       <div className='tenkuser' >
-<h1>100k+</h1>
+      <h1><span style={{marginRight:"10px"}}>100k</span>+</h1>
 <p>Happy Users</p>
       </div>
       <div className='hundredproject' >
-      <h1>100+</h1>
+      <h1><span style={{marginRight:"10px"}}>100</span>+</h1>
 <p>Projects Already Done</p>
       </div>
      </div>

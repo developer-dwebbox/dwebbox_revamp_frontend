@@ -27,7 +27,7 @@ function Footer() {
              </div>
              <div className='footer-Address'>
                 <h3>Address</h3>
-                <p>70, Ratnajyot Industrial Estate,
+                <p className='address-paragraph'>70, Ratnajyot Industrial Estate,
 2nd Floor, Irla Lane,
 Vile Parle (W), Mumbai, Maharashtra 400056</p>
 <p className='mobile-number' >+91 9167871033</p>
@@ -46,9 +46,13 @@ Vile Parle (W), Mumbai, Maharashtra 400056</p>
           
        </div>
       </div>
-      <div className='footer-para'>
 
-        <p>© 2024 D-WEBBOX IT SOUTIONS Pvt. Ltd.  <span className='footer-span' >All rights reserved. </span> </p>
+<div className="straight-line-footer">
+
+</div>
+
+      <div className='footer-para'>
+        <p>© 2024 D-WEBBOX IT SOLUTIONS Pvt. Ltd.  <span className='footer-span' >All rights reserved. </span> </p>
       </div>
     </div>
   )

@@ -20,7 +20,7 @@ function Ourclients() {
             sx={{
               border: '2px solid white',
               color: 'white',
-              width: '170px',
+              width: '180px',
               height: '50px',
               borderRadius: '50px',
               '&:hover': {
@@ -30,25 +30,13 @@ function Ourclients() {
               },
             }}
           >
-            All Clients <ArrowOutwardIcon />
+            View All Clients <ArrowOutwardIcon />
           </Button>
         </Box>
         
        </div>
       </div>
       <div className='Ourclients-home-list' >
-        <div className='clients' >
-        <img src={img1} alt="" />
-        </div>
-        <div className='clients'>
-        <img src={img1} alt="" />
-        </div>
-        <div className='clients' >
-        <img src={img1} alt="" />
-        </div>
-        <div className='clients'>
-        <img src={img1} alt="" />
-        </div>
         <div className='clients' >
         <img src={img1} alt="" />
         </div>

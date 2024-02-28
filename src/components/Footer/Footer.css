@@ -37,7 +37,7 @@
 }
 .footer-Address p{
     width: 70%;
-    font-family: 'DM Sans';
+    font-family: "DM Sans18ptLight";
     font-size: 22px;
     font-weight: 400;
     margin-top: 0.2rem;
@@ -50,6 +50,8 @@
 
     font-size: 20px;
     margin-top: 1rem;
+    
+    
 }
 .footer-social-icons p:hover{
     cursor: pointer;
@@ -74,37 +76,53 @@ font-family: Salgesis !important;
     font-size: 40px;
     margin-top: 20px;
 }
+.address-paragraph{
+    margin-top: 1.5rem !important;
+    
+}
 .footer-para{
     width: 90%;
     color: rgb(255, 255, 255);
     margin-bottom: 10px;
     color: rgb(188, 187, 187);
-
+    
 }
 .footer-para p{
     text-align: center;
-    font-size: 22px;
+    font-family: 'DM Sans_18pt-ExtraLight';
+    font-size: 20px;
     margin: 1rem 0rem;
-    font-family: 'DM Sans';
     font-weight: 400;
 
 }
 .footer-span{
-    font-size: 22px;
+    font-size: 20px;
     color: rgb(188, 187, 187);
     margin-left: 5px;
-    font-family: 'DM Sans';
+    font-family: 'DM Sans_18pt-ExtraLight';
     font-weight: 400;
 }
+.social-heading h3{
+    font-size: 26px;
+    font-family: 600;
+    margin-bottom: 1.5rem;
+}
+
 .social-links p{
-    font-family: 'DM Sans';
+    font-family: "DM Sans18ptLight";
     font-weight: 400;
-   font-size: 20px;
+    font-size: 20px;
+    margin-top: 0.5rem !important;
 }
 .arrow-heading{
     display: flex;
     align-items: center;
 }
 .mobile-number{
-    margin-top: 1rem !important;
+    margin-top: 2rem !important;
+}
+.straight-line-footer{
+    width: 90%;
+    height: 1px;
+    background-color: #ffffff1d;
 }
