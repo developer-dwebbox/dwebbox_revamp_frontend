@@ -67,22 +67,22 @@ function Ourclients() {
         <div className='clients'>
         <img src={img1} alt="" />
         </div>
-        <div className='clients' >
+        <div className='clients client-11' >
         <img src={img1} alt="" />
         </div>
-        <div className='clients'>
+        <div className='clients client-12'>
         <img src={img1} alt="" />
         </div>
-        <div className='clients' >
+        <div className='clients client-13' >
         <img src={img1} alt="" />
         </div>
-        <div className='clients'>
+        <div className='clients client-14'>
         <img src={img1} alt="" />
         </div>
-        <div className='clients' >
+        <div className='clients client-15' >
         <img src={img1} alt="" />
         </div>
-        <div className='clients' >
+        <div className='clients client-16' >
         <img src={img1} alt="" />
         </div>
       </div>

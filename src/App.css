@@ -90,7 +90,7 @@ html,body{
     display: none !important;
   }
   .drawer-links {
-     width: 75vw !important;
+     width: 100vw !important;
   }
 
   .webdev{
@@ -99,7 +99,9 @@ html,body{
   }
   .webdevheading{
     width:  100% !important;
+    height: 90% !important;
   }
+  
 .webdevimage {
 width: 100% !important;
 }
@@ -108,13 +110,13 @@ width: 100% !important;
   font-size: 16px !important;
   font-family: 'DM Sans_18pt-ExtraLight' ;
   font-weight: 250;
-  margin: 10px 30px !important;
+  margin: 20px 30px !important;
 }
 .webdevheading button{
   font-size: 16px !important;
   font-family: "DM Sans";
-  margin: 10px 30px !important;
-
+  margin: 15px 30px !important;
+  
 }
 .webdevheading h1{
   margin: 0px 30px !important;
@@ -136,16 +138,20 @@ width: 100% !important;
   font-size: 20px !important;
 }
 .ourservice-btn button{
-  width: 160px !important;
+  width: 170px !important;
   height: 45px !important;
+  font-size: 16px !important;
+  font-family: "DM Sans" !important;
+
 }
 
 .ourservice-heading-first h2{
   font-size: 28px;
 }
 
+
   .Ourclients-home {
-height: 120vh !important;
+height: 70vh !important;
   }
   .Ourclients-home-list{
   gap: 1% 25% !important;
@@ -160,8 +166,17 @@ width: 112px !important;
 width: 112px !important;
 height: 60px !important;
 }
+.client-11, .client-12 ,.client-13,.client-14,.client-15,.client-16{
+ display: none !important;
+}
 .Ourclients-heading-first h2{
   font-size: 28px !important;
+}
+.Ourclients-home-list {
+  height: 65% !important;
+}
+.Ourclients-home-heading{
+  height: 20vh !important;    
 }
 .Ourclients-heading-btn button{
   width: 140px !important;
@@ -255,6 +270,10 @@ gap: 1.8rem !important;
 height: 200vh !important;
 
     }
+    .blog-heading-section {
+       margin-top: 5rem;
+    }
+
     .blog-content{
       flex-direction: column;
       height: 80% !important;
@@ -382,6 +401,9 @@ padding: 20px 20px !important;
   margin: 0px !important;
   margin-top: 2rem !important;
 }
-
+.arrow-outward-icon{
+  font-size: 40px !important;
+  margin-top: 0px !important;
+}
 
 }

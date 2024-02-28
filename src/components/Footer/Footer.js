@@ -40,7 +40,7 @@ Vile Parle (W), Mumbai, Maharashtra 400056</p>
           <h2>Let's collaborate.</h2>
           <div className='arrow-heading' >
           <h1>connect@dwebbox.com </h1>
-          <ArrowOutwardIcon sx={{color:"white",fontSize:"50px",fontWeight:"700",marginTop:"5px"}} />
+          <ArrowOutwardIcon className='arrow-outward-icon' sx={{color:"white",fontSize:"50px",fontWeight:"700",marginTop:"5px"}} />
           </div>
          
           
