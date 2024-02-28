@@ -1,10 +1,9 @@
 .animation-section{
-    height: 50vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     gap: 3rem;
     background-color: #181818;
     overflow: hidden;
     padding: 20px 0px 20px 0px;
-    /* margin-top: 20px; */
 }

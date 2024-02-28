@@ -8,7 +8,7 @@ function Ourservice() {
       className='ourservice'
       sx={{
         width: '100%',
-        height: '50vh',
+        height: '60vh',
         backgroundColor: '#181818',
         display: 'flex',
         flexDirection: 'column',
@@ -53,7 +53,7 @@ function Ourservice() {
         </Box>
       </Box>
       <Box className='ourservice-paragraph' sx={{ width: '90%' }}>
-        <Typography variant="body1" sx={{fontFamily:'DM Sans_18pt-ExtraLight', color: 'white', fontSize: '30px', fontWeight: 250, lineHeight: '35px',width:'67%' }}>
+        <Typography variant="body1" sx={{fontFamily:'DM Sans_18pt-ExtraLight', color: '#FFFFFF', fontSize: '28px', fontWeight: 250, lineHeight: '35px',width:'82%',marginTop:"20px" }}>
           From the initial stages of understanding your requirements to the final implementation, we guide you every step
           of the way.
         </Typography>

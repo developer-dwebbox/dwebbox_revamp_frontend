@@ -1,6 +1,6 @@
 .Blogs-section{
     width: 100%;
-    height: 80vh;
+    height: 85vh;
     background-color: #181818;
     display: flex;
     justify-content: center;
@@ -9,6 +9,7 @@
 }
 .blog-heading-section{
     margin-top: 10vh;
+    margin-bottom: 5vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,16 +43,16 @@
 .blog-one{
     padding: 0.3rem;
     width: 50%;
-    height: 80%;
+    height: 85%;
     background-color: #181818;
-    border: 1px solid white;
+    border: 1px solid rgba(255, 255, 255, 0.39);
 }
 .blog-two{
     padding: 0.3rem;
     width: 50%;
-    height: 80%;
+    height: 85%;
     background-color: #181818;
-    border: 1px solid white;
+    border: 1px solid rgba(255, 255, 255, 0.39);
 }
 .blog-inside{
     display: flex;

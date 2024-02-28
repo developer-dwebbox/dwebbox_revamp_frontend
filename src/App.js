@@ -30,7 +30,7 @@ function App() {
 <Blogs/>
 <BgImage/>
 <Footer/>
-{/* <Ourservicessection/> */}
+{/* <Ourservicessection/>   */}
     </div>
   );
 }

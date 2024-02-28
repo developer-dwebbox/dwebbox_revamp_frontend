@@ -47,9 +47,7 @@ Vile Parle (W), Mumbai, Maharashtra 400056</p>
        </div>
       </div>
 
-<div className="straight-line-footer">
-
-</div>
+<div className="straight-line-footer"></div>
 
       <div className='footer-para'>
         <p>© 2024 D-WEBBOX IT SOLUTIONS Pvt. Ltd.  <span className='footer-span' >All rights reserved. </span> </p>

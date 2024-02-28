@@ -6,7 +6,7 @@ function Ourservicebanner() {
     <div className='Ourservicebanner'>
       <div className='Ourservicebanner-heading'>
       <div className='ourservicebanner-para'>
-      <div className='service-dot' ></div> 
+      <div className='service-dot'></div> 
 <p>Our Services</p>
       </div>
 
@@ -24,7 +24,6 @@ function Ourservicebanner() {
    <h1  className='stroke-heading'>Our Service</h1>
   </div>
 </div>
-
 
 
     </div>

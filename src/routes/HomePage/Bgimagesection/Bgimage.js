@@ -11,8 +11,8 @@ function Bgimage() {
       </div>
       <div className='bgcontentsection'>
         <div className='bgcontentheading' >
-          <h1>Have a project in mind?
-Let’s get to <span>work.</span></h1>
+          <h1>Have a project in mind?</h1>
+          <h1> Let’s get to <span>work.</span></h1>
         </div>
         <div className='bgcontentbtn' >
         <img src={CircleStar} alt="" />

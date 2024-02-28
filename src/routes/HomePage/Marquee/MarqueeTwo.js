@@ -5,7 +5,7 @@ import './MarqueeTwo.css'
 function MarqueeTwo() {
   return (
     
-    <div>
+    <div className='marqueeTwoMain' >
   <div className="marqueeTwo">
   <ul className="marquee__content scroll">
     <li>Web Development</li>

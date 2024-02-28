@@ -9,7 +9,7 @@
   
   .bgimagesection {
     margin-top: 10vh;
-    width: 85%;
+    width: 90%;
     height: 50%;
     background-image: url('../../../Assets/Images/Rectangle 55.png');
     background-size: cover;
@@ -31,7 +31,7 @@
     justify-content: space-between;
     align-items: center;
     position: absolute;
-    width: 80%;
+    width: 90%;
     height: 50%;
     background-color: #101010;
     left: 0;
@@ -53,7 +53,7 @@
     font-weight: 400;
   }
   .bgcontentheading{
-    width: 70%;
+    width: 80%;
    
   }
   
