@@ -122,6 +122,7 @@ font-family: Salgesis !important;
     margin-top: 2rem !important;
 }
 .straight-line-footer{
+    margin-top: 1rem;
     width: 90%;
     height: 1px;
     background-color: #ffffff1d;

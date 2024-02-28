@@ -1,6 +1,6 @@
 .Clientreview {
     width: 100%;
-    height: 95vh;
+    height: 100vh;
     background-color: #181818;
     display: flex;
 }
@@ -13,10 +13,11 @@
     /* background-color: rgb(142, 255, 217); */
 }
 .reviewleft-firstbox h2{
-    font-size: 55px;
+    font-size: 51px;
     margin: 20px 0px;
     font-family: "DM Sans";
     font-weight: 500;
+    
 }
 .line-inside-review{
     width: 94%;
@@ -36,10 +37,10 @@
     font-size: 24px;
     font-weight: 250;
     font-family: "DM Sans_18pt-ExtraLight";
-    width: 70%;
+    width: 90%;
 }
 .reviewleft-secondbox{
-    width: 75%;
+    width: 80%;
     display: flex;
     color: white;
     justify-content: space-between;
