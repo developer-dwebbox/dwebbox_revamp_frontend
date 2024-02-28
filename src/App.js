@@ -12,6 +12,7 @@ import Blogs from './routes/HomePage/Blogs/Blogs';
 import Footer from './components/Footer/Footer';
 import ScrollToTopButton from './routes/HomePage/Scrolltotop/ScrollToTopButton';
 import BgImage from './routes/HomePage/Bgimagesection/Bgimage'
+// import Ourservicessection from './routes/Ourservicespage/Ourservicessection';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
 <Blogs/>
 <BgImage/>
 <Footer/>
+{/* <Ourservicessection/> */}
     </div>
   );
 }

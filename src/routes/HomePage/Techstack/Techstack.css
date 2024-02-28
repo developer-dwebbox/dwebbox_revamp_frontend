@@ -1,12 +1,13 @@
 .Techstack{
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     background-color: #181818;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .Techstack-heading{
+    margin-top: 3vh;
     width: 90%;
     height: 10rem;
     /* background-color: white; */
@@ -25,6 +26,8 @@
     font-size: 55px;
     font-weight: 500;
 }
+
+
 .Techstack-skills{
     display: flex;
     flex-wrap: wrap;
@@ -33,6 +36,7 @@
     margin-top: 4rem;
     width: 90%;
     height: 70%;
+    margin-bottom: 3vh;
     /* background-color: white; */
 }
 .skills{
@@ -46,3 +50,21 @@
 .skills img{
     width: 25%;
 }
+
+.viewmorebtn-techstack{
+    width: 170px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50px;
+    background-color: transparent;
+    color: white;
+}
+.view-more {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem; /* Adjust margin as needed */
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 3vh;
+}
+  

@@ -255,7 +255,7 @@ height: 60px !important;
     font-size: 40px !important;
   }
   .Techstack{
-    height: 130vh !important;
+    /* height: 130vh !important; */
   }
   .Techstack-heading p {
      margin-top: 1rem !important;
@@ -264,6 +264,7 @@ height: 60px !important;
   .Techstack-skills {
 margin-top: 3rem !important;
 gap: 1.8rem !important;
+
   }
   .skills {
      width: 150px !important;
@@ -276,11 +277,11 @@ gap: 1.8rem !important;
   }
   .Blogs-section {
 
-height: 200vh !important;
+height: 150vh !important;
 
     }
     .blog-heading-section {
-       margin-top: 5rem;
+       margin-top: 5vh !important;
     }
 
     .blog-content{
