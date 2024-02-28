@@ -17,7 +17,11 @@
     margin: 20px 0px;
     font-family: "DM Sans";
     font-weight: 500;
-
+}
+.line-inside-review{
+    width: 94%;
+    height: 0.8px;
+    background-color: #ffffffab;
 }
 .reviewleft-firstbox h6{
     margin: 20px 0px;

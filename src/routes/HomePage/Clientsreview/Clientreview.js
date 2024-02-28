@@ -11,6 +11,7 @@ function Clientreview() {
         <h2>Keep pushing forward We've got your back.</h2>
         <p>Things go wrong have questions. We’ve understand. So we have people</p>
      </div>
+     <div className='line-inside-review'></div>
      <div className='reviewleft-secondbox' >
       <div className='tenkuser' >
 <h1>100k+</h1>

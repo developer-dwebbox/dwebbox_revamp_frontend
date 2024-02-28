@@ -61,15 +61,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-     width: 170px;
-     height: 170px;
-     background-color: white;
+     width: 180px;
+     height: 180px;
+     /* background-color: white; */
      border-radius: 50%;
      transition: background-color 0.5s ease-in-out; /* Smooth transition for background color */
 
   }
   .bgcontentbtn:hover{
-    background-color: #F17C24;
+    /* background-color: #F17C24; */
     cursor: pointer;
     color: white;
   }

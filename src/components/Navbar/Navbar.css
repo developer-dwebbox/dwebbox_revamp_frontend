@@ -4,6 +4,9 @@
     margin-left: -30%;
     /* background-color: blueviolet; */
 }
+.nav-menu-inside-links{
+    display: none;
+}
 .logo{
     
 }

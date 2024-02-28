@@ -1,6 +1,7 @@
 import React from 'react';
 import './Bgimage.css';
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
+import CircleStar from '../../../Assets/Images/circle-star 1.png'
 
 function Bgimage() {
   return (
@@ -14,8 +15,7 @@ function Bgimage() {
 Let’s get to <span>work.</span></h1>
         </div>
         <div className='bgcontentbtn' >
-          <ArrowOutwardIcon/>
-          <p>GET IN TOUCH</p>
+        <img src={CircleStar} alt="" />
         </div>
       </div>
     </div>

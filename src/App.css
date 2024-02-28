@@ -51,7 +51,9 @@ html,body{
   .navbar{
     padding: 0px 30px !important;
   }
-
+.nav-menu-inside-links{
+  display: block !important;
+}
   .main-dev{
    min-height: 85vh !important;
   }
@@ -80,6 +82,7 @@ html,body{
   }
   .animation-section {
     height: 40vh !important;
+    gap: 0.9rem !important;
   }
     
 
@@ -95,7 +98,7 @@ html,body{
 
   .webdev{
     flex-direction: column;
-    height: 100vh !important;
+    height: 90vh !important;
   }
   .webdevheading{
     width:  100% !important;
@@ -200,6 +203,8 @@ height: 60px !important;
   
   .reviewleft-firstbox h2 {
    font-size: 24px !important;
+   width: 90%;
+
   }
   .reviewleft-firstbox h6{
     font-size: 14px !important;
@@ -210,6 +215,10 @@ height: 60px !important;
   .reviewleft-secondbox p{
     font-size: 16px !important;
   }
+  .line-inside-review{
+    width: 75% !important;
+   
+}
 
   .reviewleft-firstbox p{
     font-size: 16px !important;
@@ -345,7 +354,7 @@ padding: 20px 20px !important;
 
 .Footer{
   /* background-color: #181818; */
-  height: 100vh !important;
+  height: 75vh !important;
 }
 .footer-Address p {
   font-family: 'DM Sans_18pt-ExtraLight' !important;
