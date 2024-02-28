@@ -20,7 +20,7 @@ function Ourclients() {
             sx={{
               border: '2px solid white',
               color: 'white',
-              width: '180px',
+              width: '210px',
               height: '50px',
               borderRadius: '50px',
               '&:hover': {

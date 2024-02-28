@@ -7,17 +7,17 @@
     align-items: center;
 }
 .Techstack-heading{
-    margin-top: 15vh;
+    margin-top: 20vh;
     width: 90%;
     height: 10rem;
     /* background-color: white; */
 }
 .Techstack-heading p{
-   font-weight: 300;
+   font-weight: 250;
    font-family: 'DM Sans_18pt-ExtraLight' ;
     font-size: 30px;
     margin-top: 1.5rem;
-    width: 90%;
+    width: 100%;
     color: #FFFFFF;
     line-height: 40px;
 }
