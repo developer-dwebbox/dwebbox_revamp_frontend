@@ -6,6 +6,7 @@ import DragHandleIcon from '@mui/icons-material/DragHandle';
 import CloseIcon from '@mui/icons-material/Close';
 import Slide from '@mui/material/Slide';
 import './Navbar.css';
+import { Link } from 'react-router-dom';
 
 export default function AnchorTemporaryDrawer() {
   const [open, setOpen] = useState(false);
@@ -26,7 +27,7 @@ export default function AnchorTemporaryDrawer() {
           </Button>
           <p>MENU</p>
           <h2 className='nav-menu-inside-links' >Portfolio</h2>
-          <h2 className='nav-menu-inside-links'  >Services</h2>
+          <Link  style={{textDecoration:"none" ,color:"#181818" }}  to="/ourservice" > <h2 className='nav-menu-inside-links'  >Services</h2> </Link>
           <h2 className='nav-menu-inside-links'  >Clients</h2>
           <h2>About Us</h2>
           <h2>Our Team</h2>

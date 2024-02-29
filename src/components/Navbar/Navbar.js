@@ -3,6 +3,7 @@ import { Box, Typography } from '@mui/material';
 import Logo from '../../../src/Assets/Images/logo.svg';
 import './Navbar.css'
 import AnchorTemporaryDrawer from './AnchorTemporaryDrawer';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   const moveCursor = (e) => {
@@ -30,11 +31,14 @@ function Navbar() {
       }}
     >
       <Box className='logo'>
-        <img src={Logo} alt="" />
+      <Link to="/" >
+      <img src={Logo} alt="" />
+
+      </Link>
       </Box>
       <Box className='nav-links' sx={{ width: '30%'}}>
         <Typography className='typo-links' variant="body1">Portfolio</Typography>
-        <Typography  className='typo-links'  variant="body1">Services</Typography>
+        <Link style={{ textDecoration: 'none',color:"white" }} to="/ourservice" >  <Typography  className='typo-links'  variant="body1">Services</Typography></Link>
         <Typography  className='typo-links'  variant="body1">Clients</Typography>
       </Box>
       <Box className='nav-menu-btn'>
