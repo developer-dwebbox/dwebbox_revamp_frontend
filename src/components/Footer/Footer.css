@@ -7,6 +7,7 @@
     justify-content: center;
     flex-direction: column;
 }
+
 .Footer-list-content{
     display: flex;
     justify-content: space-between;
@@ -27,6 +28,9 @@
     height: 100%;
     /* background-color: white; */
 }
+.address-heading{
+    margin-bottom: 1.4rem;
+}
 .footer-Address{
     color: white;
     margin-left: 4.5rem;
@@ -40,7 +44,6 @@
     font-family: "DM Sans18ptLight";
     font-size: 22px;
     font-weight: 400;
-    margin-top: 0.2rem;
 }
 .footer-social-icons h3{
     font-size: 26px;
@@ -76,10 +79,7 @@ font-family: Salgesis !important;
     font-size: 40px;
     margin-top: 20px;
 }
-.address-paragraph{
-    margin-top: 1.5rem !important;
-    
-}
+
 .footer-para{
     width: 90%;
     color: rgb(255, 255, 255);
@@ -126,4 +126,10 @@ font-family: Salgesis !important;
     width: 90%;
     height: 1px;
     background-color: #ffffff1d;
+}
+.collab-section h2{
+    font-family: "DM Sans";
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: -1rem;
 }

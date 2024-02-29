@@ -5,6 +5,7 @@ import productbranding from '../../../Assets/Images/WebDevelopment/Rectangle 59-
 import uiuximg from '../../../Assets/Images/WebDevelopment/representations-user-experience-interface-design 1.png'
 import productmanagementimg from '../../../Assets/Images/WebDevelopment/representations-user-experience-interface-design 1-1.png'
 import socialmediaimg from '../../../Assets/Images/WebDevelopment/Rectangle 59.png'
+import AppDevelopment from '../../../Assets/Images/WebDevelopment/5016 1.png'
 import { Box, Button } from '@mui/material';
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 
@@ -43,7 +44,7 @@ function Webdevelopment() {
     <div className="webdev webdevtwo">
     <div className='webdevheading'>
     <h1>App <br /> Developmemt</h1>
-           <p>The perfect online front for your customers to experience the best of what your company offers.</p>
+           <p>Mobile applications that stick. Specifically created to augment and transform your business.</p>
            <Box>
           <Button
             variant="outlined"
@@ -65,7 +66,7 @@ function Webdevelopment() {
         </Box>
 </div>
 <div className='webdevimage'>
-<img src={webdevimg} alt="" />
+<img src={AppDevelopment} alt="" />
 
 </div>
 </div>

@@ -82,7 +82,7 @@
   }
   
   .marquee__contentthree {
-    animation: scrollThree 20s linear infinite; /* Adjust the duration */
+    animation: scrollThree 15s linear infinite; /* Adjust the duration */
   }
   
   

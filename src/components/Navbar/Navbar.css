@@ -1,7 +1,7 @@
 .nav-links{
     display: flex;
     justify-content: space-between;
-    margin-left: -30%;
+    margin-right: 20%;
     /* background-color: blueviolet; */
 }
 .nav-menu-inside-links{
@@ -13,6 +13,9 @@
 .nav-menu-btn{
     display: flex;
     align-items: center;
+}
+.menu-button-div{
+    margin-right: 8px;
 }
 .drawer-links{
     width: 30vw;
@@ -29,22 +32,9 @@
     font-family: "DM Sans_18pt-ExtraLight";
 
 }
-.cursor{
-    position: fixed;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    color: rgb(255, 255, 255);
-    transition: 0.1s;
-    transform: translate(-50%,-50%);
-    z-index: 10000;
-    pointer-events: none;
-    mix-blend-mode: screen;
-    background-color:#F17C24; /* Specify the cursor color */
-}
-.nav-links:hover ~ .cursor {
-   transform: scale(5); 
-}
+
+
+
 .getInTouch-p{
     margin-top: 40px;
     font-size: 20px;

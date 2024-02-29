@@ -1,0 +1,82 @@
+.Aboutusbanner{
+    width: 100%;
+    height: 60vh;
+    background-color: #181818;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Aboutusbanner-heading{
+    width: 90%;
+    height: 20vh;
+    /* background-color: white; */
+    margin-top: 10vh;
+}
+.Aboutusbanner-para{
+    display: flex;
+    align-items: center;
+}
+.Aboutusbanner-para p{
+    font-size: 22px;
+
+}
+.Aboutus-dot{
+    width: 11px;
+    height: 11px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.Aboutusbanner-heading h1{
+   color: #FFFFFF;
+   font-size: 70px;
+   font-weight: 600;
+   width: 80%;
+   margin-top: 1rem;
+   
+}
+.Aboutusbanner-heading p{
+    color: #FFFFFF;
+}
+.about-us-description{
+    font-family: "DM Sans_18pt-ExtraLight";
+    font-size: 28px;
+    font-weight: 250;
+    margin-top: 10px;
+}
+
+.AboutusImages{
+    width: 100%;
+}
+
+.marqueeFour {
+   
+    --gap: 1rem;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap: var(--gap);
+    background-color: #181818;
+    color: white;
+    padding: 1.2rem 0px;
+  }
+  
+  .marquee__content {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    min-width: 100%;
+    gap: var(--gap);
+  }
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(-100% - var(--gap)));
+    }
+  }
+  .scroll{
+    animation: scroll 15s linear infinite;
+  }

@@ -3,7 +3,6 @@ import './Footer.css'
 import FooterLogo from '../../Assets/Images/logo.svg'
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 
-
 function Footer() {
   return (
     <div className='Footer'>
@@ -23,15 +22,15 @@ function Footer() {
                    <p>FACEBOOK</p>
                    </div>
                   
-                   
+     
              </div>
              <div className='footer-Address'>
-                <h3>Address</h3>
+                <h3 className='address-heading' >Address</h3>
                 <p className='address-paragraph'>70, Ratnajyot Industrial Estate,
 2nd Floor, Irla Lane,
 Vile Parle (W), Mumbai, Maharashtra 400056</p>
 <p className='mobile-number' >+91 9167871033</p>
-<p>+91 9773050560</p>
+<p className='mobile-number-second' >+91 9773050560</p>
                 </div>
          </div>
       </div>

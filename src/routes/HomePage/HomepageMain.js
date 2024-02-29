@@ -24,6 +24,7 @@ function HomepageMain() {
       <Ourservice/>
       <Webdevelopment/>
       <Ourclients/>
+      <Clientreview/>
       <Techstack/>
       <Blogs/>
       <Bgimage/>

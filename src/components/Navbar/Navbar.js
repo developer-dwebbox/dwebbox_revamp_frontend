@@ -6,17 +6,6 @@ import AnchorTemporaryDrawer from './AnchorTemporaryDrawer';
 import { Link } from 'react-router-dom';
 
 function Navbar() {
-  const moveCursor = (e) => {
-    const cursor = document.querySelector(".cursor");
-    if (cursor) {
-      cursor.style.left = e.pageX + 'px';
-      cursor.style.top = e.pageY + 'px';
-    }
-  };
-
-  // Add event listener to track mouse movement
-  document.addEventListener('mousemove', moveCursor);
-
   return (
     <Box
       className='navbar'
@@ -44,7 +33,7 @@ function Navbar() {
       <Box className='nav-menu-btn'>
         <AnchorTemporaryDrawer/>
       </Box>
-      <div className="cursor"></div>
+     
     </Box>
   );
 }

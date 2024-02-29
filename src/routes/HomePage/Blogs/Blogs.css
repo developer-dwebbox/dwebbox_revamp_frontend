@@ -41,14 +41,14 @@
     justify-content: space-between;
 }
 .blog-one{
-    padding: 0.3rem;
+    padding: 0.5rem;
     width: 50%;
     height: 85%;
     background-color: #181818;
     border: 1px solid rgba(255, 255, 255, 0.39);
 }
 .blog-two{
-    padding: 0.3rem;
+    padding: 0.5rem;
     width: 50%;
     height: 85%;
     background-color: #181818;

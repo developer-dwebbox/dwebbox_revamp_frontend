@@ -1,75 +1,110 @@
-import React from 'react';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import React, { useRef } from 'react';
 import './Homeportfolio.css';
-import rectangleimage1 from '../../../Assets/Images/Rectangle 58.png';
+import image1 from '../../../Assets/Images/Rectangle 58.png';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import SwiperCore from 'swiper/core';
+import 'swiper/swiper-bundle.css';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import { Button } from '@mui/material';
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
+import { Button } from '@mui/material';
 
+// Import Swiper styles
+import 'swiper/css/navigation';
+
+// Import Navigation module separately
+import { Navigation } from 'swiper/modules';
+
+// Initialize Swiper core
+SwiperCore.use([Navigation]);
 
 function Homeportfolio() {
-  const CustomPrevArrow = (props) => {
-    const { onClick } = props;
-    return (
-      <button className="custom-arrow custom-prev" onClick={onClick}>
-              <ArrowForwardIcon/>
-      </button>
-    );
+  const swiperRef = useRef(null);
+
+  const goPrev = () => {
+    if (swiperRef.current && swiperRef.current.swiper) {
+      swiperRef.current.swiper.slidePrev();
+    }
   };
 
-  const CustomNextArrow = (props) => {
-    const { onClick } = props;
-    return (
-      <button className="custom-arrow custom-next" onClick={onClick}>
-              <ArrowBackIcon/>
-      </button>
-    );
-  };
-
-  const settings = {
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    vertical: false,
-    arrows: true,
-    prevArrow: <CustomPrevArrow />,
-    nextArrow: <CustomNextArrow />,
+  const goNext = () => {
+    if (swiperRef.current && swiperRef.current.swiper) {
+      swiperRef.current.swiper.slideNext();
+    }
   };
 
   return (
-    <div className='Homeportfolio'>
-      <div className='Homeportfolio-heading' >
+    <div className='Homeportfolio-crousel'>
+      <div className='portfolio-heading' >
         <h1>Portfolio</h1>
       </div>
-      <div className='swipercomponent'>
-        <Slider {...settings}>
-          <div className='slick-images'  >
-            <img src={rectangleimage1} alt="Image 1" />
-            <h2 className='slick-images-heading' >Mobile Shoestore</h2>
-            <h3   className='slick-images-heading' >UI/UX Design</h3>
-          </div>
-          <div className='slick-images' >
-            <img src={rectangleimage1} alt="Image 1" />
-            <h2 className='slick-images-heading' >Mobile Shoestore</h2>
-            <h3   className='slick-images-heading' >UI/UX Design</h3>
-          </div>
-          <div className='slick-images' >
-            <img src={rectangleimage1} alt="Image 1" />
-            <h2 className='slick-images-heading' >Mobile Shoestore</h2>
-            <h3   className='slick-images-heading' >UI/UX Design</h3>
-          </div>
-          {/* Add more slides here */}
-        </Slider>
+      <div>
+        <Swiper
+          ref={swiperRef}
+          spaceBetween={50}
+          slidesPerView={2.4}
+          loop={true} // Enable infinite loop
+          navigation={{
+            nextEl: '.custom-next-button',
+            prevEl: '.custom-prev-button',
+          }}
+          onSwiper={(swiper) => console.log(swiper)}
+          onSlideChange={() => console.log('slide change')}
+        >
+          <SwiperSlide>
+            <img src={image1} alt="" style={{ width: "100%" }} />
+            <p className='firstheading-portfolio'>Mobile Shoestore</p>
+            <p className='secondheading-portfolio' >UI/UX Design</p>
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={image1} alt="" style={{ width: "100%" }} />
+            <p className='firstheading-portfolio'>Mobile Shoestore</p>
+            <p className='secondheading-portfolio' >UI/UX Design</p>
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={image1} alt="" style={{ width: "100%" }} />
+            <p className='firstheading-portfolio'>Mobile Shoestore</p>
+            <p className='secondheading-portfolio' >UI/UX Design</p>
+          </SwiperSlide>
+          <SwiperSlide>
+            <img src={image1} alt="" style={{ width: "100%" }} />
+            <p className='firstheading-portfolio'>Mobile Shoestore</p>
+            <p className='secondheading-portfolio' >UI/UX Design</p>
+          </SwiperSlide>
+        </Swiper>
       </div>
-      <div className='AllPortfolioButton'>
-      <div className='portfolioButton' >
-      <Button>All Projects <ArrowOutwardIcon/></Button>
-      </div>
-       
+      <div className="custom-navigation">
+      <Button
+      className='All-Projects-Btn'
+            variant="outlined"
+            sx={{
+              border: '1.5px solid #181818',
+              color: '#181818',
+              width: '180px',
+              fontWeight:"600",
+              height: '42px',
+              marginLeft:"5vw",
+              borderRadius: '50px',
+              '&:hover': {
+                backgroundColor: '#000',
+                color:"#fff",
+                border:"#fff" // Set the hover background color to transparent
+              },
+            }}
+          >
+            All Projects <ArrowOutwardIcon />
+          </Button>
+
+    
+      
+        <button className="custom-prev-button" onClick={goPrev}>
+          {/* Your custom previous button icon or content */}
+          <ArrowBackIcon/>
+        </button>
+        <button className="custom-next-button" onClick={goNext}>
+          {/* Your custom next button icon or content */}
+         <ArrowForwardIcon/>
+        </button>
       </div>
     </div>
   );

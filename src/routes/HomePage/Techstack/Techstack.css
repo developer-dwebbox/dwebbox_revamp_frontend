@@ -52,11 +52,16 @@
 }
 
 .viewmorebtn-techstack{
-    width: 170px;
+    font-family: "DM Sans18ptLight";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
     height: 40px;
     border: 1px solid #FFFFFF;
     border-radius: 50px;
     background-color: transparent;
+    font-weight: 500;
     color: white;
 }
 .view-more {

@@ -16,6 +16,8 @@ import image13 from '../../../Assets/Images/Techstack/image 37.png';
 import image14 from '../../../Assets/Images/Techstack/image 38.png';
 import image15 from '../../../Assets/Images/Techstack/image 39.png';
 
+import ArrowOutward from '@mui/icons-material/ArrowOutward';
+
 function Techstack() {
   const [showAll, setShowAll] = useState(false);
   const [isMobileView, setIsMobileView] = useState(false);
@@ -66,9 +68,9 @@ function Techstack() {
         {isMobileView && ( // Render buttons only for mobile view
           <div className="view-more">
             {!showAll ? (
-              <button className='viewmorebtn-techstack' onClick={() => setShowAll(true)}>View More</button>
+              <button className='viewmorebtn-techstack' onClick={() => setShowAll(true)}>View More <ArrowOutward/> </button>
             ) : (
-              <button  className='viewmorebtn-techstack view-less-btn' onClick={() => setShowAll(false)}>View Less</button>
+              <button  className='viewmorebtn-techstack view-less-btn' onClick={() => setShowAll(false)}>View Less <ArrowOutward/> </button>
             )}
           </div>
         )}

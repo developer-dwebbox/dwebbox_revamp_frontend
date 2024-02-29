@@ -10,14 +10,19 @@
   .bgimagesection {
     margin-top: 10vh;
     width: 90%;
-    height: 50%;
+    height: 70vh;
     background-image: url('../../../Assets/Images/Rectangle 55.png');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: fixed; /* Background image fixed */
     position: relative;
   }
   
+  .bgimagesection img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; /* Ensure image covers entire area */
+  }
   /* If you want to style the content inside bgimagesection, you can add styles here */
   .bgimagesection .content {
     position: absolute;
@@ -32,7 +37,7 @@
     align-items: center;
     position: absolute;
     width: 90%;
-    height: 50%;
+    height: 60%;
     background-color: #101010;
     left: 0;
     /* bottom: 10px; */
