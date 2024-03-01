@@ -5,6 +5,7 @@ import Footer from '../../components/Footer/Footer'
 import Bgimage from '../HomePage/Bgimagesection/Bgimage'
 import Aboutusbanner from './Aboutusbanner'
 import AboutusImages from './AboutusImages'
+import Aboutusbgbanner from './Aboutusbgbanner'
 
 function Aboutus() {
   return (
@@ -12,6 +13,7 @@ function Aboutus() {
     <Navbar/>
     <Aboutusbanner/>
     <AboutusImages/>
+    <Aboutusbgbanner/>
     <Bgimage/>
     <Footer/>
     </div>

@@ -48,6 +48,17 @@
 
 .AboutusImages{
     width: 100%;
+    height: 100vh;
+    background-color: #181818;
+}
+.Aboutusbgimage{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.Aboutusbgimage img{
+  background-size: cover;
+  background-position: center;
 }
 
 .marqueeFour {
@@ -79,4 +90,30 @@
   }
   .scroll{
     animation: scroll 15s linear infinite;
+  }
+
+  .AboutUsBgimageDescription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20%;
+  }
+  .AboutUsBgimageDescription p{
+    text-align: center;
+    width: 70%;
+    font-size: 60px;
+    color: #FFFFFF;
+  }
+  .AboutUsBgimageDescription h1{
+    display: flex;
+    align-items: center;
+    font-size: 64px;
+    font-family: "Salgesis";
+    color: #FFFFFF;
+  margin-top: 30px;
+  }
+  .AboutUsBgimageDescription span{
+    color: #ff973b;
   }

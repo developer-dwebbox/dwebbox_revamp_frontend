@@ -27,7 +27,7 @@ export default function AnchorTemporaryDrawer() {
             <CloseIcon sx={{fontSize:"40px"}} />
           </Button>
           <p>MENU</p>
-          <h2 className='nav-menu-inside-links' >Portfolio</h2>
+          <Link  style={{textDecoration:"none" ,color:"#181818" }}  to="/portfolio"> <h2 className='nav-menu-inside-links' >Portfolio</h2></Link>
           <Link  style={{textDecoration:"none" ,color:"#181818" }}  to="/ourservice" > <h2 className='nav-menu-inside-links'  >Services</h2> </Link>
           <h2 className='nav-menu-inside-links'  >Clients</h2>
           <Link  style={{textDecoration:"none" ,color:"#181818" }}  to="/aboutus" > <h2>About Us</h2> </Link>

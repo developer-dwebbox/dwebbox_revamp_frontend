@@ -1,0 +1,74 @@
+.Portfoliopageheading{
+    width: 100%;
+    height: 50vh;
+    background-color: #181818;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Portfoliopagebanner-heading{
+    width: 90%;
+    height: 20vh;
+    margin-top: 10vh;
+}
+.Portfoliopage-para{
+    display: flex;
+    align-items: center;
+}
+.Portfoliopage-para p{
+    font-size: 22px;
+    color: #FFFFFF;
+
+}
+.Portfoliopage-dot{
+    width: 11px;
+    height: 11px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.Portfoliopagebanner-heading h1{
+   color: #FFFFFF;
+   font-size: 70px;
+   font-weight: 600;
+   width: 100%;
+   margin-top: 1rem;
+   
+}
+.portfoliotabswidth{
+   
+}
+
+.All-Section{
+    display: flex;
+    width: 100%;
+    /* background-color: white; */
+    justify-content: center;
+}
+.images-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 94%;
+    /* background-color: blue; */
+}
+.images-section img{
+    margin-top: 5vh;
+}
+.images-section p{
+    color: white;
+    font-family: "DM Sans18ptLight";
+    font-size: 40px;
+    font-weight: 500;
+}
+.Portfolio-Filter-Section{
+    border-top: 1px solid #ffffff8c;
+    padding: 3vh 0vh;
+    border-bottom: 1px solid #ffffff8c;
+}
+.portfoliotabsbottom{
+    width: 100%;
+    height: 40vh;
+    background-color: #181818;
+}

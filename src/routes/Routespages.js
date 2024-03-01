@@ -3,6 +3,8 @@ import { createBrowserRouter,RouterProvider } from 'react-router-dom'
 import HomepageMain from './HomePage/HomepageMain'
 import Ourservicessection from './Ourservicespage/Ourservicessection'
 import Aboutus from './Aboutus/Aboutus'
+import Portfoliopage from './PortfolioPage/Portfoliopage'
+
 function Routespages() {
     const router = createBrowserRouter([
         {
@@ -15,6 +17,9 @@ function Routespages() {
         },{
             path:"/aboutus",
             element:<Aboutus/>
+        },{
+          path:"/portfolio",
+          element:<Portfoliopage/>
         }
     ])
 

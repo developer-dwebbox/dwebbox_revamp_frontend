@@ -26,7 +26,7 @@ function Navbar() {
       </Link>
       </Box>
       <Box className='nav-links' sx={{ width: '30%'}}>
-        <Typography className='typo-links' variant="body1">Portfolio</Typography>
+        <Link to="/portfolio" style={{ textDecoration: 'none',color:"white" }}  ><Typography className='typo-links' variant="body1">Portfolio</Typography></Link>
         <Link style={{ textDecoration: 'none',color:"white" }} to="/ourservice" >  <Typography  className='typo-links'  variant="body1">Services</Typography></Link>
         <Typography  className='typo-links'  variant="body1">Clients</Typography>
       </Box>

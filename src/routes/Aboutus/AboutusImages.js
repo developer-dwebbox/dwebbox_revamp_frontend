@@ -13,25 +13,13 @@ function AboutusImages() {
   <div className="marqueeFour">
   <ul className="marquee__content scroll">
     <p><img src={ImageOne} alt="" /></p>
-    <p><img src={ImageOne} alt="" /></p>
-    <p><img src={ImageOne} alt="" /></p>
+    <p><img src={ImageTwo} alt="" /></p>
+    <p><img src={ImageThree} alt="" /></p>
   </ul>
   <ul className="marquee__content scroll" aria-hidden="true">
   <p><img src={ImageOne} alt="" /></p>
-    <p><img src={ImageOne} alt="" /></p>
-    <p><img src={ImageOne} alt="" /></p>
-  </ul>
-</div>
-<div className="marqueeFour">
-  <ul className="marquee__content scroll">
-  <p><img src={ImageOne} alt="" /></p>
-    <p><img src={ImageOne} alt="" /></p>
-    <p><img src={ImageOne} alt="" /></p>
-  </ul>
-  <ul className="marquee__content scroll" aria-hidden="true">
-  <p><img src={ImageOne} alt="" /></p>
-    <p><img src={ImageOne} alt="" /></p>
-    <p><img src={ImageOne} alt="" /></p>
+    <p><img src={ImageTwo} alt="" /></p>
+    <p><img src={ImageThree} alt="" /></p>
   </ul>
 </div>
     </div>
