@@ -1,4 +1,5 @@
 .marqueeTwo {
+  width: 101%;
     --gap: 1rem;
     display: flex;
     overflow: hidden;
@@ -6,7 +7,7 @@
     gap: var(--gap);
     background-color: #181818;
     color: white;
-    transform: rotate(-4.2deg);
+    transform: rotate(-4.1deg);
     overflow: hidden;
   padding: 1.4rem 0px;
     border-top: 1px solid white;
@@ -14,7 +15,10 @@
     
   }
   .webdevmarquee{
-    margin-left: 50px !important;
+    /* margin-left: 50px !important; */
+  }
+  .marquee__content li{
+    margin-left: 60px !important;
   }
   
   .marquee__content {
@@ -29,7 +33,7 @@
     font-weight: 500;
   }
   
-  @keyframes scroll {
+  @keyframes scrollMarkTwo {
     from {
       transform: translateX(0);
     }
@@ -37,6 +41,14 @@
       transform: translateX(calc(-100% - var(--gap)));
     }
   }
-  .scroll{
-    animation: scroll 15s linear infinite;
+  .scrollMarkTwo{
+    animation: scrollMarkTwo 15s linear infinite;
   }
+
+@media only screen and (max-width: 700px) {
+.marqueeTwo{
+  overflow: hidden;
+  transform: rotate(-3.5deg);
+
+}
+}

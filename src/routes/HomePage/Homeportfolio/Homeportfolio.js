@@ -97,7 +97,7 @@ function Homeportfolio() {
 
     
       
-        <button className="custom-prev-button" onClick={goPrev}>
+        <button className="custom-prev-button portfolio-btn-btn" onClick={goPrev}>
           {/* Your custom previous button icon or content */}
           <ArrowBackIcon/>
         </button>

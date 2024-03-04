@@ -7,7 +7,6 @@
 html,body{
   width: 100%;
   height: 100%;
- 
 }
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -40,26 +39,23 @@ html,body{
 }
 
 
-
-.cursor{
+.custom-cursor {
   position: fixed;
   width: 20px;
   height: 20px;
+  background-color: #F17C24;
   border-radius: 50%;
-  color: rgb(255, 255, 255);
-  transition: 0.1s;
-  transform: translate(-50%,-50%);
-  z-index: 10000000;
-  pointer-events: none;
-  mix-blend-mode: screen;
-  background-color:#F17C24; /* Specify the cursor color */
+  pointer-events: none; /* Ensure the cursor doesn't interfere with click events */
+  z-index: 9999; /* Ensure it appears on top of everything */
+  transition: all 200ms ease-out;
 }
-.nav-links:hover ~ .cursor {
- transform: scale(5); 
-}
+
 
 
 @media only screen and (max-width: 700px) {
+  .custom-cursor{
+    display: none;
+  }
 
   
   @media (max-width: 768px) {
@@ -159,10 +155,17 @@ width: 100% !important;
     bottom: 15% !important;
   }
   .Homeportfolio-crousel {
-height: 90vh !important;
+    padding-left: 30px;
+height: 80vh !important;
   }
   .portfolio-heading{
-    margin-left: 5vh !important;
+    margin-left: 0vh !important;
+  }
+  .All-Projects-Btn{
+    margin-left: 0vh !important;
+  }
+  .portfolio-btn-btn{
+    margin-left: 15% !important;
   }
 
   .portfolio-heading h1{

@@ -7,7 +7,7 @@ function MarqueeTwo() {
     
     <div className='marqueeTwoMain' >
   <div className="marqueeTwo">
-  <ul className="marquee__content scroll">
+  <ul className="marquee__content scrollMarkTwo">
     <li>Web Development</li>
     <li>App Development</li>
     <li>UI/UX Designing</li>
@@ -15,7 +15,7 @@ function MarqueeTwo() {
     <li>Product Management</li>
     <li>Social Media Marketing</li>
   </ul>
-  <ul className="marquee__content scroll" aria-hidden="true">
+  <ul className="marquee__content scrollMarkTwo" aria-hidden="true">
   <li className='webdevmarquee' >Web Development</li>
     <li>App Development</li>
     <li>UI/UX Designing</li>
