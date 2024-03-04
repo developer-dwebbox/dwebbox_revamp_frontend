@@ -1,12 +1,11 @@
 import './App.css';
 import Routespages from './routes/Routespages';
-import Cursor from './components/Cursor/Cursor';
-
+import Cursorview from './components/Cursor/Cursorview';
 
 function App() {
   return (
     <div>
-    <Cursor/>
+    <Cursorview/>
    <Routespages/>
     </div>
   );

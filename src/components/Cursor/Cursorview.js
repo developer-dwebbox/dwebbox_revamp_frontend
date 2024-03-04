@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import './Cursor.css';
 
-function Cursor() {
+function Cursorview() {
   const [position, setPosition] = useState({ x: -100, y: -100 });
 
   useEffect(() => {
@@ -23,4 +23,4 @@ function Cursor() {
   );
 }
 
-export default Cursor;
+export default Cursorview;

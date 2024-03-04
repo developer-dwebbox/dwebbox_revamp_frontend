@@ -78,7 +78,7 @@ function Homeportfolio() {
       className='All-Projects-Btn'
             variant="outlined"
             sx={{
-              border: '1.5px solid #181818',
+              border: '1.2px solid #181818',
               color: '#181818',
               width: '180px',
               fontWeight:"600",
