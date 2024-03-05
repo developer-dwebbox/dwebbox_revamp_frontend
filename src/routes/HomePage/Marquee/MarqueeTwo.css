@@ -42,7 +42,7 @@
     }
   }
   .scrollMarkTwo{
-    animation: scrollMarkTwo 15s linear infinite;
+    animation: scrollMarkTwo 20s linear infinite;
   }
 
 @media only screen and (max-width: 700px) {

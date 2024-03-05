@@ -51,7 +51,7 @@ function Homeportfolio() {
           onSwiper={(swiper) => console.log(swiper)}
           onSlideChange={() => console.log('slide change')}
         >
-          <SwiperSlide>
+          <SwiperSlide className='swiper-slide' >
             <img src={image1} alt="" style={{ width: "100%" }} />
             <p className='firstheading-portfolio'>Mobile Shoestore</p>
             <p className='secondheading-portfolio' >UI/UX Design</p>

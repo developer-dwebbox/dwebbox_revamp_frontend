@@ -30,13 +30,22 @@ export default function Portfoliotabs() {
       <Box sx={{ width: '100%', typography: 'body1', backgroundColor: '#181818' }}>
         <TabContext value={value}>
           <div className='Portfolio-Filter-Section'>
-            <TabList onChange={handleChange} centered>
-              <StyledTab label="All" value="1" selected={value === '1'} />
-              <StyledTab label="Mobile Solutions" value="2" selected={value === '2'} />
-              <StyledTab label="Product Design" value="3" selected={value === '3'} />
-              <StyledTab label="Product Design" value="4" selected={value === '4'} />
-              <StyledTab label="Mobile Solutions" value="5" selected={value === '5'} />
+          <Box className="tabHeadsection" >
+            <TabList onChange={handleChange} className='firsttablist' >
+              <StyledTab label="All  /" value="1" selected={value === '1'} />
+              <StyledTab label="Web Development  /" value="2" selected={value === '2'} />
+              <StyledTab label="App Development  /" value="3" selected={value === '3'} />
             </TabList>
+
+              <TabList className='secondtablist' onChange={handleChange}  >
+              <StyledTab  label="UI/UX Design /" value="4" selected={value === '4'} />
+              <StyledTab label="Product Management /" value="5" selected={value === '5'} />
+              </TabList>
+              <TabList onChange={handleChange} className='thirdtablist'>
+              <StyledTab label="Branding /" value="6" selected={value === '6'} />
+              <StyledTab label="Social Media Marketing" value="7" selected={value === '7'} />
+            </TabList>
+            </Box>
           </div>
           <TabPanel value="1">
             <div className='All-Section'>
@@ -149,6 +158,50 @@ export default function Portfoliotabs() {
                </div>
             </div>
         </TabPanel>
+        <TabPanel value="6">
+        <div className='All-Section'>
+        <div className='images-section'>
+               <div>
+               <img src={MobileDev} alt="" className="fade-in"  />
+               <p>Mobile ID Labs</p>
+               </div>
+               <div>
+               <img src={MobileDevTwo} alt="" className="fade-in"  />
+               <p>Mobile ID Labs</p>
+               </div>
+               <div>
+               <img src={MobileDev} alt="" className="fade-in"  />
+               <p>Mobile ID Labs</p>
+               </div>
+               <div>
+               <img src={MobileDevTwo} alt=""   className="fade-in" />
+               <p>Mobile ID Labs</p>
+               </div>
+               </div>
+            </div>
+        </TabPanel>
+        <TabPanel value="7">
+        <div className='All-Section'>
+        <div className='images-section'>
+               <div>
+               <img src={MobileDev} alt="" className="fade-in"  />
+               <p>Mobile ID Labs</p>
+               </div>
+               <div>
+               <img src={MobileDevTwo} alt="" className="fade-in"  />
+               <p>Mobile ID Labs</p>
+               </div>
+               <div>
+               <img src={MobileDev} alt="" className="fade-in"  />
+               <p>Mobile ID Labs</p>
+               </div>
+               <div>
+               <img src={MobileDevTwo} alt=""   className="fade-in" />
+               <p>Mobile ID Labs</p>
+               </div>
+               </div>
+            </div>
+        </TabPanel>
 
           {/* Rest of the TabPanel components */}
         </TabContext>
@@ -162,13 +215,18 @@ export default function Portfoliotabs() {
 // Custom styled Tab component
 // Custom styled Tab component
 const StyledTab = ({ selected, ...props }) => (
-    <Tab {...props} sx={{ fontFamily:"DM Sans18ptLight",
-    fontSize:"21px",
-    fontWeight:"400",
-     color: 'white',
-     margin:"0px 15px",
-     color: selected ? '#F17C24' : 'white',
-        '& .MuiTab-label': { borderBottom: 'none' } }} />
-  );
-  
-  
+  <Tab
+    {...props}
+    sx={{
+      fontFamily: "DM Sans18ptLight",
+      fontSize: "21px",
+      fontWeight: "400",
+      color: 'white',
+      backgroundImage: selected ? 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)' : 'none',
+      WebkitBackgroundClip: 'text',
+      WebkitTextFillColor:  selected ? 'transparent' : "none",
+      '& .MuiTab-label': { borderBottom: 'none' }
+    }}
+  />
+);
+

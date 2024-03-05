@@ -1,3 +1,4 @@
+
 .Portfoliopageheading{
     width: 100%;
     height: 40vh;
@@ -63,9 +64,14 @@
     font-weight: 500;
 }
 .Portfolio-Filter-Section{
-    border-top: 1px solid #ffffff8c;
-    padding: 3.5vh 0vh;
-    border-bottom: 1px solid #ffffff8c;
+    display: flex;
+    /* flex-wrap: wrap; */
+    overflow: hidden;
+    margin: 0 auto;
+    /* background-color: #373737; */
+    height: 25vh;
+    width: 92%;
+    /* background-color: #FFFFFF; */
 }
 .portfoliotabsbottom{
     width: 100%;
@@ -75,6 +81,7 @@
 .css-1aquho2-MuiTabs-indicator{
     display: none;
 }
+
 
 
 @keyframes fade-in-animation {
@@ -94,12 +101,44 @@
   
 
   @media only screen and (max-width: 700px) {
+    .Portfoliopageheading{
+        height: 25vh;
+    }
     .Portfoliopagebanner-heading h1{
         font-size: 24px;
     }
     .images-section img {
       width: 100%;
     }
-   
-
+    
+    .Portfolio-Filter-Section{
+        height: 22vh;
+    }
+    .css-13xfq8m-MuiTabPanel-root{
+        padding: 15px;
+    }
+    
+    .Portfolio-Filter-Section .MuiTab-root {
+        font-size: 15px;
+        padding: 0px;
+        min-width: 50px;
+      }
   }
+  
+.firsttablist{
+
+}
+  .secondtablist{
+    
+  }
+.thirdtablist{
+
+}
+  .tabHeadsection{
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: rgba(137, 137, 137, 0.075); */
+    height: 20vh;
+    padding: 2vh 0vh;
+  }
+  
