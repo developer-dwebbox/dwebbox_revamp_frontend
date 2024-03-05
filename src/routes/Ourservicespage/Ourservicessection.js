@@ -4,6 +4,7 @@ import Footer from '../../components/Footer/Footer'
 import Webdevelopment from '../HomePage/WebDevelopment/Webdevelopment'
 import Bgimage from '../HomePage/Bgimagesection/Bgimage'
 import Ourservicebanner from './Ourservicebanner'
+import Ourservicespacing from './Ourservicespacing'
 
 function Ourservicessection() {
   return (
@@ -11,6 +12,7 @@ function Ourservicessection() {
     <Navbar/>
     <Ourservicebanner/>
     <Webdevelopment/>
+    <Ourservicespacing/>
     <Bgimage/>
     <Footer/>
     </div>
