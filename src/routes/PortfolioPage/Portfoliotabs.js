@@ -51,7 +51,6 @@ export default function Portfoliotabs() {
             <div className='All-Section'>
             <div className='images-section'>
                <div>
-               
                <img src={MobileDev} alt="" className="fade-in" />
                <p>Mobile ID Labs</p>
                </div>

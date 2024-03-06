@@ -2,7 +2,6 @@ import * as React from 'react';
 import { useState } from 'react';
 import Drawer from '@mui/material/Drawer';
 import Button from '@mui/material/Button';
-import DragHandleIcon from '@mui/icons-material/DragHandle';
 import HamburgerIcon from "../../../src/Assets/Images/Icons/Group 3717.png"
 import CloseIcon from '@mui/icons-material/Close';
 import Slide from '@mui/material/Slide';
@@ -31,7 +30,8 @@ export default function AnchorTemporaryDrawer() {
           <Link  style={{textDecoration:"none" ,color:"#181818" }}  to="/ourservice" > <h2 className='nav-menu-inside-links'  >Services</h2> </Link>
           <h2 className='nav-menu-inside-links'  >Clients</h2>
           <Link  style={{textDecoration:"none" ,color:"#181818" }}  to="/aboutus" > <h2>About Us</h2> </Link>
-          <h2>Our Team</h2>
+          <Link style={{textDecoration:"none" ,color:"#181818" }} to="/ourteam"><h2>Our Team</h2></Link>
+         
           <h2>Contact Us</h2>
           <h2>Blogs</h2>
           <p className='getInTouch-p'>GET IN TOUCH</p>

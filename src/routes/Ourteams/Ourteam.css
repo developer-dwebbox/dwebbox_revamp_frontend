@@ -1,0 +1,357 @@
+.Ourteamheading{
+   width: 100%;
+   background-color: #181818;
+   height: 80vh;
+}
+
+.OurteamheadSection{
+    margin: 0 auto;
+    width: 92%;
+    
+}
+.OurteamheadSection{
+    display: flex;
+    justify-content: space-between;
+}
+.ourteamcontent{
+    width: 85%;
+    color: #ffff;
+    /* background-color: rgba(224, 255, 255, 0.272); */
+    
+}
+.ourteamanim{
+   /* background-color: azure; */
+   width: 15%;
+   height: 20vh;
+   /* background-color: rgba(0, 255, 255, 0.256); */
+}
+
+
+  
+
+
+
+.ourteamparagraph{
+    display: flex;
+    align-items: center;
+    margin-top: 5vh;
+    font-size: 20px;
+    font-weight: 250;
+    font-family: "DM Sans_18pt-ExtraLight";
+}
+
+.TalentedteamHeading{
+    margin-top: 3vh;
+    font-size: 70px;
+}
+.ourteamdescriptionsection{
+    font-size: 30px;
+    margin-top: 5vh;
+    font-family: "DM Sans_18pt-ExtraLight";
+   font-weight: 250;
+}
+
+.ourteamdot{
+    width: 11px;
+    height: 11px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+.marqueeFour {
+    --gap: 1rem;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap: var(--gap);
+    background-color: #181818;
+    color: #FFFFFF;
+    padding: 1.2rem 0px;
+    width: 100% !important;
+    margin-bottom: 5vh;
+  }
+
+  .marquee__contentFour h1{
+    font-family: "Salgesis";
+    font-size: 128px;
+  }
+
+  .stroke-heading{
+    -webkit-text-stroke: 0.6px #FFFFFF;
+    text-stroke: 0.6px #FFFFFF; 
+    color: transparent;
+    font-weight: 400;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .marquee__contentFour {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    min-width: 100%;
+    gap: var(--gap);
+  }
+  @keyframes scrollFour {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(-100% - var(--gap)));
+    }
+  }
+  
+  .marquee__contentFour {
+    animation: scrollFour 15s linear infinite; /* Adjust the duration */
+  }
+  
+  
+  
+  .Ourteamimages{
+    width: 100%;
+    /* height: 90vh; */
+    background-color: #181818;
+   padding: 10vh 0vh;
+  }
+  .Ourteamimagesbanner{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    gap: 10vh 0vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 92%;
+    /* height: 90%; */
+    /* background-color: white; */
+  }
+
+  .team-images{
+    position: relative;
+    width: 345px;
+    height: 519px;
+    background-color: black;
+    border-radius: 5px 5px 0px 0px;
+  }
+  
+  
+  /* Ourteam.css */
+.team-circle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+.team-circle  img{
+  width: 160px;
+  height: 160px;
+  /* background-color: #ccc; */
+  border-radius: 50%;
+  animation: rotateCircle 15s linear infinite;
+}
+
+
+
+@keyframes rotateCircle {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.arrow-circle{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 90px;
+  background-color: #646464;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+}
+
+.images-dwb{
+  width: 100%;
+  height: 100%;
+  background-color: #646464;
+  border-radius: 5px 5px 0px 0px;
+
+}
+
+
+.images-dwb img{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px 5px 0px 0px;
+
+}
+
+
+.dwb-image-overlay{
+  z-index: 100;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(8, 8, 8, 0.171);
+  border-radius: 5px 5px 0px 0px;
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+
+}
+.dwb-image-overlay:hover{
+  opacity: 1;
+  border: 2px solid orange;
+}
+
+.marquee__contentoverlay {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-around;
+  min-width: 100%;
+  gap: var(--gap);
+}
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
+.scroll{
+  animation: scroll 15s linear infinite;
+}
+
+.overlay-anim{
+  position: relative;
+  width: 100%;
+  height: 100px;
+  /* background-color: aqua; */
+  top: 78%;
+}
+
+.marquee-overlay {
+  position: absolute;
+  transform: rotate(-5deg);
+  width: 100%;
+  --gap: 1rem;
+  display: flex;
+  overflow: hidden;
+  user-select: none;
+  gap: var(--gap);
+  background-color: #181818;
+  color: white;
+  padding: 1rem 0px;
+  /* border-top: 1px solid white; */
+  /* border-bottom: 1px solid white; */
+}
+
+.marquee__contentoverlay {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-around;
+  min-width: 100%;
+  gap: var(--gap);
+}
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
+.scroll{
+  animation: scroll 15s linear infinite;
+}
+
+
+
+.marquee-overlayTwo {
+  position: absolute;
+  width: 100%;
+  --gap: 1rem;
+  display: flex;
+  overflow: hidden;
+  user-select: none;
+  gap: var(--gap);
+  background-color: #F9AF20;
+  color: white;
+  padding: 1rem 0px;
+  /* border-top: 1px solid white; */
+  /* border-bottom: 1px solid white; */
+}
+
+
+
+
+
+.marquee__contentoverlayTwo{
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-around;
+  min-width: 100%;
+  gap: var(--gap);
+}
+.marquee-overlayTwo{
+  margin-top: 11vh;
+
+}
+
+
+@media only screen and (max-width: 700px) {
+  .OurteamheadSection {
+    flex-direction: column;
+  }
+
+  .Ourteamheading {
+    height: 80vh;
+  }
+  .ourteamanim {
+   width: 50%;
+  }
+  .ourteamdescriptionsection {
+    font-size: 15px;
+  }
+  .TalentedteamHeading {
+     font-size: 24px;
+  }
+  .marquee__contentFour h1{
+    font-size: 32px;
+    margin-top: 10vh;
+  }
+  .team-circle-container{
+    margin-top: 5vh;
+  }
+
+  .ourteamparagraph {
+  font-size: 18px;
+  }
+  .overlay-anim{
+    top: 80% !important;
+  }
+
+  .marquee-overlayTwo{
+    margin-top: 8vh;
+  
+  }
+
+
+
+
+
+}
+
+
+
