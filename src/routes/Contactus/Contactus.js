@@ -1,21 +1,22 @@
 import React from 'react'
-import './Ourteam.css';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
-import Ourteamheading from './Ourteamheading';
-import Ourteamimages from './Ourteamimages';
+import Contactusheading from './Contactusheading';
+import Workwithus from './Workwithus';
 import Bgimage from '../HomePage/Bgimagesection/Bgimage';
+import Contactusform from './Contactusform';
 
-function Ourteam() {
+function Contactus() {
   return (
     <div>
     <Navbar/>
-    <Ourteamheading/>
-    <Ourteamimages/>
+    <Contactusheading/>
+    <Contactusform/>
+    <Workwithus/>
     <Bgimage/>
     <Footer/>
     </div>
   )
 }
 
-export default Ourteam
+export default Contactus

@@ -1,0 +1,108 @@
+.Contactusheading{
+    width: 100%;
+    height: 50vh;
+    background-color: #181818;
+}
+.Contactusdesc{
+    width: 92%;
+    height: 90%;
+    /* background-color: white; */
+    margin: 0 auto;
+    color: white;
+}
+.Contactusparagraph{
+    display: flex;
+    align-items: center;
+    padding-top: 15vh;
+}
+.Contactusparagraph p{
+    font-size: 20px;
+    font-weight: 250;
+    font-family: "DM Sans_18pt-ExtraLight";
+
+}
+.Contactusdot{
+    width: 11px;
+    height: 11px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.ContactusHeading{
+    font-size: 68px;
+    font-weight: 600;
+    margin-top: 5vh;
+}
+
+.Contactusform{
+    width: 100%;
+    height: 90vh;
+    background-color: #181818;
+}
+.contactusbanner{
+    width: 100%;
+    height: 100%;
+}
+.contactusbanner img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.Workwithus{
+    width: 100%;
+    height: 140vh;
+    background-color: #181818;
+}
+.workwithusbannersection{
+    width: 92%;
+    height: 40vh;
+    /* background-color: #FFFFFF; */
+    color: white;
+    margin: 0 auto;
+    padding-top: 15vh;
+}
+.workwithusinfoheading h1{
+   font-size: 70px;
+}
+.workwithusinfoheading p{
+    font-family: "DM Sans_18pt-ExtraLight";
+    font-size: 24px;
+    width: 80%;
+    margin-top: 3vh;
+}
+.job-role-heading{
+    margin-top: 5vh;
+}
+.job-role-heading h1{
+   font-size: 48px;
+}
+
+.job-role-section{
+    margin-top: 3vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5vh;
+    width: 100%;
+    /* background-color: #FFFFFF; */
+}
+.job-section{
+    padding: 5vh;
+    width: 330px;
+    height: 330px;
+    background-color: #1D1D1D;
+    /* border: 1px solid #FFFFFF;
+     */
+}
+.job-section h2{
+    font-size: 24px;
+}
+.job-section p{
+    font-size: 21px;
+    margin-top: 3vh;
+    font-family: "DM Sans_18pt-ExtraLight";
+    font-weight: 250;
+
+}

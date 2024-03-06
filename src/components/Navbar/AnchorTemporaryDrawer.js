@@ -26,13 +26,13 @@ export default function AnchorTemporaryDrawer() {
             <CloseIcon sx={{fontSize:"40px"}} />
           </Button>
           <p>MENU</p>
-          <Link  style={{textDecoration:"none" ,color:"#181818" }}  to="/portfolio"> <h2 className='nav-menu-inside-links' >Portfolio</h2></Link>
-          <Link  style={{textDecoration:"none" ,color:"#181818" }}  to="/ourservice" > <h2 className='nav-menu-inside-links'  >Services</h2> </Link>
-          <h2 className='nav-menu-inside-links'  >Clients</h2>
-          <Link  style={{textDecoration:"none" ,color:"#181818" }}  to="/aboutus" > <h2>About Us</h2> </Link>
-          <Link style={{textDecoration:"none" ,color:"#181818" }} to="/ourteam"><h2>Our Team</h2></Link>
-         
-          <h2>Contact Us</h2>
+        <Link  style={{textDecoration:"none" ,color:"#181818" }}  to="/portfolio"> <h2 className='nav-menu-inside-links' >Portfolio</h2></Link>
+        <Link  style={{textDecoration:"none" ,color:"#181818" }}  to="/ourservice" > <h2 className='nav-menu-inside-links'  >Services</h2> </Link>
+        <h2 className='nav-menu-inside-links'  >Clients</h2>
+        <Link  style={{textDecoration:"none" ,color:"#181818" }}  to="/aboutus" > <h2>About Us</h2> </Link>
+        <Link style={{textDecoration:"none" ,color:"#181818" }} to="/ourteam"><h2>Our Team</h2></Link>
+        <Link style={{textDecoration:"none" ,color:"#181818" }} to="/contactus" ><h2>Contact Us</h2></Link>
+          
           <h2>Blogs</h2>
           <p className='getInTouch-p'>GET IN TOUCH</p>
           <p className='connectdwb-p'>connect@dwebbox.com</p>
