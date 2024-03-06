@@ -236,15 +236,16 @@
 .overlay-anim{
   position: relative;
   width: 100%;
-  height: 100px;
+  height: 120px;
   /* background-color: aqua; */
   top: 78%;
 }
 
 .marquee-overlay {
   position: absolute;
-  transform: rotate(-5deg);
-  width: 100%;
+  transform: rotate(-6deg);
+  margin-top: 2vh;
+  width: 102%;
   --gap: 1rem;
   display: flex;
   overflow: hidden;
@@ -305,7 +306,14 @@
   gap: var(--gap);
 }
 .marquee-overlayTwo{
-  margin-top: 11vh;
+  margin-top: 10.5vh;
+
+}
+.dwb-dev-name{
+  color: black;
+  font-family: "DM Sans18ptLight";
+  font-weight: 700;
+  font-size: 15.82px;
 
 }
 
@@ -339,7 +347,7 @@
   font-size: 18px;
   }
   .overlay-anim{
-    top: 80% !important;
+    top: 78% !important;
   }
 
   .marquee-overlayTwo{
