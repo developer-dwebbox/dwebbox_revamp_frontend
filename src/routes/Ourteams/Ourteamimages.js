@@ -1,6 +1,8 @@
 import React from 'react'
 import './Ourteam.css';
+import kushalimg from '../../../src/Assets/Images/TeamImage/Kushal Img.png'
 import Founder from '../../../src/Assets/Images/TeamImage/Frame 3.png'
+
 
 function Ourteamimages() {
   return (
