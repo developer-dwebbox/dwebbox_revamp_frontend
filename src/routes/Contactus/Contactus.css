@@ -91,8 +91,8 @@
 }
 .job-section{
     padding: 5vh;
-    width: 330px;
-    height: 330px;
+    width: 340px;
+    height: 340px;
     background-color: #1D1D1D;
     /* border: 1px solid #FFFFFF;
      */
@@ -169,3 +169,94 @@
     height: 85%;
     /* background-color: #F17C24; */
 }
+
+
+
+
+@media only screen and (max-width: 700px) {
+
+.ContactusHeading {
+  font-size: 24px;
+}
+.Contactusparagraph {
+padding-top: 8vh;
+}
+
+.Contactusheading{
+    height: 30vh;
+}
+.GetistouchContactus {
+flex-direction: column;
+}
+.contact-info {
+width: 100%;
+height: 50%;
+}
+.contact-from {
+    width: 100%;
+    height: 170vh;
+}
+.contact-inputs-section {
+width: 90%;
+}
+.contact-info-paragraph {
+    font-size: 15px;
+    width: 90%;
+}
+
+.Contactusform {
+height: 110vh;
+}
+
+.contact-info{
+    padding: 3vh 3vh;
+}
+.workwithusinfoheading p {
+
+font-size: 15px;
+}
+.workwithusinfoheading h1 {
+font-size: 24px;
+}
+.workwithusbannersection {
+padding-top: 10vh;
+}
+.job-role-heading h1 {
+
+font-size: 24px;
+}
+
+.Workwithus {
+height: 160vh;
+}
+.contact-info-heading-second {
+font-size: 24px;
+}
+.contact-info-heading-first {
+font-size: 24px;
+}
+
+.contact-info-heading-third {
+font-size: 28px;
+}
+
+.job-section {
+ padding: 4vh;
+}
+.contactusbanner {
+ height: 95%;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
