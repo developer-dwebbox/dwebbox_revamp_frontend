@@ -32,8 +32,8 @@ export default function AnchorTemporaryDrawer() {
         <Link  style={{textDecoration:"none" ,color:"#181818" }}  to="/aboutus" > <h2>About Us</h2> </Link>
         <Link style={{textDecoration:"none" ,color:"#181818" }} to="/ourteam"><h2>Our Team</h2></Link>
         <Link style={{textDecoration:"none" ,color:"#181818" }} to="/contactus" ><h2>Contact Us</h2></Link>
-          
-          <h2>Blogs</h2>
+          <Link to="/blogs"  style={{textDecoration:"none" ,color:"#181818" }} ><h2>Blogs</h2></Link>
+         
           <p className='getInTouch-p'>GET IN TOUCH</p>
           <p className='connectdwb-p'>connect@dwebbox.com</p>
         </div>

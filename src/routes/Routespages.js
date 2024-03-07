@@ -6,6 +6,7 @@ import Aboutus from './Aboutus/Aboutus'
 import Portfoliopage from './PortfolioPage/Portfoliopage'
 import Ourteam from './Ourteams/Ourteam'
 import Contactus from './Contactus/Contactus'
+import Ourblogs from './Ourblogs/Ourblogs'
 
 function Routespages() {
     const router = createBrowserRouter([
@@ -28,6 +29,9 @@ function Routespages() {
         },{
           path:"/contactus",
           element: <Contactus/>
+        },{
+          path:"/blogs",
+          element:<Ourblogs/>
         }
     ])
 
