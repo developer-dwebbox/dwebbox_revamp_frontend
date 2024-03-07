@@ -17,6 +17,7 @@
     align-items: center;
 }
 .ourservicebanner-para p{
+  font-family: "DM Sans_18pt-ExtraLight";
     font-size: 22px;
 
 }
@@ -60,6 +61,7 @@
   .marquee__contentthree h1{
     font-family: "Salgesis";
     font-size: 128px;
+    font-weight: 500;
   }
 
   .stroke-heading{

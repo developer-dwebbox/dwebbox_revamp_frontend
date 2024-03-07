@@ -1,7 +1,7 @@
 .Ourteamheading{
    width: 100%;
    background-color: #181818;
-   height: 80vh;
+   height: 90vh;
 }
 
 .OurteamheadSection{
@@ -23,6 +23,7 @@
    /* background-color: azure; */
    width: 15%;
    height: 20vh;
+   margin-top: 5vh;
    /* background-color: rgba(0, 255, 255, 0.256); */
 }
 
@@ -34,7 +35,7 @@
 .ourteamparagraph{
     display: flex;
     align-items: center;
-    margin-top: 5vh;
+    margin-top: 12vh;
     font-size: 20px;
     font-weight: 250;
     font-family: "DM Sans_18pt-ExtraLight";
@@ -76,6 +77,7 @@
   .marquee__contentFour h1{
     font-family: "Salgesis";
     font-size: 128px;
+    font-weight: 400;
   }
 
   .stroke-heading{
@@ -197,6 +199,9 @@
 
 
 .dwb-image-overlay{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   z-index: 100;
   top: 0;
   position: absolute;
@@ -233,11 +238,12 @@
 }
 
 .overlay-anim{
+  display: flex;
   position: relative;
   width: 100%;
   height: 120px;
   /* background-color: aqua; */
-  top: 78%;
+  
 }
 
 .marquee-overlay {
@@ -289,13 +295,30 @@
   background-color: #F9AF20;
   color: white;
   padding: 1rem 0px;
+  bottom: 0;
   /* border-top: 1px solid white; */
   /* border-bottom: 1px solid white; */
 }
 
 
+.Dwb-linkedIn{
+  margin: 3vh;
+  display: flex;
+  /* align-items: center; */
+  color: #FFFFFF;
+}
+.Dwb-linkedIn p{
+  color: #FFFFFF;
+  margin-right: 5px;
+  font-weight: 500;
+  font-size: 24px;
+  font-family: "Epilogue";
 
 
+}
+.Dwb-linkedIn:hover{
+  cursor: pointer;
+}
 
 .marquee__contentoverlayTwo{
   flex-shrink: 0;
@@ -304,10 +327,7 @@
   min-width: 100%;
   gap: var(--gap);
 }
-.marquee-overlayTwo{
-  margin-top: 10.5vh;
 
-}
 .dwb-dev-name{
   color: black;
   font-family: "DM Sans18ptLight";
@@ -326,6 +346,7 @@
     height: 80vh;
   }
   .ourteamanim {
+
    width: 50%;
   }
   .ourteamdescriptionsection {
@@ -345,9 +366,7 @@
   .ourteamparagraph {
   font-size: 18px;
   }
-  .overlay-anim{
-    top: 78% !important;
-  }
+  
 
   .marquee-overlayTwo{
     margin-top: 8vh;

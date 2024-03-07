@@ -13,7 +13,7 @@ export default function AnchorTemporaryDrawer() {
 
   return (
     <div>
-      <Button onClick={() => setOpen(true)} sx={{ color: 'white' }}> <div className='menu-button-div' >Menu</div> <img  src={HamburgerIcon} width="30px" alt="" /> </Button>
+      <Button onClick={() => setOpen(true)} sx={{ color: 'white' }}> <div className='menu-button-div' style={{textTransform:"capitalize"}}  >Menu</div> <img  src={HamburgerIcon} width="30px" alt="" /> </Button>
       <Drawer
         anchor={"right"}
         open={open}
@@ -25,7 +25,7 @@ export default function AnchorTemporaryDrawer() {
           <Button onClick={() => setOpen(false)} sx={{position: 'absolute', top: '15px', right: '15px', color: 'black' }}>
             <CloseIcon sx={{fontSize:"40px"}} />
           </Button>
-          <p>MENU</p>
+          <p>Menu</p>
         <Link  style={{textDecoration:"none" ,color:"#181818" }}  to="/portfolio"> <h2 className='nav-menu-inside-links' >Portfolio</h2></Link>
         <Link  style={{textDecoration:"none" ,color:"#181818" }}  to="/ourservice" > <h2 className='nav-menu-inside-links'  >Services</h2> </Link>
         <h2 className='nav-menu-inside-links'  >Clients</h2>
