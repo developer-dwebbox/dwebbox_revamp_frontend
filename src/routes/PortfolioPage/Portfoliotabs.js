@@ -50,19 +50,19 @@ export default function Portfoliotabs() {
           <TabPanel value="1">
             <div className='All-Section'>
             <div className='images-section'>
-               <div>
-               <img src={MobileDev} alt="" className="fade-in" />
+               <div className='Portfolio-images-section' >
+               <img src={MobileDev} alt=""  className="fade-in" />
                <p>Mobile ID Labs</p>
                </div>
-               <div>
+               <div className='Portfolio-images-section'  >
                <img src={MobileDevTwo} alt="" className="fade-in"  />
                <p>Mobile ID Labs</p>
                </div>
-               <div>
+               <div className='Portfolio-images-section'  >
                <img src={MobileDev} alt="" className="fade-in"  />
                <p>Mobile ID Labs</p>
                </div>
-               <div>
+               <div className='Portfolio-images-section'  >
                <img src={MobileDevTwo} alt="" className="fade-in" />
                <p>Mobile ID Labs</p>
                </div>

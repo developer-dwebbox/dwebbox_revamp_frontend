@@ -52,8 +52,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 94%;
+    width: 95%;
     /* background-color: blue; */
+}
+.Portfolio-images-section{
+    width: 50%;
 }
 .images-section img{
     margin-top: 5vh;

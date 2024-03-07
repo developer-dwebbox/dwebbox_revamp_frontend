@@ -26,9 +26,10 @@ function Navbar() {
       </Link>
       </Box>
       <Box className='nav-links' sx={{ width: '30%'}}>
-        <Link to="/portfolio" style={{ textDecoration: 'none',color:"white",fontFamily:"Epilogue",fontWeight:"500" }}  ><Typography className='typo-links' variant="body1">Portfolio</Typography></Link>
-        <Link style={{ textDecoration: 'none',color:"white",fontFamily:"Epilogue",fontWeight:"500" }} to="/ourservice" >  <Typography  className='typo-links'  variant="body1">Services</Typography></Link>
-        <Typography  style={{fontFamily:"Epilogue",fontWeight:"500"}} className='typo-links'  variant="body1">Clients</Typography>
+        <Link to="/portfolio" style={{ textDecoration: 'none',color:"#FFFFFF",fontFamily:"Epilogue",fontWeight:"500" }}  ><Typography className='typo-links' variant="body1">Portfolio</Typography></Link>
+        <Link style={{ textDecoration: 'none',color:"#FFFFFF",fontFamily:"Epilogue",fontWeight:"500" }} to="/ourservice" >  <Typography  className='typo-links'  variant="body1">Services</Typography></Link>
+        <Link   style={{ textDecoration:"none", fontFamily:"Epilogue",color:"#FFFFFF",fontWeight:"500"}} ><Typography  className='typo-links'  variant="body1">Clients</Typography></Link>
+        
       </Box>
       <Box className='nav-menu-btn'>
         <AnchorTemporaryDrawer/>

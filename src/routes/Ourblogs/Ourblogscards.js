@@ -8,7 +8,7 @@ function Ourblogscards() {
     <div>
     <Box sx={{ width: "100%", background: "#181818" }} >
       <Container component="main" sx={{ pt: 10,pb:15, background: "#181818", display:"flex",justifyContent:"space-between",flexWrap:"wrap"}}>
-      <Card sx={{ maxWidth: 330,background:"none",pb:2, boxShadow: 'none' }}>
+      <Card sx={{ maxWidth: 330,background:"none",pb:2, boxShadow: 'none',borderRadius:"0px" }}>
       <CardMedia
         sx={{ height: 380,marginBottom:"20px" }}
         image={BlogImageOne}
@@ -44,7 +44,7 @@ function Ourblogscards() {
           </Button>
       
     </Card>
-    <Card sx={{ maxWidth: 330,background:"none",pb:2, boxShadow: 'none' }}>
+    <Card sx={{ maxWidth: 330,background:"none",pb:2, boxShadow: 'none',borderRadius:"0px" }}>
       <CardMedia
         sx={{ height: 380,marginBottom:"20px" }}
         image={BlogImageOne}
@@ -80,7 +80,7 @@ function Ourblogscards() {
           </Button>
       
     </Card>
-    <Card sx={{ maxWidth: 330,background:"none",pb:2, boxShadow: 'none' }}>
+    <Card sx={{ maxWidth: 330,background:"none",pb:2, boxShadow: 'none',borderRadius:"0px" }}>
       <CardMedia
         sx={{ height: 380,marginBottom:"20px" }}
         image={BlogImageOne}
