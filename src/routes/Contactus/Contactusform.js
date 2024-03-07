@@ -1,5 +1,5 @@
 import React from 'react'
-import BannerImage from '../../../src/Assets/Images/BannerImage.png'
+import BannerImage from '../../../src/Assets/Images/ContactUsBanner.png'
 import { Button, TextField } from '@mui/material'
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 
@@ -28,9 +28,12 @@ function Contactusform() {
               variant="outlined" 
               sx={{ 
                 mb: 2, 
+                border:"1px solid #4C4C4C",
+                borderRadius: 2,
                 '& .MuiOutlinedInput-root': { 
                   '& fieldset': { 
-                    borderColor: '#4C4C4C'
+                    borderColor: '#4C4C4C',
+                    border:"none"
                   },
                   '&:hover fieldset': {
                     borderColor: '#4C4C4C'
@@ -45,10 +48,12 @@ function Contactusform() {
               variant="outlined" 
               sx={{ 
                 mb: 2, 
-                
+                border:"1px solid #4C4C4C",
+                borderRadius: 2,
                 '& .MuiOutlinedInput-root': { 
                   '& fieldset': { 
-                    borderColor: '#4C4C4C'
+                    borderColor: '#4C4C4C',
+                    border:"none"
                   },
                   '&:hover fieldset': {
                     borderColor: '#4C4C4C'
@@ -64,9 +69,12 @@ function Contactusform() {
               variant="outlined" 
               sx={{ 
                 mb: 2, 
+                border:"1px solid #4C4C4C",
+                borderRadius: 2,
                 '& .MuiOutlinedInput-root': { 
                   '& fieldset': { 
-                    borderColor: '#4C4C4C'
+                    borderColor: '#4C4C4C',
+                    border:"none"
                   },
                   '&:hover fieldset': {
                     borderColor: '#4C4C4C'
@@ -84,12 +92,17 @@ function Contactusform() {
               fullWidth 
               sx={{ 
                 mb: 2, 
+                border:"1px solid #4C4C4C",
+                borderRadius: 2,
                 '& .MuiOutlinedInput-root': { 
                   '& fieldset': { 
-                    borderColor: '#4C4C4C'
+                    borderColor: '#4C4C4C',
+                    border:"none"
+                    
                   },
                   '&:hover fieldset': {
-                    borderColor: '#4C4C4C'
+                    borderColor: '#4C4C4C',
+                    
                   }
                 }
               }} 
@@ -103,6 +116,7 @@ function Contactusform() {
               width: '200px',
               height: '55px',
               borderRadius: '50px',
+
               '&:hover': {
                 backgroundColor: '#fff',
                 color:"#000",
@@ -112,6 +126,8 @@ function Contactusform() {
           >
             Let’s Talk <ArrowOutwardIcon />
           </Button>
+
+          {/* <TextField type='text'   name="username"  fullWidth placeholder='Enter Username' sx={{'& .MuiInputBase-input':{color: 'white'}, marginBottom:'10px', fontWeight:'500',background:'rgba(255, 255, 255, 0.27)',borderRadius: 1,border: 'none',"& fieldset": { border: 'none' }}}/> */}
 
   </div>
     </div>
