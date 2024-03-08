@@ -105,6 +105,10 @@
   
 
   @media only screen and (max-width: 700px) {
+    .Portfolio-images-section {
+width: 100%;
+    }
+
     .Portfoliopageheading{
         height: 25vh;
     }
