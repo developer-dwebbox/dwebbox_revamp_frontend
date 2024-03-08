@@ -2,6 +2,7 @@ import React from 'react'
 import { Box,Typography,Container, Button, Card, CardMedia} from '@mui/material'
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward'
 import BlogImageOne from '../../../src/Assets/Images/BlogsImage/Rectangle 67.png'
+import { Link } from 'react-router-dom'
 
 function Ourblogscards() {
   return (
@@ -31,8 +32,9 @@ function Ourblogscards() {
         Creative advertising in our life became a info noise
         </Typography>
      
-     
-      <Button
+        <Link to="/blogspage"
+ >
+  <Button
             variant="outlined"
             sx={{
               border: '1.2px solid white',
@@ -50,7 +52,7 @@ function Ourblogscards() {
           >
             Read More <ArrowOutwardIcon />
           </Button>
-      
+ </Link>
     </Card>
     <Card sx={{ maxWidth: 330,
     background:"none",pb:2, boxShadow: 'none',
@@ -74,7 +76,9 @@ function Ourblogscards() {
         </Typography>
      
      
-      <Button
+        <Link to="/blogspage"
+ >
+  <Button
             variant="outlined"
             sx={{
               border: '1.2px solid white',
@@ -92,6 +96,7 @@ function Ourblogscards() {
           >
             Read More <ArrowOutwardIcon />
           </Button>
+ </Link>
       
     </Card>
     <Card sx={{ maxWidth: 330,background:"none",pb:2, boxShadow: 'none',
@@ -116,8 +121,9 @@ function Ourblogscards() {
         Creative advertising in our life became a info noise
         </Typography>
      
-     
-      <Button
+     <Link to="/blogspage"
+ >
+  <Button
             variant="outlined"
             sx={{
               border: '1.2px solid white',
@@ -135,6 +141,8 @@ function Ourblogscards() {
           >
             Read More <ArrowOutwardIcon />
           </Button>
+ </Link>
+      
       
     </Card>
     
