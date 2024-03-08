@@ -72,19 +72,19 @@ export default function Portfoliotabs() {
         <TabPanel value="2">
         <div className='All-Section'>
         <div className='images-section'>
-               <div>
+               <div className='Portfolio-images-section'  >
                <img src={MobileDevTwo} alt="" className="fade-in"  />
                <p>Mobile ID Labs</p>
                </div>
-               <div>
+               <div className='Portfolio-images-section'  >
                <img src={MobileDev} alt="" className="fade-in"  />
                <p>Mobile ID Labs</p>
                </div>
-               <div>
+               <div className='Portfolio-images-section'  >
                <img src={MobileDevTwo} alt=""  className="fade-in"  />
                <p>Mobile ID Labs</p>
                </div>
-               <div>
+               <div className='Portfolio-images-section'  >
                <img src={MobileDev} alt="" className="fade-in"  />
                <p>Mobile ID Labs</p>
                </div>
@@ -94,19 +94,19 @@ export default function Portfoliotabs() {
         <TabPanel value="3">
         <div className='All-Section'>
         <div className='images-section'>
-               <div>
+               <div className='Portfolio-images-section'  >
                <img src={MobileDev} alt="" className="fade-in"  />
                <p>Mobile ID Labs</p>
                </div>
-               <div>
+               <div className='Portfolio-images-section'  >
                <img src={MobileDevTwo} alt="" className="fade-in"  />
                <p>Mobile ID Labs</p>
                </div>
-               <div>
+               <div className='Portfolio-images-section'  >
                <img src={MobileDevTwo} alt="" className="fade-in"  />
                <p>Mobile ID Labs</p>
                </div>
-               <div>
+               <div className='Portfolio-images-section'  >
                <img src={MobileDev} alt="" className="fade-in"  />
                <p>Mobile ID Labs</p>
                </div>
@@ -116,19 +116,19 @@ export default function Portfoliotabs() {
         <TabPanel value="4">
         <div className='All-Section'>
                <div className='images-section'>
-               <div>
+               <div className='Portfolio-images-section'  >
                <img src={MobileDevTwo} alt="" className="fade-in"  />
                <p>Mobile ID Labs</p>
                </div>
-               <div>
+               <div className='Portfolio-images-section'  >
                <img src={MobileDev} alt="" className="fade-in"  />
                <p>Mobile ID Labs</p>
                </div>
-               <div>
+               <div className='Portfolio-images-section'  >
                <img src={MobileDevTwo} alt="" className="fade-in"  />
                <p>Mobile ID Labs</p>
                </div>
-               <div>
+               <div className='Portfolio-images-section'  >
                <img src={MobileDev} alt="" className="fade-in"  />
                <p>Mobile ID Labs</p>
                </div>
@@ -138,19 +138,19 @@ export default function Portfoliotabs() {
         <TabPanel value="5">
         <div className='All-Section'>
         <div className='images-section'>
-               <div>
+               <div className='Portfolio-images-section'  >
                <img src={MobileDev} alt="" className="fade-in"  />
                <p>Mobile ID Labs</p>
                </div>
-               <div>
+               <div className='Portfolio-images-section'  >
                <img src={MobileDevTwo} alt="" className="fade-in"  />
                <p>Mobile ID Labs</p>
                </div>
-               <div>
+               <div className='Portfolio-images-section'  >
                <img src={MobileDev} alt="" className="fade-in"  />
                <p>Mobile ID Labs</p>
                </div>
-               <div>
+               <div className='Portfolio-images-section'  >
                <img src={MobileDevTwo} alt=""   className="fade-in" />
                <p>Mobile ID Labs</p>
                </div>
@@ -160,19 +160,19 @@ export default function Portfoliotabs() {
         <TabPanel value="6">
         <div className='All-Section'>
         <div className='images-section'>
-               <div>
+               <div className='Portfolio-images-section'  >
                <img src={MobileDev} alt="" className="fade-in"  />
                <p>Mobile ID Labs</p>
                </div>
-               <div>
+               <div className='Portfolio-images-section'  >
                <img src={MobileDevTwo} alt="" className="fade-in"  />
                <p>Mobile ID Labs</p>
                </div>
-               <div>
+               <div className='Portfolio-images-section'  >
                <img src={MobileDev} alt="" className="fade-in"  />
                <p>Mobile ID Labs</p>
                </div>
-               <div>
+               <div className='Portfolio-images-section'  >
                <img src={MobileDevTwo} alt=""   className="fade-in" />
                <p>Mobile ID Labs</p>
                </div>
@@ -182,19 +182,19 @@ export default function Portfoliotabs() {
         <TabPanel value="7">
         <div className='All-Section'>
         <div className='images-section'>
-               <div>
+               <div className='Portfolio-images-section'  >
                <img src={MobileDev} alt="" className="fade-in"  />
                <p>Mobile ID Labs</p>
                </div>
-               <div>
+               <div className='Portfolio-images-section'  >
                <img src={MobileDevTwo} alt="" className="fade-in"  />
                <p>Mobile ID Labs</p>
                </div>
-               <div>
+               <div className='Portfolio-images-section'  >
                <img src={MobileDev} alt="" className="fade-in"  />
                <p>Mobile ID Labs</p>
                </div>
-               <div>
+               <div className='Portfolio-images-section'  >
                <img src={MobileDevTwo} alt=""   className="fade-in" />
                <p>Mobile ID Labs</p>
                </div>
