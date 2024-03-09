@@ -10,13 +10,13 @@ import image7 from '../../../Assets/Images/Techstack/image 30.png';
 import image8 from '../../../Assets/Images/Techstack/image 31.png';
 import image9 from '../../../Assets/Images/Techstack/image 32.png';
 import image10 from '../../../Assets/Images/Techstack/image 33.png';
-import image11 from '../../../Assets/Images/Techstack/image 34.png';
 import image12 from '../../../Assets/Images/Techstack/image 36.png';
 import image13 from '../../../Assets/Images/Techstack/image 37.png';
-import image14 from '../../../Assets/Images/Techstack/image 38.png';
-import image15 from '../../../Assets/Images/Techstack/image 39.png';
-import django from '../../../Assets/Images/Techstack/Django.png'
-import typescript from '../../../Assets/Images/Techstack/Typescript.png'
+import image14 from '../../../Assets/Images/Techstack/Azure.png';
+import Typescript from '../../../Assets/Images/Techstack/Typescript.png'
+import Django from '../../../Assets/Images/Techstack/Django.png';
+import GoogleCloud from '../../../Assets/Images/Techstack/Google Cloud.png'
+
 
 import ArrowOutward from '@mui/icons-material/ArrowOutward';
 
@@ -26,8 +26,8 @@ function Techstack() {
 
   const images = [
     image1, image2, image3, image4, image5, image6,
-    image7, image8, image9, image10, image11, image12,
-    image13, image14, image15,django,typescript
+    image7, image8, image9, image10, image12,
+    image13, image14,GoogleCloud,Typescript,Django
   ];
 
   const visibleImages = showAll ? images : images.slice(0, 6);

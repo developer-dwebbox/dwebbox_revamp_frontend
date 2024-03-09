@@ -16,7 +16,7 @@ function Contactusform() {
       <h1 className='contact-info-heading-first' >Get In</h1>
       <h1 className='contact-info-heading-second' >Touch With Us.</h1>
       <p className='contact-info-paragraph' >If you would like to work with us or just want to get in touch, we’d love to hear from you!</p>
-      <h1 className='contact-info-heading-third' >+91 9167871033</h1>
+      <h1 className='contact-info-heading-third' >+91 88281 03808</h1>
         </div>
         <div className='contact-from'>
 
