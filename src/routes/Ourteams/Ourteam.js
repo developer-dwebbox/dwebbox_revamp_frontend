@@ -5,10 +5,12 @@ import Footer from '../../components/Footer/Footer';
 import Ourteamheading from './Ourteamheading';
 import Ourteamimages from './Ourteamimages';
 import Bgimage from '../HomePage/Bgimagesection/Bgimage';
+import ScrollToTopButton from '../HomePage/Scrolltotop/ScrollToTopButton';
 
 function Ourteam() {
   return (
     <div>
+    <ScrollToTopButton/>
     <Navbar/>
     <Ourteamheading/>
     <Ourteamimages/>

@@ -5,10 +5,12 @@ import Contactusheading from './Contactusheading';
 import Workwithus from './Workwithus';
 import Bgimage from '../HomePage/Bgimagesection/Bgimage';
 import Contactusform from './Contactusform';
+import ScrollToTopButton from '../HomePage/Scrolltotop/ScrollToTopButton';
 
 function Contactus() {
   return (
     <div>
+    <ScrollToTopButton/>
     <Navbar/>
     <Contactusheading/>
     <Contactusform/>

@@ -38,7 +38,7 @@ function Ourblogsheading() {
                 fontSize: '24px',
               },
           }}>
-            Latest News.
+            Latest News
           </Typography>
         </Container>
       </Box>

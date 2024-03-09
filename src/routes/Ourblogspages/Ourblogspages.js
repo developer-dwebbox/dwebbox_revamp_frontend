@@ -5,10 +5,12 @@ import Navbar from '../../components/Navbar/Navbar';
 import Bgimage from '../HomePage/Bgimagesection/Bgimage';
 import Footer from '../../components/Footer/Footer';
 import Ourblogspagebanner from './Ourblogspagebanner';
+import ScrollToTopButton from '../HomePage/Scrolltotop/ScrollToTopButton';
 
 function Ourblogspages() {
   return (
     <div>
+    <ScrollToTopButton/>
     <Navbar/>
     <Ourblogspagesheading/>
     <Ourblogspagebanner/>

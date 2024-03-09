@@ -5,10 +5,12 @@ import Webdevelopment from '../HomePage/WebDevelopment/Webdevelopment'
 import Bgimage from '../HomePage/Bgimagesection/Bgimage'
 import Ourservicebanner from './Ourservicebanner'
 import Ourservicespacing from './Ourservicespacing'
+import ScrollToTopButton from '../HomePage/Scrolltotop/ScrollToTopButton'
 
 function Ourservicessection() {
   return (
     <div>
+    <ScrollToTopButton/>
     <Navbar/>
     <Ourservicebanner/>
     <Webdevelopment/>
