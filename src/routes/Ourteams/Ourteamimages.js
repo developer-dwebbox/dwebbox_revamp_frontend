@@ -8,6 +8,8 @@ import Shiva from '../../../src/Assets/Images/TeamImage/Shiva.png';
 import Ajay from '../../../src/Assets/Images/TeamImage/Ajay.png';
 import Prafulla from '../../../src/Assets/Images/TeamImage/Prafulla.png';
 import Sawant from '../../../src/Assets/Images/TeamImage/Sawant.png';
+import Sakshi from '../../../src/Assets/Images/TeamImage/Sakshi.png'
+import Vrushti from '../../../src/Assets/Images/TeamImage/Vrushti.png'
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 
 function Ourteamimages() {
@@ -16,13 +18,15 @@ function Ourteamimages() {
     { name: 'Kushal Shah', image: Kushal, role: 'Co-Founder', linkedin: 'https://www.linkedin.com/in/kushal-shah-132801104/' },
     { name: 'Poonam Shah', image: Poonam, role: 'Co-Founder', linkedin: 'https://www.linkedin.com/in/poonam-shah-945728a1/' },
     { name: 'Hiral Dalal', image: Hiral, role: 'Co-Founder', linkedin: 'https://www.linkedin.com/in/hiral-dalal-28904713/' },
+    { name: 'Vrushti Ashar', image: Vrushti, role: 'Project Manager', linkedin: 'https://www.linkedin.com/in/vrushti-ashar-86a852143/' },
     { name: 'Karan Nanesha', image: Karan, role: 'Web Developer', linkedin: 'https://www.linkedin.com/in/karan-nanesha-291b68207/' },
     { name: 'Ajay Sharma ', image: Ajay, role: 'Full Stack Developer', linkedin: 'https://www.linkedin.com/in/ajay-sharma-453348142/' },
+    { name: 'Sakshi Virulkar', image: Sakshi, role: 'UI/UX Designer', linkedin: 'https://www.linkedin.com/in/sakshi-virulkar/' },
     { name: 'Ashish Sawant', image: Sawant, role: 'Full Stack Developer', linkedin: 'https://www.linkedin.com/in/ashish-sawant/' },
     { name: 'Shivanshu Singh', image: Shiva, role: 'Frontend Developer', linkedin: 'https://www.linkedin.com/in/shivanshu-01singh/' },
     { name: 'Prafulla Mishra', image: Prafulla, role: 'Software Test Engineer', linkedin: 'https://www.linkedin.com/in/prafulla-mishra-b88921267/' },
-    { name: '', image: "", role: '', linkedin: '' },
-    
+    // { name: '', image: "", role: '', linkedin: '' },
+
     // Add more team members with their details here
 
   ];
