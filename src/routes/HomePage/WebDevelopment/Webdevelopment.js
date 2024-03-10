@@ -8,6 +8,8 @@ import socialmediaimg from '../../../Assets/Images/WebDevelopment/Rectangle 59.p
 import AppDevelopment from '../../../Assets/Images/WebDevelopment/5016 1.png'
 import { Box, Button } from '@mui/material';
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
+import { Link } from 'react-router-dom'
+
 
 
 function Webdevelopment() {
@@ -18,7 +20,8 @@ function Webdevelopment() {
            <h1>Web <br /> Developmemt</h1>
            <p>The perfect online front for your customers to experience the best of what your company offers.</p>
            <Box>
-          <Button
+           <Link to="/webdevelopment" >
+           <Button
             variant="outlined"
             sx={{
               border: '2px solid white',
@@ -35,6 +38,7 @@ function Webdevelopment() {
           >
             Learn more <ArrowOutwardIcon />
           </Button>
+           </Link>
         </Box>
      </div>
      <div className='webdevimage'>
@@ -46,7 +50,8 @@ function Webdevelopment() {
     <h1>App <br /> Developmemt</h1>
            <p>Mobile applications that stick. Specifically created to augment and transform your business.</p>
            <Box>
-          <Button
+           <Link to="/appdevelopment" >
+           <Button
             variant="outlined"
             sx={{
               border: '2px solid white',
@@ -63,6 +68,7 @@ function Webdevelopment() {
           >
             Learn more <ArrowOutwardIcon />
           </Button>
+           </Link>
         </Box>
 </div>
 <div className='webdevimage'>
@@ -76,7 +82,8 @@ function Webdevelopment() {
  <br /> Designing</h1>
            <p>Creating a design and user experience that customers will never forget, approach that goes beyond aesthetics.</p>
            <Box>
-          <Button
+           <Link to="/uiux" >
+           <Button
             variant="outlined"
             sx={{
               border: '2px solid white',
@@ -93,6 +100,7 @@ function Webdevelopment() {
           >
             Learn more <ArrowOutwardIcon />
           </Button>
+           </Link>
         </Box>
   </div>
  <div className='webdevimage'>
@@ -105,7 +113,8 @@ function Webdevelopment() {
  <br /> Branding</h1>
            <p>End-to-end branding, provided by our in-house creative design and branding experts.</p>
            <Box>
-          <Button
+           <Link to="/productbranding" >
+           <Button
             variant="outlined"
             sx={{
               border: '2px solid white',
@@ -122,6 +131,8 @@ function Webdevelopment() {
           >
             Learn more <ArrowOutwardIcon />
           </Button>
+           </Link>
+        
         </Box>
 </div>
 <div className='webdevimage'>
@@ -134,7 +145,8 @@ function Webdevelopment() {
  <br /> Management</h1>
            <p>From idea to deployment, we provide hands-on consulting support to build your products.</p>
            <Box>
-          <Button
+           <Link to="/productmanagement" >
+           <Button
             variant="outlined"
             sx={{
               border: '2px solid white',
@@ -151,6 +163,7 @@ function Webdevelopment() {
           >
             Learn more <ArrowOutwardIcon />
           </Button>
+           </Link>
         </Box>
 </div>
 <div className='webdevimage'>
@@ -163,7 +176,8 @@ function Webdevelopment() {
  <br /> Marketing</h1>
            <p>Crafting impactful social media content requires a strategic mix of creativity and authenticity.</p>
            <Box>
-          <Button
+           <Link to="/socialmedia" >
+           <Button
             variant="outlined"
             sx={{
               border: '2px solid white',
@@ -180,6 +194,7 @@ function Webdevelopment() {
           >
             Learn more <ArrowOutwardIcon />
           </Button>
+           </Link>
         </Box>
 </div>
 <div className='webdevimage'>
