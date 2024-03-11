@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import './Clientspage.css';
 import Clientimageone from  '../../../src/Assets/Images/ClientsImages/Group 18155.png'
 import Clientimagetwo from  '../../../src/Assets/Images/ClientsImages/Group 18156.png'
@@ -27,22 +27,59 @@ import Clientimagestwentyfour from  '../../../src/Assets/Images/ClientsImages/Gr
 import Clientimagestwentyfive from  '../../../src/Assets/Images/ClientsImages/Group 18443.png'
 import Clientimagestwentysix from  '../../../src/Assets/Images/ClientsImages/Group 18445.png'
 
+import { Swiper, SwiperSlide } from 'swiper/react';
+import SwiperCore from 'swiper/core';
+import 'swiper/swiper-bundle.css';
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
+import { Button } from '@mui/material';
 
+// Import Swiper styles
+import 'swiper/css/navigation';
 
+// Import Navigation module separately
+import { Navigation } from 'swiper/modules';
 
-
-
-
-
+SwiperCore.use([Navigation]);
 
 
 
 
 function Clientslistpage() {
+
+  const swiperRef = useRef(null);
+
+  const goPrev = () => {
+    if (swiperRef.current && swiperRef.current.swiper) {
+      swiperRef.current.swiper.slidePrev();
+    }
+  };
+
+  const goNext = () => {
+    if (swiperRef.current && swiperRef.current.swiper) {
+      swiperRef.current.swiper.slideNext();
+    }
+  };
+
+
   return (
-    <div className='Clientslistpage-container'>
-      <div className='Clientslistpage-one Clientslistpage' >
-       <div className='clients-page-image' >
+    <div className='Clientslistpage'  style={{textAlign:"center"}} >
+    <div style={{textAlign:"center"}} >
+      <Swiper
+        ref={swiperRef}
+        spaceBetween={50}
+        slidesPerView={1}
+        loop={true} // Enable infinite loop
+        navigation={{
+          nextEl: '',
+          prevEl: '',
+        }}
+        onSwiper={(swiper) => console.log(swiper)}
+        onSlideChange={() => console.log('slide change')}
+      >
+        <SwiperSlide>
+        <div className='clients-page-image' >
           <div className='client-img' >
             <img src={Clientimageone} alt="" />
           </div>
@@ -68,9 +105,10 @@ function Clientslistpage() {
             <img src={Clientimageeight} alt="" />
           </div>
        </div>
-      </div>
-      <div className='Clientslistpage-two Clientslistpage' >
-      <div className='clients-page-image' >
+
+        </SwiperSlide>
+        <SwiperSlide>
+        <div className='clients-page-image' >
           <div className='client-img' >
             <img src={Clientimagenine} alt="" />
           </div>
@@ -96,9 +134,10 @@ function Clientslistpage() {
             <img src={Clientimagesixteen} alt="" />
           </div>
        </div>
-      </div>
-      <div className='Clientslistpage-three Clientslistpage' >
-      <div className='clients-page-image' >
+        </SwiperSlide>
+        <SwiperSlide>
+         
+        <div className='clients-page-image' >
           <div className='client-img' >
             <img src={Clientimageseventeen} alt="" />
           </div>
@@ -124,9 +163,10 @@ function Clientslistpage() {
             <img src={Clientimagestwentyfour} alt="" />
           </div>
        </div>
-      </div>
-      <div className='Clientslistpage-four Clientslistpage' >
-      <div className='clients-page-image' >
+        </SwiperSlide>
+        <SwiperSlide>
+          
+        <div className='clients-page-image' >
           <div className='client-img' >
             <img src={Clientimagestwentyfive} alt="" />
           </div>
@@ -134,7 +174,7 @@ function Clientslistpage() {
             <img src={Clientimagestwentysix} alt="" />
           </div>
           <div className='client-img' >
-            <img src={Clientimagethree} alt="" />
+            <img src={Clientimagestwenty} alt="" />
           </div>
           <div className='client-img' >
             <img src={Clientimagefour} alt="" />
@@ -152,8 +192,37 @@ function Clientslistpage() {
             <img src={Clientimageeight} alt="" />
           </div>
        </div>
-      </div>   
+        </SwiperSlide>
+      </Swiper>
     </div>
+    <div>
+      <button  
+      style={{
+      border:"none",
+      border:"1px solid black",
+      borderRadius:"50%",
+      padding:"16px",
+      color:"#1818181",
+      background:"#ffffff",
+      marginRight:"5px",
+      }}  
+      onClick={goPrev}>
+        <ArrowBackIcon/>
+      </button>
+      <button 
+      style={{
+        marginLeft:"5px",
+      border:"none",
+      border:"1px solid black",
+      borderRadius:"50%",
+      padding:"16px",
+      color:"#1818181",
+      background:"#ffffff",
+      }}  onClick={goNext}>
+       <ArrowForwardIcon/>
+      </button>
+    </div>
+  </div>
   )
 }
 
