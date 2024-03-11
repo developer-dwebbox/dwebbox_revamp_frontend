@@ -38,7 +38,7 @@ function Homeportfolio() {
       <div className='portfolio-heading' >
         <h1>Portfolio</h1>
       </div>
-      <div>
+      <div className='swiper-main' >
         <Swiper
           ref={swiperRef}
           spaceBetween={50}
@@ -83,7 +83,7 @@ function Homeportfolio() {
               width: '180px',
               fontWeight:"600",
               height: '42px',
-              marginLeft:"5vw",
+              marginLeft:"6%",
               borderRadius: '50px',
               '&:hover': {
                 backgroundColor: '#000',

@@ -4,6 +4,9 @@
     margin-right: 20%;
     /* background-color: blueviolet; */
 }
+
+
+
 .nav-menu-inside-links{
     display: none;
 }
@@ -21,17 +24,24 @@
 .drawer-links{
     width: 30vw;
     height: 100vh;
-    padding: 2rem 3rem;
+    padding: 2rem 3.6rem;
 }
 .drawer-links h2{
     margin-top: 2rem;
 }
 .drawer-links p{
-    margin-top: 2rem;
+    margin-top: 4.5rem;
     font-size: 24px;
     font-weight: 300;
     font-family: "DM Sans_18pt-ExtraLight";
 
+}
+
+.insideslider-links h6{
+    font-family: "Epilogue", sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    margin-top: 4vh;
 }
 
 
@@ -52,4 +62,19 @@
     font-family: "DM Sans18ptLight";
     color: black;
     text-decoration: underline;
+}
+
+@media only screen and (max-width: 700px) {
+    .nav-menu-inside-links{
+        font-family: "Epilogue", sans-serif !important;
+        font-weight: 600;
+        margin-top: 3vh;
+       font-size: 30px;
+    }
+    .insideslider-links h6{
+        margin-top: 3vh;
+
+      font-size: 30px;
+    }
+
 }

@@ -9,7 +9,7 @@ function Portfoliopageheading() {
       <div className='Portfoliopage-dot'></div> 
       <p>Portfolio</p>
       </div>
-<h1>We take pride in your success</h1>
+<h1>We take pride in your success.</h1>
       
       </div>
     </div>

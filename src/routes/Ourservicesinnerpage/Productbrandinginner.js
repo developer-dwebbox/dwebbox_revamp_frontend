@@ -49,7 +49,7 @@ function Productbrandinginner() {
                 fontSize: '24px',
               },
           }}>
-Product Branding
+Logo Designing
           </Typography>
           <Typography variant='h2'
           sx={{ color: "#ffffff", 

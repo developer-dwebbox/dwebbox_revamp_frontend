@@ -11,7 +11,7 @@ function MarqueeTwo() {
     <li>Web Development</li>
     <li>App Development</li>
     <li>UI/UX Designing</li>
-    <li>Product Branding</li>
+    <li>Logo Designing</li>
     <li>Product Management</li>
     <li>Social Media Marketing</li>
   </ul>
@@ -19,7 +19,7 @@ function MarqueeTwo() {
   <li className='webdevmarquee' >Web Development</li>
     <li>App Development</li>
     <li>UI/UX Designing</li>
-    <li>Product Branding</li>
+    <li>Logo Designing</li>
     <li>Product Management</li>
     <li>Social Media Marketing</li>
 

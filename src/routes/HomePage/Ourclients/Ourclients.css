@@ -1,11 +1,13 @@
 .Ourclients-home{
     width: 100%;
-    height: 120vh;
+    height: 190vh;
     background-color: #181818;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center
+    align-items: center;
+    padding-bottom: 10vh
+    
     
 ;
 }
@@ -18,7 +20,7 @@
     width: 90%;
     justify-content: space-between;
     align-items: center;
-    height: 30vh;    
+    height: 40vh;    
     margin-top: 10vh;
 }
 .Ourclients-heading-btn button{
@@ -32,12 +34,14 @@
 }
 .Ourclients-home-list{
     width: 100%;
-    height: 55%;
+    height: 70%;
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 1% 9%;
-    margin-top: 8vh;
+    padding: 8vh;
+    margin-top: 5vh;
+    background-color: #ffffff;
 }
 
 .clients{

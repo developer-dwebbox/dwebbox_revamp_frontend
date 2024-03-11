@@ -16,6 +16,7 @@ import image14 from '../../../Assets/Images/Techstack/Azure.png';
 import Typescript from '../../../Assets/Images/Techstack/Typescript.png'
 import Django from '../../../Assets/Images/Techstack/Django.png';
 import GoogleCloud from '../../../Assets/Images/Techstack/Google Cloud.png'
+import mongodb from '../../../Assets/Images/Techstack/Mongodbnew.png'
 
 
 import ArrowOutward from '@mui/icons-material/ArrowOutward';
@@ -25,8 +26,8 @@ function Techstack() {
   const [isMobileView, setIsMobileView] = useState(false);
 
   const images = [
-    image1, image2, image3, image4, image5, image6,
-    image7, image8, image9, image10, image12,
+    image5,image6,image7, image1,image4, mongodb,
+      image3,image9, image10, image12,image8,
     image13, image14,GoogleCloud,Typescript,Django
   ];
 

@@ -12,7 +12,7 @@ function Navbar() {
       sx={{
         display: 'flex',
         justifyContent: 'space-between',
-        padding: '0px 50px',
+        padding: '0px 60px',
         backgroundColor: '#181818',
         color: 'white',
         alignItems: 'center',

@@ -32,8 +32,7 @@ function Ourblogscards() {
         Creative advertising in our life became a info noise
         </Typography>
      
-        <Link to="/blogspage"
- >
+        <Link to="/blogspage" style={{textDecoration:"none"}}>
   <Button
             variant="outlined"
             sx={{
@@ -76,8 +75,7 @@ function Ourblogscards() {
         </Typography>
      
      
-        <Link to="/blogspage"
- >
+        <Link to="/blogspage" style={{textDecoration:"none"}}>
   <Button
             variant="outlined"
             sx={{
@@ -121,8 +119,7 @@ function Ourblogscards() {
         Creative advertising in our life became a info noise
         </Typography>
      
-     <Link to="/blogspage"
- >
+     <Link to="/blogspage" style={{textDecoration:"none"}}>
   <Button
             variant="outlined"
             sx={{

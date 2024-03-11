@@ -3,10 +3,16 @@
   height: 115vh;
   overflow: hidden;
 }
+
+.swiper-main{
+  /* background-color: rgb(212, 166, 255); */
+  padding-left: 6%;
+}
 .portfolio-heading{
   width: 90%;
   margin-top: 10vh;
-  margin-left: 15vh;
+  /* margin-left: 15vh; */
+  margin-left: 6%;
   margin-bottom: 10vh;
 }
 
