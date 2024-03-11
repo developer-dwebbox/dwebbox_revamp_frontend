@@ -10,7 +10,11 @@ import Prafulla from '../../../src/Assets/Images/TeamImage/Prafulla.png';
 import Sawant from '../../../src/Assets/Images/TeamImage/Sawant.png';
 import Sakshi from '../../../src/Assets/Images/TeamImage/Sakshi.png'
 import Vrushti from '../../../src/Assets/Images/TeamImage/Vrushti.png'
+import sejal from '../../../src/Assets/Images/TeamImage/Sejal.png'
+import Aditya from '../../../src/Assets/Images/TeamImage/Aditya.png'
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
+
+
 
 function Ourteamimages() {
   // Define an array of team members with their details
@@ -22,7 +26,10 @@ function Ourteamimages() {
     { name: 'Karan Nanesha', image: Karan, role: 'Web Developer', linkedin: 'https://www.linkedin.com/in/karan-nanesha-291b68207/' },
     { name: 'Ajay Sharma ', image: Ajay, role: 'Full Stack Developer', linkedin: 'https://www.linkedin.com/in/ajay-sharma-453348142/' },
     { name: 'Sakshi Virulkar', image: Sakshi, role: 'UI/UX Designer', linkedin: 'https://www.linkedin.com/in/sakshi-virulkar/' },
+    { name: 'Aditya Ingle', image: Aditya, role: 'App Developer', linkedin: 'https://www.linkedin.com/in/aditya-ingle-95b582211/' },
     { name: 'Ashish Sawant', image: Sawant, role: 'Full Stack Developer', linkedin: 'https://www.linkedin.com/in/ashish-sawant/' },
+    { name: 'Sejal Shah', image: sejal, role: 'Graphic Designer', linkedin: '' },
+
     { name: 'Shivanshu Singh', image: Shiva, role: 'Frontend Developer', linkedin: 'https://www.linkedin.com/in/shivanshu-01singh/' },
     { name: 'Prafulla Mishra', image: Prafulla, role: 'Software Test Engineer', linkedin: 'https://www.linkedin.com/in/prafulla-mishra-b88921267/' },
     // { name: '', image: "", role: '', linkedin: '' },
