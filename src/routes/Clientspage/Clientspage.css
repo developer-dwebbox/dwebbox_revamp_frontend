@@ -48,7 +48,7 @@
   .Clientslistpage-container{
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
-    height: 100vh;
+    height: 120vh;
   }
   
   .Clientslistpage-container::-webkit-scrollbar {
@@ -56,7 +56,7 @@
 }
   
   .Clientslistpage{
-    height: 100vh;
+    height: 120vh;
     scroll-snap-align: start;
   }
   .Clientslistpage-one{
@@ -74,7 +74,7 @@
 
 
   .clients-page-image{
-    padding: 10vh 5vh;
+    padding: 15vh 5vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
