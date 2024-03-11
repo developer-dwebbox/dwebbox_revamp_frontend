@@ -37,7 +37,7 @@
     height: 70%;
     display:flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     gap: 1% 9%;
     padding: 8vh;
     margin-top: 5vh;

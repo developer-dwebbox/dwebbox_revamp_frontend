@@ -185,6 +185,11 @@ height: 80vh !important;
   .portfolio-heading{
     margin-left: 0vh !important;
   }
+
+  .swiper-main{
+    padding-left: 0% !important;
+  }
+
   .All-Projects-Btn{
     margin-left: 0vh !important;
   }
@@ -217,10 +222,10 @@ height: 80vh !important;
 
 
   .Ourclients-home {
-height: 70vh !important;
+height: 120vh !important;
   }
   .Ourclients-home-list{
-  gap: 1% 25% !important;
+  gap: 1% 15% !important;
   
   }
   .clients img {
