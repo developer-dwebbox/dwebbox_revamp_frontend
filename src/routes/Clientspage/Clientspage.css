@@ -1,0 +1,88 @@
+.marqueeClients {
+    --gap: 1rem;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap: var(--gap);
+    background-color: #181818;
+    color: #FFFFFF;
+    padding: 0rem 0px;
+    width: 100% !important;
+  }
+
+  .marquee__contentclients h1{
+    font-family: "Salgesis";
+    font-size: 128px;
+    font-weight: 500;
+  }
+
+  .stroke-heading{
+    -webkit-text-stroke: 0.6px #FFFFFF;
+    text-stroke: 0.6px #FFFFFF; 
+    color: transparent;
+    font-weight: 400;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .marquee__contentclients {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    min-width: 100%;
+    gap: var(--gap);
+  }
+  @keyframes scrollThree {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(-100% - var(--gap)));
+    }
+  }
+  
+  .marquee__contentclients {
+    animation: scrollThree 15s linear infinite; /* Adjust the duration */
+  }
+  
+
+  .Clientslistpage-container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+  }
+  
+  .Clientslistpage-container::-webkit-scrollbar {
+    display: none; /* This hides the scrollbar in WebKit browsers (e.g., Chrome, Safari) */
+}
+  
+  .Clientslistpage{
+    height: 100vh;
+    scroll-snap-align: start;
+  }
+  .Clientslistpage-one{
+    background-color: rgb(207, 158, 252);
+  }
+  .Clientslistpage-two{
+    background-color: rgb(255, 246, 165);
+  }
+  .Clientslistpage-three{
+    background-color: rgb(142, 222, 251);
+  }
+  .Clientslistpage-four{
+    background-color: rgb(253, 131, 174);
+  }
+
+
+  .clients-page-image{
+    padding: 10vh 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1%;
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+  }
+  .client-img{
+    width: 20%;
+  }

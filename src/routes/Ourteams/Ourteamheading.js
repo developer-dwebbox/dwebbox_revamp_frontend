@@ -29,12 +29,12 @@ function Ourteamheading() {
 
       <div className="marqueeFour">
   <div className="marquee__contentFour scrollFour">
-   <h1>Our Team</h1>
-   <h1 className='stroke-heading' >Our Team</h1>
+   <h1>Our TEAM</h1>
+   <h1 className='stroke-heading' >Our TEAM</h1>
   </div>
   <div className="marquee__contentFour scrollFour">
-   <h1>Our Team</h1>
-   <h1  className='stroke-heading'>Our Team</h1>
+   <h1>Our TEAM</h1>
+   <h1  className='stroke-heading'>Our TEAM</h1>
   </div>
 </div>
 

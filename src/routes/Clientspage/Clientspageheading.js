@@ -1,5 +1,6 @@
 import React from 'react'
 import { Box,Container,Typography } from '@mui/material'
+import './Clientspage.css';
 
 function Clientspageheading() {
   return (
@@ -51,6 +52,18 @@ It's more than just business !
           </Typography>
         </Container>
       </Box>
+
+      <div className="marqueeClients">
+  <div className="marquee__contentclients scrollThree">
+   <h1>OUR CLIENTS</h1>
+   <h1 className='stroke-heading'>OUR CLIENTS</h1>
+  </div>
+  <div className="marquee__contentclients scrollThree">
+  <h1>OUR CLIENTS</h1>
+   <h1  className='stroke-heading'>OUR CLIENTS</h1>
+  </div>
+  </div>
+
     </div>
   )
 }
