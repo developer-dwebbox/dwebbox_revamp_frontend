@@ -32,8 +32,6 @@ import SwiperCore from 'swiper/core';
 import 'swiper/swiper-bundle.css';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
-import { Button } from '@mui/material';
 
 // Import Swiper styles
 import 'swiper/css/navigation';
@@ -47,9 +45,7 @@ SwiperCore.use([Navigation]);
 
 
 function Clientslistpage() {
-
   const swiperRef = useRef(null);
-
   const goPrev = () => {
     if (swiperRef.current && swiperRef.current.swiper) {
       swiperRef.current.swiper.slidePrev();
@@ -64,11 +60,11 @@ function Clientslistpage() {
 
 
   return (
-    <div className='Clientslistpage'  style={{textAlign:"center"}} >
-    <div style={{textAlign:"center"}} >
+    <div className='Clientslistpage'>
+    <div>
       <Swiper
         ref={swiperRef}
-        spaceBetween={50}
+        spaceBetween={0}
         slidesPerView={1}
         loop={true} // Enable infinite loop
         navigation={{
@@ -198,13 +194,13 @@ function Clientslistpage() {
     <div>
       <button  
       style={{
-      border:"none",
       border:"1px solid black",
       borderRadius:"50%",
       padding:"16px",
       color:"#1818181",
       background:"#ffffff",
       marginRight:"5px",
+      cursor:"pointer"
       }}  
       onClick={goPrev}>
         <ArrowBackIcon/>
@@ -218,6 +214,7 @@ function Clientslistpage() {
       padding:"16px",
       color:"#1818181",
       background:"#ffffff",
+      cursor:"pointer"
       }}  onClick={goNext}>
        <ArrowForwardIcon/>
       </button>

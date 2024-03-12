@@ -6,6 +6,7 @@ import Bgimage from '../HomePage/Bgimagesection/Bgimage'
 import Aboutusbanner from './Aboutusbanner'
 import AboutusImages from './AboutusImages'
 import Aboutusbgbanner from './Aboutusbgbanner'
+import Aboutusjourney from './Aboutusjourney'
 
 function Aboutus() {
   return (
@@ -13,6 +14,7 @@ function Aboutus() {
     <Navbar/>
     <Aboutusbanner/>
     <AboutusImages/>
+    <Aboutusjourney/>
     <Aboutusbgbanner/>
     <Bgimage/>
     <Footer/>
