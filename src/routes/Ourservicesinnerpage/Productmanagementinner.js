@@ -2,8 +2,24 @@ import React, { useEffect } from 'react'
 import Footer from '../../components/Footer/Footer'
 import Bgimage from '../HomePage/Bgimagesection/Bgimage'
 import Navbar from '../../components/Navbar/Navbar'
-import { Box, Container, Typography } from '@mui/material'
+import { Box, Container, Grid, Paper, Typography } from '@mui/material'
+import AppDevelopment from '../../../src/Assets/Images/WebDevelopment/5016 1.png'
+import { experimentalStyled as styled } from '@mui/material/styles';
 
+
+import servicelogo1 from '../../../src/Assets/Images/Servicesinnerpageicons/image 49.png'
+import servicelogo2 from '../../../src/Assets/Images/Servicesinnerpageicons/image 50.png'
+import servicelogo3 from '../../../src/Assets/Images/Servicesinnerpageicons/image 51.png'
+import servicelogo4 from '../../../src/Assets/Images/Servicesinnerpageicons/image 52.png'
+import servicelogo5 from '../../../src/Assets/Images/Servicesinnerpageicons/image 53.png'
+
+const content = ["Understanding the Business", "UI/UX representation and Prototyping","Developing the product","Quality Assurance and Deployment","Website Maintenance"];
+
+
+const Item = styled(Paper)(({ theme }) => ({
+  padding: theme.spacing(2),
+  color: theme.palette.text.secondary,
+}));
 
 function Productmanagementinner() {
 
@@ -97,6 +113,80 @@ If you prefer a specific technology, let us know, and we will incorporate it.
      Here is the five-step process we follow to create the ideal website for you to engage with your customers online:
      </Typography>
         </Container>
+
+        <Container component="main" sx={{ pt: 3,pb:5, 
+background: "#181818",
+display:"flex",
+justifyContent:"space-between",
+height:"80vh",
+'@media (max-width:600px)': { // Styles for screens with a maximum width of 600px (mobile view)
+               flexDirection:"column",
+               height: "130vh",
+              },
+
+}} >
+
+<Box  sx={{background:"#ffffff",
+width:"40%" ,
+height:"50%",
+'@media (max-width:600px)': { // Styles for screens with a maximum width of 600px (mobile view)
+            width: '90%',
+            marginBottom:"5vh",
+            height:"40%"
+              },
+}} >
+   <img src={AppDevelopment} alt="" width="100%"  style={{backgroundSize:"cover",backgroundPosition:"center"}}/>
+</Box>
+
+<Box sx={{
+width:"55%",
+height:"100%",
+'@media (max-width:600px)': { // Styles for screens with a maximum width of 600px (mobile view)
+                width: '90%',
+              },
+
+}}>
+
+<Box sx={{ flexGrow: 1 }}>
+<Grid container spacing={{ xs: 2, md: 0 }} columns={{ xs: 4, sm: 8, md: 12 }}>
+                  {[servicelogo1, servicelogo2, servicelogo3, servicelogo4, servicelogo5].map((serviceLogo, index) => (
+                    <Grid item xs={2} sm={4} md={4} key={index}>
+                      <Item sx={{
+                        borderRadius: "0",
+                        border: "1px solid rgba(255, 255, 255, 0.2)",
+                        background: "#181818",
+                        height: "33.5vh",
+                        '@media (max-width:600px)': { // Styles for screens with a maximum width of 600px (mobile view)
+                          height: "20vh",
+                          textAlign:"center",
+              },
+                      }}>
+                        <img src={serviceLogo} alt={`Service Logo ${index + 1}`} style={{ maxWidth: "67px", maxHeight: "67px" }} />
+                        <Typography variant="body1" sx={{
+                           color: "#ffffff",fontSize:"16px",fontWeight:"600",
+                        fontFamily:"Epilogue" ,
+                        '@media (max-width:600px)': { // Styles for screens with a maximum width of 600px (mobile view)
+                          fontSize:"13px",
+                          fontWeight:"500",
+                          marginTop:"1vh",
+                          textAlign:"center",
+              },
+                        
+                  
+
+                        }}>{content[index]}</Typography>
+
+                      </Item>
+                    </Grid>
+        ))}
+      </Grid>
+    </Box>
+
+</Box>
+
+</Container>
+
+
       </Box>
     </div>
     <Bgimage/>
