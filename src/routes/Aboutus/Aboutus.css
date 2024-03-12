@@ -73,7 +73,7 @@
   width: 100%;
   height: 100vh;
 }
-.Aboutusbgimage img{
+.Aboutusbgimage video{
   background-size: cover;
   background-position: center;
 }
@@ -91,6 +91,7 @@
     width: 70%;
     font-size: 60px;
     color: #FFFFFF;
+    font-family: "Epilogue";
   }
   .AboutUsBgimageDescription h1{
     display: flex;
@@ -103,3 +104,47 @@
   .AboutUsBgimageDescription span{
     color: #ff973b;
   }
+.about-us-video{
+  width: 100%;
+}
+
+
+  @media only screen and (max-width: 700px) {
+    .Aboutusbgimage{
+      height: 40vh;
+      overflow: hidden;
+    }
+    .AboutUsBgimageDescription p {
+      font-size: 26px;
+      font-weight: 500;
+    }
+    .about-us-video{
+      width: 160%;
+    }
+    .AboutUsBgimageDescription h1 {
+      font-size: 33px;
+    }
+
+    .marquee__contentTeam  img{
+      width: 70% !important;
+    }
+
+    .marquee__contentTeamTwo  img{
+      width: 70% !important;
+    }
+  
+    .marquee__contentTeam li{
+      margin-left: -60px !important;
+      margin-right: -60px !important;
+    }
+    .marquee__contentTeamTwo{
+     margin-top: 5vh !important;
+    }
+
+    .marquee__contentTeamTwo li{
+      margin-left: -60px !important;
+      margin-right: -60px !important;
+    }
+
+  }
+  

@@ -11,7 +11,7 @@ function Aboutusbgbanner() {
         <p>We believe in the power of creativity to inspire, connect and transform.</p>
         <h1>We are D<span>-</span>WebBox</h1>
       </div>
-      <video src={video} width="100%" autoPlay loop muted ></video>
+      <video src={video} className='about-us-video'   autoPlay loop muted ></video>
       </div>
     </div>
   )
