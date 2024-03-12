@@ -1,6 +1,6 @@
 .progress {
   position: fixed;
-  bottom: 20%;
+  bottom: 3%;
   right: 3%; /* Adjusted to start from the left */
   height: 70px;
   width: 70px;

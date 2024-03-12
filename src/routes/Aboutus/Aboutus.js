@@ -8,6 +8,7 @@ import AboutusImages from './AboutusImages'
 import Aboutusbgbanner from './Aboutusbgbanner'
 import Aboutusjourney from './Aboutusjourney'
 
+
 function Aboutus() {
   return (
     <div>
