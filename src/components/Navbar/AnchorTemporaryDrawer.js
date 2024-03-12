@@ -29,7 +29,7 @@ export default function AnchorTemporaryDrawer() {
           <p>Menu</p>
         <Link  style={{textDecoration:"none" ,color:"#181818" }}  to="/portfolio"> <h6 className='nav-menu-inside-links nav-links-anchor' >Portfolio</h6></Link>
         <Link  style={{textDecoration:"none" ,color:"#181818" }}  to="/ourservice" > <h6 className='nav-menu-inside-links nav-links-anchor'  >Services</h6> </Link>
-        <Link  style={{textDecoration:"none" ,color:"#181818" }}  to="/ourservice" > <h6 className='nav-menu-inside-links nav-links-anchor'  >Clients</h6> </Link>
+        <Link  style={{textDecoration:"none" ,color:"#181818" }}  to="/clients" > <h6 className='nav-menu-inside-links nav-links-anchor'  >Clients</h6> </Link>
         <Link  style={{textDecoration:"none" ,color:"#181818" }} className='insideslider-links nav-links-anchor'  to="/aboutus" > <h6>About Us</h6> </Link>
         <Link style={{textDecoration:"none" ,color:"#181818" }} className='insideslider-links nav-links-anchor'  to="/contactus" ><h6>Contact Us</h6></Link>
         <Link style={{textDecoration:"none" ,color:"#181818" }} className='insideslider-links nav-links-anchor'  to="/ourteam"><h6>Our Team</h6></Link>
