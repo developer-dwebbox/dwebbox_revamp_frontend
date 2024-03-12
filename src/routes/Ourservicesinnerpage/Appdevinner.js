@@ -150,7 +150,7 @@ height:"90%",
 }}>
 
 <Box sx={{ flexGrow: 1 }}>
-<Grid container spacing={{ xs: 2, md: 0 }} columns={{ xs: 4, sm: 8, md: 12 }}>
+<Grid container spacing={{ xs: 2, md: 0 }} columns={{ xs: 4, sm: 8, md: 12 }} className='inner-page-itemgrid' >
                   {[servicelogo1, servicelogo2, servicelogo3, servicelogo4, servicelogo5].map((serviceLogo, index) => (
                     <Grid item xs={2} sm={4} md={4} key={index}>
                       <Item sx={{
@@ -159,19 +159,22 @@ height:"90%",
                         background: "#181818",
                         height: "30vh",
                         '@media (max-width:600px)': { // Styles for screens with a maximum width of 600px (mobile view)
-                          height: "20vh",
+                          height: "22vh",
+                          width:"111%",
                           textAlign:"center",
-              },
+                        },
                       }}>
                         <img src={serviceLogo} alt={`Service Logo ${index + 1}`} style={{ maxWidth: "67px", maxHeight: "67px" }} />
                         <Typography variant="body1" sx={{
                            color: "#ffffff",fontSize:"16px",fontWeight:"600",
                         fontFamily:"Epilogue" ,
                         '@media (max-width:600px)': { // Styles for screens with a maximum width of 600px (mobile view)
-                          fontSize:"13px",
+                          fontSize:"12px",
                           fontWeight:"500",
                           marginTop:"1vh",
                           textAlign:"center",
+                         
+
               },
                         
                   

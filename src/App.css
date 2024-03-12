@@ -77,6 +77,14 @@ html,body{
 } */
 
 @media only screen and (max-width: 700px) {
+
+  .css-nv47zx-MuiGrid-root>.MuiGrid-item {
+    /* padding-left: 0px !important; */
+  }
+
+  .css-nv47zx-MuiGrid-root>.MuiGrid-item {
+    padding-top: 0px !important;
+}
   .custom-cursor{
     display: none;
   }
