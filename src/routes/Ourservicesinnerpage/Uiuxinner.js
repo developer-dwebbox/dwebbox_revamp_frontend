@@ -133,7 +133,7 @@ height:"80vh",
 
 <Box  sx={{background:"#ffffff",
 width:"40%" ,
-height:"50%",
+height:"90%",
 '@media (max-width:600px)': { // Styles for screens with a maximum width of 600px (mobile view)
             width: '90%',
             marginBottom:"5vh",
@@ -160,7 +160,7 @@ height:"100%",
                         borderRadius: "0",
                         border: "1px solid rgba(255, 255, 255, 0.2)",
                         background: "#181818",
-                        height: "33.5vh",
+                        height: "30vh",
                         '@media (max-width:600px)': { // Styles for screens with a maximum width of 600px (mobile view)
                           height: "20vh",
                           textAlign:"center",
