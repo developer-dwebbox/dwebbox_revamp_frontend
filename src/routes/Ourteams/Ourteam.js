@@ -9,7 +9,7 @@ import ScrollToTopButton from '../HomePage/Scrolltotop/ScrollToTopButton';
 
 function Ourteam() {
   return (
-    <div>
+    <div style={{background:"#181818"}} >
     <ScrollToTopButton/>
     <Navbar/>
     <Ourteamheading/>

@@ -11,7 +11,7 @@ import ScrollToTopButton from '../HomePage/Scrolltotop/ScrollToTopButton';
 
 function Clientspage() {
   return (
-    <div>
+    <div style={{background:"#181818"}} >
     <ScrollToTopButton/>
     <Navbar/>
     <Clientspageheading/>

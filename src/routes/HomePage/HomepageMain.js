@@ -15,7 +15,7 @@ import Ourservice from './Ourservice/Ourservice';
 
 function HomepageMain() {
   return (
-    <div>
+    <div style={{background:"#181818"}} >
       <ScrollToTopButton/>
       <Navbar/>
       <Main/>

@@ -17,7 +17,8 @@
     height: 70vh;
     background-image: url('../../../Assets/Images/Rectangle 55.png');
     background-size: cover;
-    background-position: center;
+    background-position: center 30.0979px;
+    background-repeat: no-repeat;
     background-attachment: fixed; /* Background image fixed */
     position: relative;
   }
@@ -72,11 +73,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-     width: 180px;
-     height: 180px;
-     transition: all 0.5s ease-in-out;
-
+    width: 180px;
+    height: 180px;
   }
+
+  .CircleStar-img:hover{
+    display: none;
+  }
+  
   .get-in-touch-content {
     display: flex;
     flex-direction: column;
@@ -85,9 +89,9 @@
     position: absolute;
     text-align: center;
     color: rgba(255, 255, 255, 1);
-    transition: all 0.5s ease-in-out;
-    width: 102%;
-    height: 102%;
+    transition: all 0.5s;
+    width: 1%;
+    height: 1%;
     border-radius: 50%;
     opacity: 1;
   }
@@ -95,7 +99,8 @@
   .get-in-touch-content:hover{
     background-color: #F17C24;
     color: #101010;
-    
+    width: 102%;
+    height: 102%;
   }
 
   .get-in-touch-content p{

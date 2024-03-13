@@ -9,7 +9,7 @@ import ScrollToTopButton from '../HomePage/Scrolltotop/ScrollToTopButton';
 
 function Contactus() {
   return (
-    <div>
+    <div style={{background:"#181818"}} >
     <ScrollToTopButton/>
     <Navbar/>
     <Contactusheading/>

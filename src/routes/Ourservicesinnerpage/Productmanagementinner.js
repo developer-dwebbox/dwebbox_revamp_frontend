@@ -28,7 +28,7 @@ function Productmanagementinner() {
   }, []);
 
   return (
-    <div>
+    <div  style={{background:"#181818"}}>
     <Navbar/>
     <div>
       <Box sx={{ width: "100%", background: "#181818" }} >

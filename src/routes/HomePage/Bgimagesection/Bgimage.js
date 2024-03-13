@@ -15,11 +15,17 @@ function Bgimage() {
           <h1>Have a project in mind?</h1>
           <h1 className='letsgettowork' > Let’s get to <span>work.</span></h1>
         </div>
-        <div className='bgcontentbtn' >
-        <img src={CircleStar} alt="" width="101%" />
-        <div className='get-in-touch-content' >
-<ArrowOutward/>
-          <p>Get In Touch</p>
+        <div  className='bgcontentbtn' >
+        
+        <img src={CircleStar} alt="" width="101%" className='CircleStar-img' />
+        <div  className='get-in-touch-content' >
+        <div>
+        <a style={{ textDecoration: "none",color:"white" }} href="https://api.whatsapp.com/send?phone=8828103808&text=Hello" target="_blank" className='bgcontentbtn'>
+        <ArrowOutward/>
+    <p>Get In Touch</p>
+    </a>
+        </div>
+
         </div>
         </div>
       </div>

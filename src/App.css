@@ -428,17 +428,18 @@ height: 90vh !important;
 .bgcontentsection {
 flex-direction: column;
 height: 65% !important;
-width: 90% !important;
+width: 100% !important;
 padding: 20px 20px !important;
 }
 .bgcontentsection{
   font-size: 28px !important;
 }
 .bgimagesection{
-  width: 90% !important;
-  height: 50vh !important;
+  display: none;
+  /* width: 90% !important;
+  height: 400px !important;
   background-size: cover;
-  object-fit: cover;
+  object-fit: cover; */
 }
 
 .bgcontentheading{
