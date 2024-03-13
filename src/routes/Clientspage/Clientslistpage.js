@@ -42,8 +42,6 @@ import { Navigation } from 'swiper/modules';
 SwiperCore.use([Navigation]);
 
 
-
-
 function Clientslistpage() {
   const swiperRef = useRef(null);
   const goPrev = () => {

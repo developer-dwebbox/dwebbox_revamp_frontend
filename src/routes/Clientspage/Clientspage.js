@@ -9,8 +9,6 @@ import ScrollToTopButton from '../HomePage/Scrolltotop/ScrollToTopButton';
 
 
 
-
-
 function Clientspage() {
   return (
     <div>

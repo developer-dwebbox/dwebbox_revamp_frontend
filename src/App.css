@@ -534,3 +534,33 @@ padding: 20px 20px !important;
 
 
 
+
+.cursor {
+  position: fixed;
+  transform: translateX(-50%) translateY(-50%);
+  pointer-events: none;
+  z-index: 10000;
+  border: 10px solid  #F17C24;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  transition: all 100ms ease-out;
+} 
+
+.cursor-pointer {
+  position: fixed;
+  border-radius: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  pointer-events: none;
+  background-color: transparent;
+  z-index: 10000;
+  height: 5rem;
+  width: 5rem;
+  transition: all 100ms ease-out;
+}
+@media only screen and (max-width: 600px) {
+  .cursor-pointer,
+  .cursor {
+    display: none;
+  }
+}

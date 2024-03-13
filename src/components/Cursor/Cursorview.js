@@ -1,25 +1,59 @@
 // Cursor.js
-
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import './Cursor.css';
 
+
 function Cursorview() {
-  const [position, setPosition] = useState({ x: -100, y: -100 });
+  const cursorRef = useRef(null);
+  const cursorPointerRef = useRef(null);
 
   useEffect(() => {
-    const updateCursorPosition = (e) => {
-      setPosition({ x: e.clientX, y: e.clientY });
+    const cursor = cursorRef.current;
+    const cursorPointer = cursorPointerRef.current;
+
+    const handleMouseMove = (e) => {
+      cursor.style.left = e.clientX + "px";
+      cursor.style.top = e.clientY + "px";
+      cursorPointer.style.left = e.clientX + "px";
+      cursorPointer.style.top = e.clientY + "px";
     };
 
-    window.addEventListener('mousemove', updateCursorPosition);
+    const handleMouseDown = () => {
+      cursor.style.height = "0.7rem";
+      cursor.style.width = "0.7rem";
+      cursorPointer.style.height = "3rem";
+      cursorPointer.style.width = "3rem";
+    };
+
+    const handleMouseUp = () => {
+      cursor.style.height = "0.3rem";
+      cursor.style.width = "0.3rem";
+      cursorPointer.style.height = "2rem";
+      cursorPointer.style.width = "2rem";
+    };
+
+    document.body.addEventListener("mousemove", handleMouseMove);
+    document.body.addEventListener("mousedown", handleMouseDown);
+    document.body.addEventListener("mouseup", handleMouseUp);
 
     return () => {
-      window.removeEventListener('mousemove', updateCursorPosition);
+      document.body.removeEventListener("mousemove", handleMouseMove);
+      document.body.removeEventListener("mousedown", handleMouseDown);
+      document.body.removeEventListener("mouseup", handleMouseUp);
     };
   }, []);
 
+
+
+
+
+    
+
   return (
-    <div className="custom-cursor" style={{ left: position.x, top: position.y }}></div>
+    <div>
+    <div className="cursor" id="cursor" />
+<div className="cursor-pointer" id="cursor-pointer" />
+</div>
   );
 }
 
