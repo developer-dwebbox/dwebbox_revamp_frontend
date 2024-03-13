@@ -1,5 +1,4 @@
 import React from 'react'
-import AbousUsBgImage from '../../../src/Assets/Images/AboutUsBgImage/Rectangle 90.png'
 import video from '../../Assets/Video/Myvedio.mp4';
 
 
