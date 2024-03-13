@@ -72,7 +72,7 @@ function Ourclients() {
 
         </div>
         <div className='clients'>
-        <img src={ClientImage7} alt="" />
+        <img src={ClientImage9} alt="" />
 
         </div>
         <div className='clients client-11' >
@@ -98,7 +98,8 @@ function Ourclients() {
 
         </div>
         <div className='clients client-16' >
-        <img src={ClientImage9} alt="" />
+        <img src={ClientImage7} alt="" />
+
 
         </div>
       </div>
