@@ -1,5 +1,5 @@
 import React from 'react'
-import { createBrowserRouter,RouterProvider } from 'react-router-dom'
+import { BrowserRouter,Route, Routes } from 'react-router-dom'
 import HomepageMain from './HomePage/HomepageMain'
 import Ourservicessection from './Ourservicespage/Ourservicessection'
 import Aboutus from './Aboutus/Aboutus'
@@ -18,62 +18,28 @@ import Productmanagementinner from './Ourservicesinnerpage/Productmanagementinne
 import Seooptimization from './Ourservicesinnerpage/Seooptimization'
 
 function Routespages() {
-    const router = createBrowserRouter([
-        {
-          path:"/",
-          element: <HomepageMain/>
-        },
-        {
-          path:"/ourservice",
-          element: <Ourservicessection/>
-        },{
-            path:"/aboutus",
-            element:<Aboutus/>
-        },{
-          path:"/portfolio",
-          element:<Portfoliopage/>
-        },{
-          path:"/ourteam",
-          element:<Ourteam/>
-        },{
-          path:"/contactus",
-          element: <Contactus/>
-        },{
-          path:"/blogs",
-          element:<Ourblogs/>
-        },{
-          path:"/blogspage",
-          element:<Ourblogspages/>
-        },{
-          path:"/clients",
-          element:<Clientspage/>
-        },{
-          path:"/productbranding",
-          element:<Productbrandinginner/>
-        },{
-          path:"/productmanagement",
-          element:<Productmanagementinner/>
-        },{
-          path:"/webdevelopment",
-          element:<Webdevinner/>
-        },{
-          path:"/appdevelopment",
-          element:<Appdevinner/>
-        },{
-          path:"/uiux",
-          element:<Uiuxinner/>
-        },{
-          path:"/socialmedia",
-          element:<Socialmediainner/>
-        },{
-          path:"/seooptimization",
-          element:<Seooptimization/>
-        }
-    ])
-
   return (
     <div>
-      <RouterProvider router={router} />
+      <BrowserRouter>
+        <Routes>
+<Route path='/' element={<HomepageMain/>} />
+<Route path='/ourservice' element={<Ourservicessection/>} />
+<Route path='/portfolio' element={<Portfoliopage/>} />
+<Route path='/aboutus' element={<Aboutus/>} />
+<Route path='/ourteam' element={<Ourteam/>} />
+<Route path='/contactus' element={<Contactus/>} />
+<Route path='/blogs' element={<Ourblogs/>} />
+<Route path='/blogspage' element={<Ourblogspages/>} />
+<Route path='/clients' element={<Clientspage/>} />
+<Route path='/productbranding' element={<Productbrandinginner/>} />
+<Route path='/productmanagement' element={<Productmanagementinner/>} />
+<Route path='/appdevelopment' element={<Appdevinner/>} />
+<Route path='/webdevelopment' element={<Webdevinner/>} />
+<Route path='/uiux' element={<Uiuxinner/>} />
+<Route path='/socialmedia' element={<Socialmediainner/>} />
+<Route path='/seooptimization' element={<Seooptimization/>} />
+        </Routes>
+      </BrowserRouter>
     </div>
   )
 }

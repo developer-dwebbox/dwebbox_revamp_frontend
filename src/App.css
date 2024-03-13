@@ -22,6 +22,15 @@ html,body{
   background: linear-gradient(#ffa722,#ffa811);
 }
 
+
+.active{
+  font-size: 24px;
+  font-weight: 500;
+  background: -webkit-linear-gradient(rgba(227, 142, 0, 1), rgba(255, 73, 121, 1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
 
 @font-face {
@@ -415,9 +424,6 @@ margin: 10px 5px !important;
 height: 90vh !important;
 }
 
-.bgcontentbtn img{
-  margin-top: -4rem;
-}
 
 .bgcontentsection {
 flex-direction: column;
@@ -477,7 +483,7 @@ padding: 20px 20px !important;
 .social-links{
   display: flex;
 }
-.social-links p{
+.social-links p a{
   font-family: 'DM Sans_18pt-ExtraLight' !important;
   font-size: 14px !important;
   margin-right: 10px;

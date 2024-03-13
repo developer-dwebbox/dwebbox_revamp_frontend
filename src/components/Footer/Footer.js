@@ -3,6 +3,7 @@ import './Footer.css'
 import FooterLogo from '../../Assets/Images/logo.svg'
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 
+
 function Footer() {
   return (
     <div className='Footer'>
@@ -16,13 +17,10 @@ function Footer() {
              <h3>Social</h3>
              </div>
                    <div className='social-links' >
-                   <p>LINKEDIN</p>
-                   <p>INSTAGRAM</p>
-                   <p>UPWORK</p>
-                   <p>FACEBOOK</p>
+                   <p > <a  style={{textDecoration:"none",color:"white", fontFamily:"DM Sans18ptLight"}}  href="https://www.linkedin.com/company/d-webbox/mycompany/" target="_blank" >LINKEDIN</a> </p>
+                   <p> <a style={{textDecoration:"none",color:"white",fontFamily:"DM Sans18ptLight"}}  href="https://www.instagram.com/dwebbox/" target="_blank" > INSTAGRAM</a></p>
+                   <p> <a style={{textDecoration:"none",color:"white",fontFamily:"DM Sans18ptLight"}}  href="" target="_blank" > UPWORK</a></p>
                    </div>
-                  
-     
              </div>
              <div className='footer-Address'>
                 <h3 className='address-heading' >Address</h3>

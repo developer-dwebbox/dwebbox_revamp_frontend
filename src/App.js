@@ -2,8 +2,6 @@ import { useEffect, useRef } from 'react';
 import './App.css';
 import Routespages from './routes/Routespages';
 function App() {
-
-
   const cursorRef = useRef(null);
   const cursorPointerRef = useRef(null);
 

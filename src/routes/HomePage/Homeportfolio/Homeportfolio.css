@@ -69,3 +69,22 @@
   font-weight: 500;
  
 }
+
+.swiper-slide-section{
+  transition: all 1s ease-in;
+
+}
+
+.swiper-slide-section img{
+  transition: all 0.5s;
+  margin-bottom: 2vh;
+}
+
+
+.swiper-slide-section img:hover{
+  /* border: 2px solid orange; */
+  transform: scale(1.1);
+  transform-origin: center center; 
+  /* border: 1px solid orange; */
+  
+}

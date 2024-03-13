@@ -67,17 +67,46 @@
   }
   
   .bgcontentbtn{
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
      width: 180px;
      height: 180px;
-     /* background-color: white; */
-     border-radius: 50%;
-     transition: background-color 0.5s ease-in-out; /* Smooth transition for background color */
+     transition: all 0.5s ease-in-out;
 
   }
+  .get-in-touch-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    transition: all 0.5s ease-in-out;
+    width: 102%;
+    height: 102%;
+    border-radius: 50%;
+    opacity: 1;
+  }
+
+  .get-in-touch-content:hover{
+    background-color: #F17C24;
+    color: #101010;
+    
+  }
+
+  .get-in-touch-content p{
+    font-size: 20px;
+    font-family: "DM Sans_18pt-ExtraLight";
+
+  }
+  .bgcontentbtn img:hover{
+    opacity: 0;
+  }
+
   .bgcontentbtn:hover{
     /* background-color: #F17C24; */
     cursor: pointer;
