@@ -64,8 +64,12 @@
     /* background-color: blue; */
 }
 .Portfolio-images-section{
-    width: 50%;
+    width: 32%;
 }
+.Portfolio-images-section img{
+    width: 100%;
+}
+
 .images-section img{
     margin-top: 5vh;
 }

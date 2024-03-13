@@ -8,10 +8,13 @@ import AboutusImages from './AboutusImages'
 import Aboutusbgbanner from './Aboutusbgbanner'
 import Aboutusjourney from './Aboutusjourney'
 
+import ScrollToTopButton from '../HomePage/Scrolltotop/ScrollToTopButton'
+
 
 function Aboutus() {
   return (
     <div>
+    <ScrollToTopButton/>
     <Navbar/>
     <Aboutusbanner/>
     <AboutusImages/>

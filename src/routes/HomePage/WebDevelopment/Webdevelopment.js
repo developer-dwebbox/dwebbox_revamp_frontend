@@ -201,6 +201,37 @@ function Webdevelopment() {
 <img src={socialmediaimg} alt="" />
 </div>
 </div>
+<div className="webdev webdevfive">
+ <div className='webdevheading' >
+ <h1>Seo 
+ <br /> Optimization</h1>
+           <p>Crafting impactful social media content requires a strategic mix of creativity and authenticity.</p>
+           <Box>
+           <Link to="/seooptimization" style={{textDecoration:"none"}} >
+           <Button
+            variant="outlined"
+            sx={{
+              border: '2px solid white',
+              color: 'white',
+              width: '170px',
+              height: '50px',
+              borderRadius: '50px',
+              '&:hover': {
+                backgroundColor: '#000',
+                color:"#fff",
+                border:"#000" // Set the hover background color to transparent
+              },
+            }}
+          >
+            Learn more <ArrowOutwardIcon />
+          </Button>
+           </Link>
+        </Box>
+</div>
+<div className='webdevimage'>
+<img src={AppDevelopment} alt="" />
+</div>
+</div>
       
     </div>
   )

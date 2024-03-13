@@ -29,8 +29,10 @@ function Footer() {
                 <p className='address-paragraph'>70, Ratnajyot Industrial Estate,
 2nd Floor, Irla Lane,
 Vile Parle (W), Mumbai, Maharashtra 400056</p>
-<p className='mobile-number' >+91 9167871033</p>
-<p className='mobile-number-second' >+91 9773050560</p>
+<p className='mobile-number' >+91 8828103808</p>
+<p className='mobile-number-second' >+91 8484946567</p>
+<p className='mobile-number-second' >+91 9167871033</p>
+
                 </div>
          </div>
       </div>

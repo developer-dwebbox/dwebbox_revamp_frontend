@@ -55,11 +55,11 @@
 }
 .clients-page-image{
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   margin: 0 auto;
   margin-top: 10vh;
   /* background-color: chocolate; */
-  width: 90%;
+  width: 95%;
   gap: 5% 5%;
   display: flex;
   flex-wrap: wrap;

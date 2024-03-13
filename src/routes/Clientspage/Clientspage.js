@@ -5,6 +5,7 @@ import Navbar from '../../components/Navbar/Navbar';
 import Bgimage from '../HomePage/Bgimagesection/Bgimage';
 import Clientslistpage from './Clientslistpage';
 import Clientspageheading from './Clientspageheading';
+import ScrollToTopButton from '../HomePage/Scrolltotop/ScrollToTopButton';
 
 
 
@@ -13,6 +14,7 @@ import Clientspageheading from './Clientspageheading';
 function Clientspage() {
   return (
     <div>
+    <ScrollToTopButton/>
     <Navbar/>
     <Clientspageheading/>
     <Clientslistpage/>

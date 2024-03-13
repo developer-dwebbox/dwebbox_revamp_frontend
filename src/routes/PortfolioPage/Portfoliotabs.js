@@ -50,20 +50,28 @@ export default function Portfoliotabs() {
           <TabPanel value="1">
             <div className='All-Section'>
             <div className='images-section'>
-               <div className='Portfolio-images-section' >
-               <img src={MobileDev} alt=""  className="fade-in" />
+               <div className='Portfolio-images-section fade-in' >
+               <img src={MobileDev} alt="" />
                <p>Mobile ID Labs</p>
                </div>
-               <div className='Portfolio-images-section'  >
-               <img src={MobileDevTwo} alt="" className="fade-in"  />
+               <div className='Portfolio-images-section fade-in'  >
+               <img src={MobileDevTwo} alt="" />
                <p>Mobile ID Labs</p>
                </div>
-               <div className='Portfolio-images-section'  >
-               <img src={MobileDev} alt="" className="fade-in"  />
+               <div className='Portfolio-images-section fade-in'  >
+               <img src={MobileDev} alt="" />
                <p>Mobile ID Labs</p>
                </div>
-               <div className='Portfolio-images-section'  >
-               <img src={MobileDevTwo} alt="" className="fade-in" />
+               <div className='Portfolio-images-section fade-in'  >
+               <img src={MobileDevTwo} alt=""/>
+               <p>Mobile ID Labs</p>
+               </div>
+               <div className='Portfolio-images-section fade-in'  >
+               <img src={MobileDev} alt="" />
+               <p>Mobile ID Labs</p>
+               </div>
+               <div className='Portfolio-images-section fade-in'  >
+               <img src={MobileDevTwo} alt="" />
                <p>Mobile ID Labs</p>
                </div>
                </div>
@@ -72,20 +80,28 @@ export default function Portfoliotabs() {
         <TabPanel value="2">
         <div className='All-Section'>
         <div className='images-section'>
-               <div className='Portfolio-images-section'  >
-               <img src={MobileDevTwo} alt="" className="fade-in"  />
+        <div className='Portfolio-images-section fade-in'  >
+               <img src={MobileDevTwo} alt=""/>
                <p>Mobile ID Labs</p>
                </div>
-               <div className='Portfolio-images-section'  >
-               <img src={MobileDev} alt="" className="fade-in"  />
+               <div className='Portfolio-images-section fade-in'  >
+               <img src={MobileDev} alt=""   />
                <p>Mobile ID Labs</p>
                </div>
-               <div className='Portfolio-images-section'  >
-               <img src={MobileDevTwo} alt=""  className="fade-in"  />
+               <div className='Portfolio-images-section fade-in'  >
+               <img src={MobileDevTwo} alt=""    />
                <p>Mobile ID Labs</p>
                </div>
-               <div className='Portfolio-images-section'  >
-               <img src={MobileDev} alt="" className="fade-in"  />
+               <div className='Portfolio-images-section fade-in'  >
+               <img src={MobileDev} alt=""   />
+               <p>Mobile ID Labs</p>
+               </div>
+               <div className='Portfolio-images-section fade-in'  >
+               <img src={MobileDevTwo} alt=""    />
+               <p>Mobile ID Labs</p>
+               </div>
+               <div className='Portfolio-images-section fade-in'  >
+               <img src={MobileDev} alt=""   />
                <p>Mobile ID Labs</p>
                </div>
                </div>
@@ -94,20 +110,28 @@ export default function Portfoliotabs() {
         <TabPanel value="3">
         <div className='All-Section'>
         <div className='images-section'>
-               <div className='Portfolio-images-section'  >
-               <img src={MobileDev} alt="" className="fade-in"  />
+        <div className='Portfolio-images-section fade-in'  >
+               <img src={MobileDev} alt="" />
                <p>Mobile ID Labs</p>
                </div>
-               <div className='Portfolio-images-section'  >
-               <img src={MobileDevTwo} alt="" className="fade-in"  />
+               <div className='Portfolio-images-section fade-in'  >
+               <img src={MobileDevTwo} alt=""  />
                <p>Mobile ID Labs</p>
                </div>
-               <div className='Portfolio-images-section'  >
-               <img src={MobileDevTwo} alt="" className="fade-in"  />
+               <div className='Portfolio-images-section fade-in'  >
+               <img src={MobileDevTwo} alt=""  />
                <p>Mobile ID Labs</p>
                </div>
-               <div className='Portfolio-images-section'  >
-               <img src={MobileDev} alt="" className="fade-in"  />
+               <div className='Portfolio-images-section fade-in'  >
+               <img src={MobileDev} alt=""  />
+               <p>Mobile ID Labs</p>
+               </div>
+               <div className='Portfolio-images-section fade-in'  >
+               <img src={MobileDevTwo} alt=""    />
+               <p>Mobile ID Labs</p>
+               </div>
+               <div className='Portfolio-images-section fade-in'  >
+               <img src={MobileDev} alt=""   />
                <p>Mobile ID Labs</p>
                </div>
                </div>
@@ -116,20 +140,28 @@ export default function Portfoliotabs() {
         <TabPanel value="4">
         <div className='All-Section'>
                <div className='images-section'>
-               <div className='Portfolio-images-section'  >
-               <img src={MobileDevTwo} alt="" className="fade-in"  />
+               <div className='Portfolio-images-section fade-in'  >
+               <img src={MobileDevTwo} alt=""  />
                <p>Mobile ID Labs</p>
                </div>
-               <div className='Portfolio-images-section'  >
-               <img src={MobileDev} alt="" className="fade-in"  />
+               <div className='Portfolio-images-section fade-in'  >
+               <img src={MobileDev} alt=""  />
                <p>Mobile ID Labs</p>
                </div>
-               <div className='Portfolio-images-section'  >
-               <img src={MobileDevTwo} alt="" className="fade-in"  />
+               <div className='Portfolio-images-section fade-in'  >
+               <img src={MobileDevTwo} alt=""   />
                <p>Mobile ID Labs</p>
                </div>
-               <div className='Portfolio-images-section'  >
-               <img src={MobileDev} alt="" className="fade-in"  />
+               <div className='Portfolio-images-section fade-in'  >
+               <img src={MobileDev} alt=""  />
+               <p>Mobile ID Labs</p>
+               </div>
+               <div className='Portfolio-images-section fade-in'  >
+               <img src={MobileDevTwo} alt=""    />
+               <p>Mobile ID Labs</p>
+               </div>
+               <div className='Portfolio-images-section fade-in'  >
+               <img src={MobileDev} alt=""   />
                <p>Mobile ID Labs</p>
                </div>
                </div>
@@ -138,20 +170,28 @@ export default function Portfoliotabs() {
         <TabPanel value="5">
         <div className='All-Section'>
         <div className='images-section'>
-               <div className='Portfolio-images-section'  >
-               <img src={MobileDev} alt="" className="fade-in"  />
+        <div className='Portfolio-images-section fade-in'  >
+               <img src={MobileDev} alt=""  />
                <p>Mobile ID Labs</p>
                </div>
-               <div className='Portfolio-images-section'  >
-               <img src={MobileDevTwo} alt="" className="fade-in"  />
+               <div className='Portfolio-images-section fade-in'  >
+               <img src={MobileDevTwo} alt=""   />
                <p>Mobile ID Labs</p>
                </div>
-               <div className='Portfolio-images-section'  >
-               <img src={MobileDev} alt="" className="fade-in"  />
+               <div className='Portfolio-images-section fade-in'  >
+               <img src={MobileDev} alt=""   />
                <p>Mobile ID Labs</p>
                </div>
-               <div className='Portfolio-images-section'  >
-               <img src={MobileDevTwo} alt=""   className="fade-in" />
+               <div className='Portfolio-images-section fade-in'  >
+               <img src={MobileDevTwo} alt=""  />
+               <p>Mobile ID Labs</p>
+               </div>
+               <div className='Portfolio-images-section fade-in'  >
+               <img src={MobileDevTwo} alt=""    />
+               <p>Mobile ID Labs</p>
+               </div>
+               <div className='Portfolio-images-section fade-in'  >
+               <img src={MobileDev} alt=""   />
                <p>Mobile ID Labs</p>
                </div>
                </div>
@@ -160,20 +200,28 @@ export default function Portfoliotabs() {
         <TabPanel value="6">
         <div className='All-Section'>
         <div className='images-section'>
-               <div className='Portfolio-images-section'  >
-               <img src={MobileDev} alt="" className="fade-in"  />
+        <div className='Portfolio-images-section fade-in'  >
+               <img src={MobileDev} alt="" />
                <p>Mobile ID Labs</p>
                </div>
-               <div className='Portfolio-images-section'  >
-               <img src={MobileDevTwo} alt="" className="fade-in"  />
+               <div className='Portfolio-images-section fade-in'  >
+               <img src={MobileDevTwo} alt=""/>
                <p>Mobile ID Labs</p>
                </div>
-               <div className='Portfolio-images-section'  >
-               <img src={MobileDev} alt="" className="fade-in"  />
+               <div className='Portfolio-images-section fade-in'  >
+               <img src={MobileDev} alt="" />
                <p>Mobile ID Labs</p>
                </div>
-               <div className='Portfolio-images-section'  >
-               <img src={MobileDevTwo} alt=""   className="fade-in" />
+               <div className='Portfolio-images-section fade-in'  >
+               <img src={MobileDevTwo} alt="" />
+               <p>Mobile ID Labs</p>
+               </div>
+               <div className='Portfolio-images-section fade-in'  >
+               <img src={MobileDevTwo} alt=""    />
+               <p>Mobile ID Labs</p>
+               </div>
+               <div className='Portfolio-images-section fade-in'  >
+               <img src={MobileDev} alt=""   />
                <p>Mobile ID Labs</p>
                </div>
                </div>
@@ -182,20 +230,28 @@ export default function Portfoliotabs() {
         <TabPanel value="7">
         <div className='All-Section'>
         <div className='images-section'>
-               <div className='Portfolio-images-section'  >
-               <img src={MobileDev} alt="" className="fade-in"  />
+        <div className='Portfolio-images-section fade-in'  >
+               <img src={MobileDev} alt=""  />
                <p>Mobile ID Labs</p>
                </div>
-               <div className='Portfolio-images-section'  >
-               <img src={MobileDevTwo} alt="" className="fade-in"  />
+               <div className='Portfolio-images-section fade-in'  >
+               <img src={MobileDevTwo} alt=""   />
                <p>Mobile ID Labs</p>
                </div>
-               <div className='Portfolio-images-section'  >
-               <img src={MobileDev} alt="" className="fade-in"  />
+               <div className='Portfolio-images-section fade-in'  >
+               <img src={MobileDev} alt=""   />
                <p>Mobile ID Labs</p>
                </div>
-               <div className='Portfolio-images-section'  >
-               <img src={MobileDevTwo} alt=""   className="fade-in" />
+               <div className='Portfolio-images-section fade-in'  >
+               <img src={MobileDevTwo} alt=""    />
+               <p>Mobile ID Labs</p>
+               </div>
+               <div className='Portfolio-images-section fade-in'  >
+               <img src={MobileDevTwo} alt=""    />
+               <p>Mobile ID Labs</p>
+               </div>
+               <div className='Portfolio-images-section fade-in'  >
+               <img src={MobileDev} alt=""   />
                <p>Mobile ID Labs</p>
                </div>
                </div>
@@ -205,7 +261,7 @@ export default function Portfoliotabs() {
           {/* Rest of the TabPanel components */}
         </TabContext>
       </Box>
-      <div className='portfoliotabsbottom' ></div>
+      <div className='portfoliotabsbottom'></div>
     </div>
   );
 }

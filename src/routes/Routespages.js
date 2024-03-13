@@ -15,6 +15,7 @@ import Webdevinner from './Ourservicesinnerpage/Webdevinner'
 import Appdevinner from './Ourservicesinnerpage/Appdevinner'
 import Socialmediainner from './Ourservicesinnerpage/Socialmediainner'
 import Productmanagementinner from './Ourservicesinnerpage/Productmanagementinner'
+import Seooptimization from './Ourservicesinnerpage/Seooptimization'
 
 function Routespages() {
     const router = createBrowserRouter([
@@ -64,6 +65,9 @@ function Routespages() {
         },{
           path:"/socialmedia",
           element:<Socialmediainner/>
+        },{
+          path:"/seooptimization",
+          element:<Seooptimization/>
         }
     ])
 

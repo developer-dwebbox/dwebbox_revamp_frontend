@@ -13,6 +13,7 @@ import Vrushti from '../../../src/Assets/Images/TeamImage/Vrushti.png'
 import sejal from '../../../src/Assets/Images/TeamImage/Sejal.png'
 import Aditya from '../../../src/Assets/Images/TeamImage/Aditya.png'
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
+import Asishpal from '../../../src/Assets/Images/TeamImage/Ashish pal.png'
 
 
 
@@ -29,9 +30,10 @@ function Ourteamimages() {
     { name: 'Aditya Ingle', image: Aditya, role: 'App Developer', linkedin: 'https://www.linkedin.com/in/aditya-ingle-95b582211/' },
     { name: 'Ashish Sawant', image: Sawant, role: 'Full Stack Developer', linkedin: 'https://www.linkedin.com/in/ashish-sawant/' },
     { name: 'Sejal Shah', image: sejal, role: 'Graphic Designer', linkedin: '' },
-
     { name: 'Shivanshu Singh', image: Shiva, role: 'Frontend Developer', linkedin: 'https://www.linkedin.com/in/shivanshu-01singh/' },
+    { name: 'Ashish Pal', image: Asishpal, role: 'Full Stack Developer', linkedin: 'https://www.linkedin.com/in/web-developer-ashish-pal/' },
     { name: 'Prafulla Mishra', image: Prafulla, role: 'Software Test Engineer', linkedin: 'https://www.linkedin.com/in/prafulla-mishra-b88921267/' },
+
     // { name: '', image: "", role: '', linkedin: '' },
 
     // Add more team members with their details here
