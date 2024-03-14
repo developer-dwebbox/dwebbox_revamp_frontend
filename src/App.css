@@ -88,6 +88,10 @@ html,body{
 
 @media only screen and (max-width: 700px) {
 
+  ::-webkit-scrollbar{
+    width: 0px;
+  }
+
   .css-nv47zx-MuiGrid-root>.MuiGrid-item {
     /* padding-left: 0px !important; */
   }

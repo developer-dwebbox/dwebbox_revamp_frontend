@@ -77,6 +77,37 @@ function Webdevelopment() {
      </div>
     </div>
    
+    <div className="webdev webdevsix">
+ <div className='webdevheading' >
+ <h1>Product
+ <br /> Management</h1>
+           <p>From idea to deployment, we provide hands-on consulting support to build your products.</p>
+           <Box>
+           <Link to="/productmanagement"  style={{textDecoration:"none"}} >
+           <Button
+            variant="outlined"
+            sx={{
+              border: '2px solid white',
+              color: 'white',
+              width: '170px',
+              height: '50px',
+              borderRadius: '50px',
+              '&:hover': {
+                backgroundColor: '#000',
+                color:"#fff",
+                border:"#000" // Set the hover background color to transparent
+              },
+            }}
+          >
+            Learn more <ArrowOutwardIcon />
+          </Button>
+           </Link>
+        </Box>
+</div>
+<div className='webdevimage'>
+<img src={productmanagementimg} alt="" />
+</div>
+</div>
  <div className="webdev webdevthree">
  <div className='webdevheading' >
  <h1>UI/UX
@@ -140,37 +171,7 @@ function Webdevelopment() {
 <img src={productbranding} alt="" />
 </div>
 </div>
-<div className="webdev webdevsix">
- <div className='webdevheading' >
- <h1>Product
- <br /> Management</h1>
-           <p>From idea to deployment, we provide hands-on consulting support to build your products.</p>
-           <Box>
-           <Link to="/productmanagement"  style={{textDecoration:"none"}} >
-           <Button
-            variant="outlined"
-            sx={{
-              border: '2px solid white',
-              color: 'white',
-              width: '170px',
-              height: '50px',
-              borderRadius: '50px',
-              '&:hover': {
-                backgroundColor: '#000',
-                color:"#fff",
-                border:"#000" // Set the hover background color to transparent
-              },
-            }}
-          >
-            Learn more <ArrowOutwardIcon />
-          </Button>
-           </Link>
-        </Box>
-</div>
-<div className='webdevimage'>
-<img src={productmanagementimg} alt="" />
-</div>
-</div>
+
 <div className="webdev webdevfive">
  <div className='webdevheading' >
  <h1>Social Media
@@ -206,6 +207,37 @@ function Webdevelopment() {
  <div className='webdevheading' >
  <h1>Seo 
  <br /> Optimization</h1>
+           <p>Crafting impactful social media content requires a strategic mix of creativity and authenticity.</p>
+           <Box>
+           <Link to="/seooptimization" style={{textDecoration:"none"}} >
+           <Button
+            variant="outlined"
+            sx={{
+              border: '2px solid white',
+              color: 'white',
+              width: '170px',
+              height: '50px',
+              borderRadius: '50px',
+              '&:hover': {
+                backgroundColor: '#000',
+                color:"#fff",
+                border:"#000" // Set the hover background color to transparent
+              },
+            }}
+          >
+            Learn more <ArrowOutwardIcon />
+          </Button>
+           </Link>
+        </Box>
+</div>
+<div className='webdevimage'>
+<img src={AppDevelopment} alt="" />
+</div>
+</div>
+
+<div className="webdev webdevfive">
+ <div className='webdevheading' >
+ <h1>Staffing</h1>
            <p>Crafting impactful social media content requires a strategic mix of creativity and authenticity.</p>
            <Box>
            <Link to="/seooptimization" style={{textDecoration:"none"}} >
