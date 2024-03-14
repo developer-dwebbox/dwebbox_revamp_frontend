@@ -15,37 +15,7 @@ import { Link } from 'react-router-dom'
 function Webdevelopment() {
   return (
     <div className='webdevelopment-container'>
-    <div className="webdev webdevone">
-     <div className='webdevheading'>
-           <h1>Web <br /> Developmemt</h1>
-           <p>The perfect online front for your customers to experience the best of what your company offers.</p>
-           <Box>
-           <Link to="/webdevelopment" style={{textDecoration:"none"}} >
-           <Button
-            variant="outlined"
-            sx={{
-              border: '2px solid white',
-              color: 'white',
-              width: '170px',
-              height: '50px',
-              borderRadius: '50px',
-              '&:hover': {
-                backgroundColor: '#000',
-                color:"#fff",
-                border:"#000" // Set the hover background color to transparent
-              },
-            }}
-          >
-            Learn more <ArrowOutwardIcon />
-          </Button>
-           </Link>
-        </Box>
-     </div>
-     <div className='webdevimage'>
-<img src={webdevimg} alt="" />
-     </div>
-    </div>
-    <div className="webdev webdevtwo">
+     <div className="webdev webdevtwo">
     <div className='webdevheading'>
     <h1>App <br /> Developmemt</h1>
            <p>Mobile applications that stick. Specifically created to augment and transform your business.</p>
@@ -76,6 +46,37 @@ function Webdevelopment() {
 
 </div>
 </div>
+    <div className="webdev webdevone">
+     <div className='webdevheading'>
+           <h1>Web <br /> Developmemt</h1>
+           <p>The perfect online front for your customers to experience the best of what your company offers.</p>
+           <Box>
+           <Link to="/webdevelopment" style={{textDecoration:"none"}} >
+           <Button
+            variant="outlined"
+            sx={{
+              border: '2px solid white',
+              color: 'white',
+              width: '170px',
+              height: '50px',
+              borderRadius: '50px',
+              '&:hover': {
+                backgroundColor: '#000',
+                color:"#fff",
+                border:"#000" // Set the hover background color to transparent
+              },
+            }}
+          >
+            Learn more <ArrowOutwardIcon />
+          </Button>
+           </Link>
+        </Box>
+     </div>
+     <div className='webdevimage'>
+<img src={webdevimg} alt="" />
+     </div>
+    </div>
+   
  <div className="webdev webdevthree">
  <div className='webdevheading' >
  <h1>UI/UX

@@ -426,10 +426,15 @@ height: 90vh !important;
 
 
 .bgcontentsection {
+  text-align: center;
 flex-direction: column;
-height: 65% !important;
+height: 70% !important;
 width: 100% !important;
 padding: 20px 20px !important;
+justify-content: space-around !important;
+}
+.letsgettowork{
+  justify-content: center;
 }
 .bgcontentsection{
   font-size: 28px !important;

@@ -20,7 +20,7 @@ function Bgimage() {
         <img src={CircleStar} alt="" width="101%" className='CircleStar-img' />
         <div  className='get-in-touch-content' >
         <div>
-        <a style={{ textDecoration: "none",color:"white" }} href="https://api.whatsapp.com/send?phone=8828103808&text=Hello" target="_blank" className='bgcontentbtn'>
+        <a style={{ textDecoration: "none",color:"white" }} href="https://api.whatsapp.com/send?phone=+918828103808text=Hello" target="_blank" className='bgcontentbtn'>
         <ArrowOutward/>
     <p>Get In Touch</p>
     </a>

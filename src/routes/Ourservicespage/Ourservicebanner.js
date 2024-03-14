@@ -16,12 +16,12 @@ function Ourservicebanner() {
 
       <div className="marqueethree">
   <div className="marquee__contentthree scrollThree">
-   <h1>Our SERVICES</h1>
-   <h1 className='stroke-heading' >Our SERVICES</h1>
+   <h1>OUR SERVICES</h1>
+   <h1 className='stroke-heading' >OUR SERVICES</h1>
   </div>
   <div className="marquee__contentthree scrollThree">
-   <h1>Our SERVICES</h1>
-   <h1  className='stroke-heading'>Our SERVICES</h1>
+   <h1>OUR SERVICES</h1>
+   <h1  className='stroke-heading'>OUR SERVICES</h1>
   </div>
 </div>
 
