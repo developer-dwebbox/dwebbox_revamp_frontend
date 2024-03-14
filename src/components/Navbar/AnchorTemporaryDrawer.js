@@ -3,11 +3,11 @@ import { useState } from 'react';
 import Drawer from '@mui/material/Drawer';
 import Button from '@mui/material/Button';
 import HamburgerIcon from "../../../src/Assets/Images/Icons/Group 3717.png"
-import CloseIcon from '@mui/icons-material/Close';
 import Slide from '@mui/material/Slide';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
 import CloseCustonbtn from '../../../src/Assets/Images/CrossIcon.png'
+import whatsappimage from '../../../src/Assets/Images/Whatsapp.png'
 
 export default function AnchorTemporaryDrawer() {
   const [open, setOpen] = useState(false);
@@ -36,7 +36,21 @@ export default function AnchorTemporaryDrawer() {
           <Link  style={{textDecoration:"none" ,color:"#181818" }}  className='insideslider-links nav-links-anchor'   to="/blogs" ><h6>Blogs</h6></Link>
          
           <p className='getInTouch-p'>GET IN TOUCH</p>
-          <p className='connectdwb-p'>connect@dwebbox.com</p>
+          <div className='whatsappimgicon'>
+
+          <div className='whatsimg'>
+          <img src={whatsappimage} alt="" />
+          </div> 
+           <div className='whatsapp-para' >
+           <a style={{ textDecoration: "none", color: "white", marginLeft: "10px" }}  rel="noreferrer" href="https://api.whatsapp.com/send?phone=+918828103808&text=Hello" target="_blank" className='bgcontentbtn'>
+  <h6>Connect On WhatsApp</h6>
+</a>          
+</div>
+
+         
+
+          </div>
+
         </div>
       </Drawer>
     </div>
