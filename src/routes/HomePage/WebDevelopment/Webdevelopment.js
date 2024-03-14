@@ -17,7 +17,7 @@ function Webdevelopment() {
     <div className='webdevelopment-container'>
      <div className="webdev webdevtwo">
     <div className='webdevheading'>
-    <h1>App <br /> Developmemt</h1>
+    <h1>App <br /> Development</h1>
            <p>Mobile applications that stick. Specifically created to augment and transform your business.</p>
            <Box>
            <Link to="/appdevelopment" style={{textDecoration:"none"}} >

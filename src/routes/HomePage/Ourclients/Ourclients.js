@@ -2,6 +2,7 @@ import React from 'react'
 import './Ourclients.css'
 import img1 from '../../../Assets/Images/image 8.png'
 
+
 import ClientImage1 from '../../../Assets/Images/ClientsHomelist/Group 18427.png'
 import ClientImage2 from '../../../Assets/Images/ClientsHomelist/Group 18429.png'
 import ClientImage3 from '../../../Assets/Images/ClientsHomelist/Group 18430.png'
@@ -19,6 +20,7 @@ import ClientImage12 from '../../../Assets/Images/ClientsHomelist/Group 18439.pn
 
 import { Box,Button } from '@mui/material'
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
+import { Link } from 'react-router-dom'
 
 
 
@@ -31,7 +33,8 @@ function Ourclients() {
        </div>
        <div className='Ourclients-heading-btn' >
        <Box>
-          <Button
+       <Link to="/clients" style={{textDecoration:"none"}} >
+       <Button
             variant="outlined"
             sx={{
               border: '2px solid white',
@@ -48,6 +51,8 @@ function Ourclients() {
           >
             View All Clients <ArrowOutwardIcon />
           </Button>
+       </Link>
+          
         </Box>
         
        </div>

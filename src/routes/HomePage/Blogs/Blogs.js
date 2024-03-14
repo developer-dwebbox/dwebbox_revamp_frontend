@@ -4,6 +4,8 @@ import blogImgone from '../../../Assets/Images/BlogsImage/image 42.png'
 import blogImgtwo from '../../../Assets/Images/BlogsImage/image 43.png'
 import { Box,Button } from '@mui/material'
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
+import { Link } from 'react-router-dom'
+
 
 function Blogs() {
   return (
@@ -14,7 +16,8 @@ function Blogs() {
         </div>
         <div className='blog-button' >
         <Box>
-          <Button
+        <Link to="/blogs" style={{textDecoration:"none"}} >
+        <Button
             variant="outlined"
             sx={{
               border: '2px solid white',
@@ -31,6 +34,9 @@ function Blogs() {
           >
             All Blogs <ArrowOutwardIcon />
           </Button>
+        </Link>
+
+         
         </Box>
         </div>
       </div>
@@ -44,7 +50,8 @@ function Blogs() {
            <p>AUGUST 6, 2022</p>
            <h3>Creative Advertising in our life became a info noise</h3>
            <Box>
-          <Button
+           <Link to="/blogspage" style={{textDecoration:"none"}}>
+           <Button
             variant="outlined"
             sx={{
               border: '2px solid white',
@@ -63,6 +70,9 @@ function Blogs() {
           >
             Read More <ArrowOutwardIcon />
           </Button>
+           </Link>
+
+        
         </Box>
         </div>
         </div>
@@ -77,7 +87,8 @@ function Blogs() {
 <p>AUGUST 6, 2022</p>
 <h3>Creative Advertising in our life became a info noise</h3>
 <Box>
-          <Button
+<Link to="/blogspage" style={{textDecoration:"none"}}>
+           <Button
             variant="outlined"
             sx={{
               border: '2px solid white',
@@ -96,6 +107,7 @@ function Blogs() {
           >
             Read More <ArrowOutwardIcon />
           </Button>
+           </Link>
         </Box>
 
         </div>

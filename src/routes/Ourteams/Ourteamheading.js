@@ -19,9 +19,11 @@ function Ourteamheading() {
     <div className='team-circle-container'>
       <div className='team-circle'>
        <img src={joinourteamimg} alt="" />
-       <div className='arrow-circle'>
+       <a href="https://www.linkedin.com/company/d-webbox/mycompany/" target='_blank' >
+       <div className='arrow-circle'> 
         <ArrowOutwardIcon/>
        </div>
+       </a>
       </div>
     </div>
     </div>
@@ -29,12 +31,12 @@ function Ourteamheading() {
 
       <div className="marqueeFour">
   <div className="marquee__contentFour scrollFour">
-   <h1>Our TEAM</h1>
-   <h1 className='stroke-heading' >Our TEAM</h1>
+   <h1>OUR TEAM</h1>
+   <h1 className='stroke-heading' >OUR TEAM</h1>
   </div>
   <div className="marquee__contentFour scrollFour">
-   <h1>Our TEAM</h1>
-   <h1  className='stroke-heading'>Our TEAM</h1>
+   <h1>OUR TEAM</h1>
+   <h1  className='stroke-heading'>OUR TEAM</h1>
   </div>
 </div>
 

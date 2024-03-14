@@ -9,11 +9,13 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 import { Button } from '@mui/material';
 
+
 // Import Swiper styles
 import 'swiper/css/navigation';
 
 // Import Navigation module separately
 import { Navigation } from 'swiper/modules';
+import { Link } from 'react-router-dom';
 
 // Initialize Swiper core
 SwiperCore.use([Navigation]);
@@ -74,6 +76,7 @@ function Homeportfolio() {
         </Swiper>
       </div>
       <div className="custom-navigation">
+      <Link to="/blogspage" style={{textDecoration:"none",marginLeft:"5%"}}>
       <Button
       className='All-Projects-Btn'
             variant="outlined"
@@ -94,6 +97,9 @@ function Homeportfolio() {
           >
             All Projects <ArrowOutwardIcon />
           </Button>
+      </Link>
+
+      
 
     
       

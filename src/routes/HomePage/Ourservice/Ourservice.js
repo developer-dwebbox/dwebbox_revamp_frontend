@@ -1,8 +1,13 @@
-import React from 'react';
+import React  from 'react';
 import { Box, Button, Typography } from '@mui/material';
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
+import { Link } from 'react-router-dom';
+
 
 function Ourservice() {
+
+ 
+
   return (
     <Box
       className='ourservice'
@@ -33,7 +38,8 @@ function Ourservice() {
           </Typography>
         </Box>
         <Box className='ourservice-btn'>
-          <Button
+        <Link to="/ourservice" style={{textDecoration:"none"}} >
+        <Button
             variant="outlined"
             sx={{
               border: '2px solid white',
@@ -50,6 +56,8 @@ function Ourservice() {
           >
             All Services <ArrowOutwardIcon />
           </Button>
+        </Link>
+          
         </Box>
       </Box>
       <Box className='ourservice-paragraph' sx={{ width: '90%' }}>
