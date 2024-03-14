@@ -84,9 +84,11 @@
     /* flex-wrap: wrap; */
     overflow: hidden;
     margin: 0 auto;
+    justify-content: center;
     /* background-color: #373737; */
     height: 25vh;
-    width: 92%;
+    width: 100%;
+    padding: 0px 20px;
     /* background-color: #FFFFFF; */
 }
 .portfoliotabsbottom{
@@ -145,15 +147,6 @@ width: 100%;
       }
   }
   
-.firsttablist{
-
-}
-  .secondtablist{
-    
-  }
-.thirdtablist{
-
-}
   .tabHeadsection{
     display: flex;
     flex-wrap: wrap;
