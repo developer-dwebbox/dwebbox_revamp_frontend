@@ -76,7 +76,7 @@ function Homeportfolio() {
         </Swiper>
       </div>
       <div className="custom-navigation">
-      <Link to="/blogspage" style={{textDecoration:"none",marginLeft:"5%"}}>
+      <Link to="/portfolio" style={{textDecoration:"none",marginLeft:"5%"}}>
       <Button
       className='All-Projects-Btn'
             variant="outlined"
