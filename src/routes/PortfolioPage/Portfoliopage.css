@@ -122,8 +122,18 @@
   
 
   @media only screen and (max-width: 700px) {
+
+    .firsttablist,.secondtablist,.thirdtablist,.fourthtablist,.fifthtablist,.sixtablist{
+        text-align: center;
+        /* display: block; */
+        width: 100%;
+    }
+
     .Portfolio-images-section {
 width: 100%;
+    }
+    .css-heg063-MuiTabs-flexContainer{
+        justify-content: center;
     }
 
     .Portfoliopageheading{
@@ -137,8 +147,9 @@ width: 100%;
     }
     
     .Portfolio-Filter-Section{
-        height: 22vh;
+       height: 45vh;
     }
+
     .css-13xfq8m-MuiTabPanel-root{
         padding: 15px;
     }

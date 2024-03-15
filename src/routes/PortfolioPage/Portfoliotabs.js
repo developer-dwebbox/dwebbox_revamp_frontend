@@ -31,15 +31,29 @@ export default function Portfoliotabs() {
         <TabContext value={value}>
           <div className='Portfolio-Filter-Section'>
           <Box className="tabHeadsection" >
-            <TabList onChange={handleChange} className='firsttablist' >
-              {/* <StyledTab  label="All" value="1" selected={value === '1'} /> */}
+            <TabList onChange={handleChange} className='firsttablist'  >
+              <StyledTab  label="All" value="1" selected={value === '1'} />
+              </TabList>
+              <TabList onChange={handleChange} className='secondtablist' >
               <StyledTab label="Web Development " value="2" selected={value === '2'} />
+
+              </TabList>
+             
+              <TabList onChange={handleChange} className='thirdtablist' >
               <StyledTab label="App Development" value="3" selected={value === '3'} />
-              <StyledTab label="UI/UX" value="4" selected={value === '4'} />
-              {/* <StyledTab label="Product Management" value="5" selected={value === '5'} /> */}
+              </TabList>
+              <TabList  onChange={handleChange} className='fourthtablist'  >
+               <StyledTab label="UI / UX" value="5" selected={value === '5'} />
+              </TabList>
+             
+              <TabList  onChange={handleChange} className='fifthtablist' >
               <StyledTab label="Branding" value="6" selected={value === '6'} />
+              </TabList>
+              <TabList  onChange={handleChange} className='sixtablist' >
               <StyledTab label="Social Media Marketing" value="7" selected={value === '7'} />
-            </TabList>
+
+              </TabList>
+           
             </Box>
           </div>
           <TabPanel value="1">
