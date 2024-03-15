@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Techstack.css';
 import image1 from '../../../Assets/Images/Techstack/image 23.png';
-import image2 from '../../../Assets/Images/Techstack/image 25.png';
 import image3 from '../../../Assets/Images/Techstack/image 26.png';
 import image4 from '../../../Assets/Images/Techstack/image 27.png';
 import image5 from '../../../Assets/Images/Techstack/image 28.png';
@@ -9,7 +8,7 @@ import image6 from '../../../Assets/Images/Techstack/image 29.png';
 import image7 from '../../../Assets/Images/Techstack/image 30.png';
 import image8 from '../../../Assets/Images/Techstack/image 31.png';
 import image9 from '../../../Assets/Images/Techstack/image 32.png';
-import image10 from '../../../Assets/Images/Techstack/image 33.png';
+import image10 from '../../../Assets/Images/Techstack/MuiImage.png';
 import image12 from '../../../Assets/Images/Techstack/image 36.png';
 import image13 from '../../../Assets/Images/Techstack/image 37.png';
 import image14 from '../../../Assets/Images/Techstack/Azure.png';

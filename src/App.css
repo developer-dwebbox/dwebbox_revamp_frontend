@@ -353,6 +353,7 @@ height: 60px !important;
     
   }
   .Techstack-skills {
+    justify-content: center !important;
 margin-top: 3rem !important;
 gap: 1.8rem !important;
 

@@ -32,13 +32,13 @@ export default function Portfoliotabs() {
           <div className='Portfolio-Filter-Section'>
           <Box className="tabHeadsection" >
             <TabList onChange={handleChange} className='firsttablist' >
-              <StyledTab label="All" value="1" selected={value === '1'} />
+              {/* <StyledTab  label="All" value="1" selected={value === '1'} /> */}
               <StyledTab label="Web Development " value="2" selected={value === '2'} />
               <StyledTab label="App Development" value="3" selected={value === '3'} />
               <StyledTab label="UI/UX" value="4" selected={value === '4'} />
-              <StyledTab label="Product Management" value="5" selected={value === '5'} />
+              {/* <StyledTab label="Product Management" value="5" selected={value === '5'} /> */}
               <StyledTab label="Branding" value="6" selected={value === '6'} />
-              {/* <StyledTab label="Social Media Marketing" value="7" selected={value === '7'} /> */}
+              <StyledTab label="Social Media Marketing" value="7" selected={value === '7'} />
             </TabList>
             </Box>
           </div>
