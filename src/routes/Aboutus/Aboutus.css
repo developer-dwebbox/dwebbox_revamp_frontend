@@ -12,21 +12,6 @@
   padding: 0rem 0px;
   width: 100% !important;
 }
-.marquee__contentTeam img{
-  transition: all 0.5s;
-}
-.marquee__contentTeam img:hover{
-  transform: scale(1.1);
-}
-.marquee__contentTeamTwo img{
-  transition: all 0.5s;
-}
-.marquee__contentTeamTwo img:hover{
-  transform: scale(1.1);
-
-}
-
-
 
 
 .marquee__contentTeam  {
