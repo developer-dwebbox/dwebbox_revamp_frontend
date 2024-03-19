@@ -250,7 +250,7 @@ height: 80vh !important;
 
 
   .Ourclients-home {
-height: 20vh !important;
+height: 25vh !important;
   }
   .Ourclients-home-list{
   gap: 1% 15% !important;
@@ -582,6 +582,8 @@ justify-content: space-around !important;
   transition: all 100ms ease-out;
 }
 @media only screen and (max-width: 600px) {
+  
+
   .cursor-pointer,
   .cursor {
     display: none;

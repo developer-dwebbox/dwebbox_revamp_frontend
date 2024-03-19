@@ -46,6 +46,11 @@
   }
 
 @media only screen and (max-width: 700px) {
+
+  .marquee__content li{
+   margin-left: 12px !important;
+  }
+
 .marqueeTwo{
   overflow: hidden;
   transform: rotate(-3.5deg);
