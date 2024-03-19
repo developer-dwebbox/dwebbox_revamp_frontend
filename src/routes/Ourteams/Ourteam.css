@@ -348,6 +348,14 @@
 
 @media only screen and (max-width: 700px) {
 
+  .ourteamparagraph{
+     margin-top: 5vh;
+    }
+
+    .ourteamanim {
+       margin-top: 0vh;
+      }
+
   .team-images{
     width: 329px;
     height: 489px;

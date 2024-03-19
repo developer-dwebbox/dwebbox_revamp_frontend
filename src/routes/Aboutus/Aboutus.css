@@ -50,7 +50,7 @@
 }
 
 .marquee__contentTeam  {
-  animation: scrollTeam 40s linear infinite; /* Adjust the duration */
+  animation: scrollTeam 37s linear infinite; /* Adjust the duration */
 }
 
 .marquee__contentTeamTwo  {

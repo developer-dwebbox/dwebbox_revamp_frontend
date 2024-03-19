@@ -18,7 +18,7 @@
     /* margin-left: 50px !important; */
   }
   .marquee__content li{
-    margin-left: 60px !important;
+    margin-left: 20px !important;
   }
   
   .marquee__content {
@@ -26,7 +26,7 @@
     display: flex;
     justify-content: space-around;
     min-width: 100%;
-    gap: 4.5rem
+    /* gap: 4.5rem */
   }
   .marquee__content li{
     font-size: 2.2rem;
