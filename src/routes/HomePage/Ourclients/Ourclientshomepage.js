@@ -49,7 +49,7 @@ function Ourclientshomepage() {
 
 const swiperRef = useRef(null);
   return (
-    <div className='Clientslistpage  ourclientshomepage'>
+    <div className='Clientslistpage  ourclientshomepage' style={{height:"90vh"}}>
     <div>
       <Swiper
         ref={swiperRef}

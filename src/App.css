@@ -250,7 +250,7 @@ height: 80vh !important;
 
 
   .Ourclients-home {
-height: 25vh !important;
+height: 30vh !important;
   }
   .Ourclients-home-list{
   gap: 1% 15% !important;
@@ -284,8 +284,9 @@ height: 60px !important;
 }
 
   .Clientreview {
-    height: 100vh !important;
+    height: 110vh !important;
     flex-direction: column;
+    padding-top: 0vh !important;
   }
   .reviews {
     min-height: 40vh !important;
