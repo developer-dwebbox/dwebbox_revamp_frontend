@@ -28,28 +28,28 @@ export default function Portfoliotabs() {
   return (
     <div className='portfoliotabswidth'>
       <Box sx={{ width: '100%', typography: 'body1', backgroundColor: '#181818' }}>
-        <TabContext value={value}>
+        <TabContext value={value}  >
           <div className='Portfolio-Filter-Section'>
           <Box className="tabHeadsection" >
-            <TabList onChange={handleChange} className='firsttablist'  >
+            <TabList onChange={handleChange} className='firsttablist' centered >
               <StyledTab  label="All" value="1" selected={value === '1'} />
               </TabList>
-              <TabList onChange={handleChange} className='secondtablist' >
+              <TabList onChange={handleChange} className='secondtablist' centered >
               <StyledTab label="Web Development " value="2" selected={value === '2'} />
 
               </TabList>
              
-              <TabList onChange={handleChange} className='thirdtablist' >
+              <TabList onChange={handleChange} className='thirdtablist' centered >
               <StyledTab label="App Development" value="3" selected={value === '3'} />
               </TabList>
-              <TabList  onChange={handleChange} className='fourthtablist'  >
+              <TabList  onChange={handleChange} className='fourthtablist' centered >
                <StyledTab label="UI / UX" value="5" selected={value === '5'} />
               </TabList>
              
-              <TabList  onChange={handleChange} className='fifthtablist' >
+              <TabList  onChange={handleChange} className='fifthtablist' centered >
               <StyledTab label="Branding" value="6" selected={value === '6'} />
               </TabList>
-              <TabList  onChange={handleChange} className='sixtablist' >
+              <TabList  onChange={handleChange} className='sixtablist' centered >
               <StyledTab label="Social Media Marketing" value="7" selected={value === '7'} />
 
               </TabList>
