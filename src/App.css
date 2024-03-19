@@ -73,7 +73,10 @@ html,body{
   z-index: 9999; /* Ensure it appears on top of everything */
   transition: all 10ms ease-out;
 }
+.typo-links{
+  font-family: "Epilogue", sans-serif !important;
 
+}
 .typo-links:hover{
   cursor: pointer;
   color: #F17C24;
@@ -105,6 +108,9 @@ html,body{
 
   
   @media (max-width: 768px) {
+    .ourclientshomepage{
+      height: 100vh !important;
+    }
     .swiper-slide-section {
       width: 65% !important;
     }
@@ -244,7 +250,7 @@ height: 80vh !important;
 
 
   .Ourclients-home {
-height: 120vh !important;
+height: 20vh !important;
   }
   .Ourclients-home-list{
   gap: 1% 15% !important;

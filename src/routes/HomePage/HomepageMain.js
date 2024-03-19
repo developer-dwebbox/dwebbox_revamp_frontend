@@ -13,6 +13,8 @@ import Footer from '../../components/Footer/Footer';
 import Ourclients from './Ourclients/Ourclients';
 import Ourservice from './Ourservice/Ourservice';
 
+import Ourclientshomepage from './Ourclients/Ourclientshomepage';
+
 function HomepageMain() {
   return (
     <div style={{background:"#181818"}} >
@@ -24,6 +26,7 @@ function HomepageMain() {
       <Ourservice/>
       <Webdevelopment/>
       <Ourclients/>
+      <Ourclientshomepage/>
       <Clientreview/>
       <Techstack/>
       <Blogs/>

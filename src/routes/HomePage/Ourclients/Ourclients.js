@@ -57,7 +57,7 @@ function Ourclients() {
         
        </div>
       </div>
-      <div className='Ourclients-home-list' >
+      {/* <div className='Ourclients-home-list' >
         <div className='clients' >
         <img src={ClientImage1} alt="" />
         </div>
@@ -107,7 +107,7 @@ function Ourclients() {
 
 
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
