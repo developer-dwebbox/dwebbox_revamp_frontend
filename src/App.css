@@ -108,9 +108,6 @@ html,body{
 
   
   @media (max-width: 768px) {
-    .ourclientshomepage{
-      height: 100vh !important;
-    }
     .swiper-slide-section {
       width: 65% !important;
     }
@@ -250,10 +247,12 @@ height: 80vh !important;
 
 
   .Ourclients-home {
-height: 30vh !important;
+height: 160vh !important;
   }
   .Ourclients-home-list{
   gap: 1% 15% !important;
+    transition: all 0.5s ease; /* Transition effect */
+
   
   }
   .clients img {
@@ -265,14 +264,12 @@ width: 112px !important;
 width: 112px !important;
 height: 60px !important;
 }
-.client-11, .client-12 ,.client-13,.client-14,.client-15,.client-16{
- display: none !important;
-}
+
 .Ourclients-heading-first h2{
   font-size: 28px !important;
 }
 .Ourclients-home-list {
-  height: 65% !important;
+  height: 85% !important;
 }
 .Ourclients-home-heading{
   height: 20vh !important;    
@@ -284,9 +281,8 @@ height: 60px !important;
 }
 
   .Clientreview {
-    height: 110vh !important;
+    height: 100vh !important;
     flex-direction: column;
-    padding-top: 0vh !important;
   }
   .reviews {
     min-height: 40vh !important;
@@ -583,8 +579,6 @@ justify-content: space-around !important;
   transition: all 100ms ease-out;
 }
 @media only screen and (max-width: 600px) {
-  
-
   .cursor-pointer,
   .cursor {
     display: none;
