@@ -19,7 +19,7 @@ function Ourteamheading() {
     <div className='team-circle-container'>
       <div className='team-circle'>
        <img src={joinourteamimg} alt="" />
-       <a href="https://www.linkedin.com/company/d-webbox/mycompany/" target='_blank' >
+       <a href="https://www.linkedin.com/company/d-webbox/mycompany/" target='_blank' rel='noreferrer' >
        <div className='arrow-circle'> 
         <ArrowOutwardIcon/>
        </div>

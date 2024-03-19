@@ -1,6 +1,8 @@
 import { useEffect, useRef } from 'react';
 import './App.css';
 import Routespages from './routes/Routespages';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 function App() {
   const cursorRef = useRef(null);
   const cursorPointerRef = useRef(null);
@@ -48,6 +50,7 @@ function App() {
 <div className="cursor" ref={cursorRef} />
       <div className="cursor-pointer" ref={cursorPointerRef} />
    <Routespages/>
+   <ToastContainer />
     </div>
   );
 }
