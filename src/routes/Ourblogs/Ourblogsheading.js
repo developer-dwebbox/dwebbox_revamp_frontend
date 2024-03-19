@@ -5,7 +5,11 @@ function Ourblogsheading() {
   return (
     <div>
       <Box sx={{ width: "100%", background: "#181818" }} >
-        <Container component="main" sx={{ pt: 10, background: "#181818"}}>
+        <Container component="main" sx={{ pt: 10, 
+        background: "#181818", 
+         '@media (max-width:600px)': { // Styles for screens with a maximum width of 600px (mobile view)
+         paddingTop:"40px",
+              },}}>
           <Typography paragraph 
           sx={{ 
           color: "#ffffff",

@@ -8,7 +8,7 @@ function Ourblogscards() {
   return (
     <div>
     <Box sx={{ width: "100%", background: "#181818" }} >
-      <Container component="main" sx={{ pt: 10,pb:15, background: "#181818", display:"flex",justifyContent:"space-between",flexWrap:"wrap"}}>
+      <Container component="main" sx={{ pt: 7,pb:15, background: "#181818", display:"flex",justifyContent:"space-between",flexWrap:"wrap"}}>
       <Card sx={{ maxWidth: 330,
       background:"none",
       pb:2, boxShadow: 'none',
