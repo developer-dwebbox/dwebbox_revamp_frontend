@@ -104,7 +104,7 @@
 .reviews {
     padding: 1rem 2rem;
     width: 80%;
-    min-height: 40vh;
+    /* min-height: 40vh; */
     background-color: #222222;
     animation: scrollAnimation 20s linear infinite;
 }
@@ -115,7 +115,7 @@
 }
 .reviews-para p{
     color: #FFFFFF;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 250;
     font-family: "DM Sans_18pt-ExtraLight";
     line-height: 25px;

@@ -58,6 +58,17 @@ import Clientimagesfiftyfour from  '../../../src/Assets/Images/ClientsImages/Gro
 import Clientimagesfiftyfive from  '../../../src/Assets/Images/ClientsImages/Group 1272628317.png'
 import Clientimagesfiftysix from  '../../../src/Assets/Images/ClientsImages/Group 1272628318.png'
 import Clientimagesfiftyseven from  '../../../src/Assets/Images/ClientsImages/Group 1272628320.png'
+import Clientimagesfiftyeight from  '../../../src/Assets/Images/ClientsImages/lock and key.png'
+import Clientimagesfiftynine from  '../../../src/Assets/Images/ClientsImages/Group 18473.png'
+import Clientimagessixty from  '../../../src/Assets/Images/ClientsImages/Group 18465.png'
+import Clientimagessixtyone from  '../../../src/Assets/Images/ClientsImages/Group 1272628233.png'
+import Clientimagessixtytwo from  '../../../src/Assets/Images/ClientsImages/Group 1272628235.png'
+import Clientimagessixtythree from  '../../../src/Assets/Images/ClientsImages/Group 1272628244.png'
+import Clientimagessixtyfour from  '../../../src/Assets/Images/ClientsImages/Group 1272628259.png'
+import Clientimagessixtyfive from  '../../../src/Assets/Images/ClientsImages/Group 1272628263.png'
+
+
+
 
 
 
@@ -346,6 +357,35 @@ function Clientslistpage() {
             </div>
             <div className='client-img' >
               <img src={Clientimagesfiftyseven} alt="" />
+            </div>
+         </div>
+          </SwiperSlide>
+          <SwiperSlide>
+          
+          <div className='clients-page-image' >
+            <div className='client-img' >
+              <img src={Clientimagesfiftyeight} alt="" />
+            </div>
+            <div className='client-img' >
+              <img src={Clientimagesfiftynine} alt="" />
+            </div>
+            <div className='client-img' >
+              <img src={Clientimagessixty} alt="" />
+            </div>
+            <div className='client-img' >
+              <img src={Clientimagessixtyone} alt="" />
+            </div>
+            <div className='client-img' >
+              <img src={Clientimagessixtytwo} alt="" />
+            </div>
+            <div className='client-img' >
+              <img src={Clientimagessixtythree} alt="" />
+            </div>
+            <div className='client-img' >
+              <img src={Clientimagessixtyfour} alt="" />
+            </div>
+            <div className='client-img' >
+              <img src={Clientimagessixtyfive} alt="" />
             </div>
          </div>
           </SwiperSlide>

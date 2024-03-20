@@ -1,6 +1,9 @@
 import React from 'react'
 import './Clientreview.css'
-import userImageOne from '../../../Assets/Images/Ellipse 7.png'
+import userImageOne from '../../../Assets/Images/Ellipse 7.png';
+import userImagetwo from '../../../Assets/Images/Clientsreview/Userimagetwo.png'
+import userImagethree from '../../../Assets/Images/Clientsreview/Userimagethree.png'
+
 
 function Clientreview() {
   return (
@@ -28,7 +31,7 @@ function Clientreview() {
            <div className="reviews">
            <div className='reviews-para'>
            <div>
-           <p>I have been hiring people in this space for a number of years and I have never seen this level of professionalism. It really feels like you are working with a team that can get the job done.</p>
+           <p>FIKAA - BE Financially Free lauds D-WebBox as transformative partners, revolutionizing their tech journey with responsive, tailor-made solutions. From overcoming hurdles to proactive problem-solving, D-WebBox's dedication has fostered collaboration and tangibly improved operations, making them an indispensable asset in FIKAA's success story.</p>
            </div>
              
             <div className='ratings'>
@@ -54,18 +57,18 @@ function Clientreview() {
           
            <div className='user-reviews' >
              <div>
-              <img src={userImageOne} alt="" />
+              <img src={userImagethree} alt="" />
              </div>
              <div>
-             <h6>Pramey Shide</h6>
-             <p>Asian paints</p>
+             <h6>Harsh Choksey</h6>
+             <p>Co-Founder & CEO, FIKAA</p>
              </div>
            </div>
            </div>
            <div className="reviews">
            <div className='reviews-para'>
            <div>
-           <p>I have been hiring people in this space for a number of years and I have never seen this level of professionalism. It really feels like you are working with a team that can get the job done.</p>
+           <p>FIKAA - BE Financially Free lauds D-WebBox as transformative partners, revolutionizing their tech journey with responsive, tailor-made solutions. From overcoming hurdles to proactive problem-solving, D-WebBox's dedication has fostered collaboration and tangibly improved operations, making them an indispensable asset in FIKAA's success story.</p>
            </div>
              
             <div className='ratings'>
@@ -91,18 +94,18 @@ function Clientreview() {
           
            <div className='user-reviews' >
              <div>
-              <img src={userImageOne} alt="" />
+              <img src={userImagethree} alt="" />
              </div>
              <div>
-             <h6>Pramey Shide</h6>
-             <p>Asian paints</p>
+             <h6>Harsh Choksey</h6>
+             <p>Co-Founder & CEO, FIKAA</p>
              </div>
            </div>
            </div>
            <div className="reviews">
            <div className='reviews-para'>
            <div>
-           <p>I have been hiring people in this space for a number of years and I have never seen this level of professionalism. It really feels like you are working with a team that can get the job done.</p>
+           <p>FIKAA - BE Financially Free lauds D-WebBox as transformative partners, revolutionizing their tech journey with responsive, tailor-made solutions. From overcoming hurdles to proactive problem-solving, D-WebBox's dedication has fostered collaboration and tangibly improved operations, making them an indispensable asset in FIKAA's success story.</p>
            </div>
              
             <div className='ratings'>
@@ -128,18 +131,18 @@ function Clientreview() {
           
            <div className='user-reviews' >
              <div>
-              <img src={userImageOne} alt="" />
+              <img src={userImagethree} alt="" />
              </div>
              <div>
-             <h6>Pramey Shide</h6>
-             <p>Asian paints</p>
+             <h6>Harsh Choksey</h6>
+             <p>Co-Founder & CEO, FIKAA</p>
              </div>
            </div>
            </div>
            <div className="reviews">
            <div className='reviews-para'>
            <div>
-           <p>I have been hiring people in this space for a number of years and I have never seen this level of professionalism. It really feels like you are working with a team that can get the job done.</p>
+           <p>FIKAA - BE Financially Free lauds D-WebBox as transformative partners, revolutionizing their tech journey with responsive, tailor-made solutions. From overcoming hurdles to proactive problem-solving, D-WebBox's dedication has fostered collaboration and tangibly improved operations, making them an indispensable asset in FIKAA's success story.</p>
            </div>
              
             <div className='ratings'>
@@ -165,18 +168,18 @@ function Clientreview() {
           
            <div className='user-reviews' >
              <div>
-              <img src={userImageOne} alt="" />
+              <img src={userImagethree} alt="" />
              </div>
              <div>
-             <h6>Pramey Shide</h6>
-             <p>Asian paints</p>
+             <h6>Harsh Choksey</h6>
+             <p>Co-Founder & CEO, FIKAA</p>
              </div>
            </div>
            </div>
            <div className="reviews">
            <div className='reviews-para'>
            <div>
-           <p>I have been hiring people in this space for a number of years and I have never seen this level of professionalism. It really feels like you are working with a team that can get the job done.</p>
+           <p>As the founder of GenWE, I've been delighted with our 2-year partnership with D-WebBox. They embrace each project as their own, consistently going above and beyond, such as tackling intricate challenges like teenage identity verification. With their focus on value, solution-driven approach, and commitment to true partnership, D-WebBox epitomizes excellence in every aspect.</p>
            </div>
              
             <div className='ratings'>
@@ -202,18 +205,18 @@ function Clientreview() {
           
            <div className='user-reviews' >
              <div>
-              <img src={userImageOne} alt="" />
+              <img src={userImagetwo} alt="" />
              </div>
              <div>
-             <h6>Pramey Shide</h6>
-             <p>Asian paints</p>
+             <h6>Pavan Bhatia</h6>
+             <p>Founder & CEO, GenWE Inc.</p>
              </div>
            </div>
            </div>
            <div className="reviews">
            <div className='reviews-para'>
            <div>
-           <p>I have been hiring people in this space for a number of years and I have never seen this level of professionalism. It really feels like you are working with a team that can get the job done.</p>
+           <p>FIKAA - BE Financially Free lauds D-WebBox as transformative partners, revolutionizing their tech journey with responsive, tailor-made solutions. From overcoming hurdles to proactive problem-solving, D-WebBox's dedication has fostered collaboration and tangibly improved operations, making them an indispensable asset in FIKAA's success story.</p>
            </div>
              
             <div className='ratings'>
@@ -239,18 +242,18 @@ function Clientreview() {
           
            <div className='user-reviews' >
              <div>
-              <img src={userImageOne} alt="" />
+              <img src={userImagethree} alt="" />
              </div>
              <div>
-             <h6>Pramey Shide</h6>
-             <p>Asian paints</p>
+             <h6>Harsh Choksey</h6>
+             <p>Co-Founder & CEO, FIKAA</p>
              </div>
            </div>
            </div>
            <div className="reviews">
            <div className='reviews-para'>
            <div>
-           <p>I have been hiring people in this space for a number of years and I have never seen this level of professionalism. It really feels like you are working with a team that can get the job done.</p>
+           <p>As the founder of GenWE, I've been delighted with our 2-year partnership with D-WebBox. They embrace each project as their own, consistently going above and beyond, such as tackling intricate challenges like teenage identity verification. With their focus on value, solution-driven approach, and commitment to true partnership, D-WebBox epitomizes excellence in every aspect.</p>
            </div>
              
             <div className='ratings'>
@@ -276,11 +279,11 @@ function Clientreview() {
           
            <div className='user-reviews' >
              <div>
-              <img src={userImageOne} alt="" />
+              <img src={userImagetwo} alt="" />
              </div>
              <div>
-             <h6>Pramey Shide</h6>
-             <p>Asian paints</p>
+             <h6>Pavan Bhatia</h6>
+             <p>Founder & CEO, GenWE Inc.</p>
              </div>
            </div>
            </div>

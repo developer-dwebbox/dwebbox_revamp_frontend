@@ -14,6 +14,11 @@ import sejal from '../../../src/Assets/Images/TeamImage/Sejal.png'
 import Aditya from '../../../src/Assets/Images/TeamImage/Aditya.png'
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 import Asishpal from '../../../src/Assets/Images/TeamImage/Ashish pal.png'
+import Saish from '../../../src/Assets/Images/TeamImage/Saish.png'
+import Syed from '../../../src/Assets/Images/TeamImage/Syed.png'
+import Jay from '../../../src/Assets/Images/TeamImage/Jay.png'
+import Vinay from '../../../src/Assets/Images/TeamImage/Vinay.png'
+
 
 
 
@@ -26,13 +31,18 @@ function Ourteamimages() {
     { name: 'Karan Nanesha', image: Karan, role: 'Web Developer', linkedin: 'https://www.linkedin.com/in/karan-nanesha-291b68207/' },
     { name: 'Vrushti Ashar', image: Vrushti, role: 'Project Manager', linkedin: 'https://www.linkedin.com/in/vrushti-ashar-86a852143/' },
     { name: 'Ajay Sharma ', image: Ajay, role: 'Full Stack Developer', linkedin: 'https://www.linkedin.com/in/ajay-sharma-453348142/' },
+    { name: 'Jay Shah ', image: Jay, role: 'Business Partner', linkedin: '' },
     { name: 'Sakshi Virulkar', image: Sakshi, role: 'UI/UX Designer', linkedin: 'https://www.linkedin.com/in/sakshi-virulkar/' },
     { name: 'Aditya Ingle', image: Aditya, role: 'App Developer', linkedin: 'https://www.linkedin.com/in/aditya-ingle-95b582211/' },
     { name: 'Ashish Sawant', image: Sawant, role: 'Full Stack Developer', linkedin: 'https://www.linkedin.com/in/ashish-sawant/' },
     { name: 'Sejal Shah', image: sejal, role: 'Graphic Designer', linkedin: '' },
     { name: 'Shivanshu Singh', image: Shiva, role: 'Frontend Developer', linkedin: 'https://www.linkedin.com/in/shivanshu-01singh/' },
     { name: 'Ashish Pal', image: Asishpal, role: 'Full Stack Developer', linkedin: 'https://www.linkedin.com/in/web-developer-ashish-pal/' },
+    { name: 'Vinay Mange', image: Vinay, role: 'Frontend Developer', linkedin: 'https://www.linkedin.com/in/vinay-mange-b5b700209/' },
+    { name: 'Saish Jagtap', image: Saish, role: 'Frontend Developer', linkedin: 'https://www.linkedin.com/in/saishj/' },
     { name: 'Prafulla Mishra', image: Prafulla, role: 'Software Test Engineer', linkedin: 'https://www.linkedin.com/in/prafulla-mishra-b88921267/' },
+    { name: 'Syed Maaz', image: Syed, role: 'Frontend Developer', linkedin: 'https://www.linkedin.com/in/syed-maaz-636477193/' },
+
 
     // { name: '', image: "", role: '', linkedin: '' },
 
