@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Navbar from '../../components/Navbar/Navbar';
 import Clientreview from './Clientsreview/Clientreview';
 import Main from './Main/Main';
@@ -12,24 +12,40 @@ import Blogs from './Blogs/Blogs';
 import Footer from '../../components/Footer/Footer';
 import Ourclients from './Ourclients/Ourclients';
 import Ourservice from './Ourservice/Ourservice';
+import Loader from '../../components/Loader/Loader';
 
 
 function HomepageMain() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate loading time
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000); // Adjust the timeout as needed
+  }, []);
+
   return (
     <div style={{background:"#181818"}} >
-      <ScrollToTopButton/>
-      <Navbar/>
-      <Main/>
-      <Animations/>
-      <Homeportfolio/>
-      <Ourservice/>
-      <Webdevelopment/>
-      <Ourclients/>
-      <Clientreview/>
-      <Techstack/>
-      <Blogs/>
-      <Bgimage/>
-      <Footer/>
+      {loading ? (
+        <Loader />
+      ) : (
+        <>
+          <ScrollToTopButton/>
+          <Navbar/>
+          <Main/>
+          <Animations/>
+          <Homeportfolio/>
+          <Ourservice/>
+          <Webdevelopment/>
+          <Ourclients/>
+          <Clientreview/>
+          <Techstack/>
+          <Blogs/>
+          <Bgimage/>
+          <Footer/>
+        </>
+      )}
     </div>
   )
 }
