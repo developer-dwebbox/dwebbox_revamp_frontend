@@ -12,8 +12,7 @@ import Blogs from './Blogs/Blogs';
 import Footer from '../../components/Footer/Footer';
 import Ourclients from './Ourclients/Ourclients';
 import Ourservice from './Ourservice/Ourservice';
-import Loader from '../../components/Loader/Loader';
-
+import Preloader from '../../components/Loader/preloader';
 
 function HomepageMain() {
   const [loading, setLoading] = useState(true);
@@ -28,7 +27,7 @@ function HomepageMain() {
   return (
     <div style={{background:"#181818"}} >
       {loading ? (
-        <Loader />
+        <Preloader />
       ) : (
         <>
           <ScrollToTopButton/>

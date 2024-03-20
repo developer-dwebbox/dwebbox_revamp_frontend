@@ -567,6 +567,7 @@ justify-content: space-around !important;
   width: 15px;
   border-radius: 50%;
   transition: all 100ms ease-out;
+  z-index: 10000000;
 } 
 
 .cursor-pointer {
@@ -578,6 +579,8 @@ justify-content: space-around !important;
   z-index: 10000;
   height: 5rem;
   width: 5rem;
+  z-index: 10000000;
+
   transition: all 100ms ease-out;
 }
 @media only screen and (max-width: 600px) {
