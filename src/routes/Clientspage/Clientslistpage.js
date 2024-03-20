@@ -27,6 +27,48 @@ import Clientimagestwentyfour from  '../../../src/Assets/Images/ClientsImages/Gr
 import Clientimagestwentyfive from  '../../../src/Assets/Images/ClientsImages/Group 18443.png'
 import Clientimagestwentysix from  '../../../src/Assets/Images/ClientsImages/Group 18445.png'
 
+import Clientimagestwentyseven from  '../../../src/Assets/Images/ClientsImages/Group 1272628252.png'
+import Clientimagestwentyeight from  '../../../src/Assets/Images/ClientsImages/Group 1272628258.png'
+import Clientimagestwentynine from  '../../../src/Assets/Images/ClientsImages/Group 1272628259.png'
+import Clientimagesthirty from  '../../../src/Assets/Images/ClientsImages/Group 1272628263.png'
+import Clientimagesthirtyone from  '../../../src/Assets/Images/ClientsImages/Group 1272628266.png'
+import Clientimagesthirtytwo from  '../../../src/Assets/Images/ClientsImages/Group 1272628267.png'
+import Clientimagesthirtythree from  '../../../src/Assets/Images/ClientsImages/Group 1272628268.png'
+import Clientimagesthirtyfour from  '../../../src/Assets/Images/ClientsImages/Group 1272628270.png'
+import Clientimagesthirtyfive from  '../../../src/Assets/Images/ClientsImages/Group 1272628272.png'
+import Clientimagesthirtysix from  '../../../src/Assets/Images/ClientsImages/Group 1272628274.png'
+import Clientimagesthirtyseven from  '../../../src/Assets/Images/ClientsImages/Group 1272628276.png'
+import Clientimagesthirtyeight from  '../../../src/Assets/Images/ClientsImages/Group 1272628278.png'
+import Clientimagesthirtynine from  '../../../src/Assets/Images/ClientsImages/Group 1272628280.png'
+import Clientimagesfourty from  '../../../src/Assets/Images/ClientsImages/Group 1272628282.png'
+import Clientimagesfourtyone from  '../../../src/Assets/Images/ClientsImages/Group 1272628284.png'
+import Clientimagesfourtytwo from  '../../../src/Assets/Images/ClientsImages/Group 1272628286.png'
+import Clientimagesfourtythree from  '../../../src/Assets/Images/ClientsImages/Group 1272628288.png'
+import Clientimagesfourtyfour from  '../../../src/Assets/Images/ClientsImages/Group 1272628290.png'
+import Clientimagesfourtyfive from  '../../../src/Assets/Images/ClientsImages/Group 1272628293.png'
+import Clientimagesfourtysix from  '../../../src/Assets/Images/ClientsImages/Group 1272628295.png'
+import Clientimagesfourtyseven from  '../../../src/Assets/Images/ClientsImages/Group 1272628298.png'
+import Clientimagesfourtyeight from  '../../../src/Assets/Images/ClientsImages/Group 1272628300.png'
+import Clientimagesfourtynine from  '../../../src/Assets/Images/ClientsImages/Group 1272628302.png'
+import Clientimagesfifty from  '../../../src/Assets/Images/ClientsImages/Group 1272628304.png'
+import Clientimagesfiftyone from  '../../../src/Assets/Images/ClientsImages/Group 1272628306.png'
+import Clientimagesfiftytwo from  '../../../src/Assets/Images/ClientsImages/Group 1272628308.png'
+import Clientimagesfiftythree from  '../../../src/Assets/Images/ClientsImages/Group 1272628310.png'
+import Clientimagesfiftyfour from  '../../../src/Assets/Images/ClientsImages/Group 1272628314.png'
+import Clientimagesfiftyfive from  '../../../src/Assets/Images/ClientsImages/Group 1272628317.png'
+import Clientimagesfiftysix from  '../../../src/Assets/Images/ClientsImages/Group 1272628318.png'
+import Clientimagesfiftyseven from  '../../../src/Assets/Images/ClientsImages/Group 1272628320.png'
+
+
+
+
+
+
+
+
+
+
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore from 'swiper/core';
 import 'swiper/swiper-bundle.css';
@@ -190,6 +232,123 @@ function Clientslistpage() {
           </div>
        </div>
         </SwiperSlide>
+        <SwiperSlide>
+          
+          <div className='clients-page-image' >
+            <div className='client-img' >
+              <img src={Clientimagestwentysix} alt="" />
+            </div>
+            <div className='client-img' >
+              <img src={Clientimagestwentyseven} alt="" />
+            </div>
+            <div className='client-img' >
+              <img src={Clientimagestwentyeight} alt="" />
+            </div>
+            <div className='client-img' >
+              <img src={Clientimagestwentynine} alt="" />
+            </div>
+            <div className='client-img' >
+              <img src={Clientimagesthirty} alt="" />
+            </div>
+            <div className='client-img' >
+              <img src={Clientimagesthirtyone} alt="" />
+            </div>
+            <div className='client-img' >
+              <img src={Clientimagesthirtytwo} alt="" />
+            </div>
+            <div className='client-img' >
+              <img src={Clientimagesthirtythree} alt="" />
+            </div>
+         </div>
+          </SwiperSlide>
+          <SwiperSlide>
+          
+          <div className='clients-page-image' >
+            <div className='client-img' >
+              <img src={Clientimagesthirtyfour} alt="" />
+            </div>
+            <div className='client-img' >
+              <img src={Clientimagesthirtyfive} alt="" />
+            </div>
+            <div className='client-img' >
+              <img src={Clientimagesthirtysix} alt="" />
+            </div>
+            <div className='client-img' >
+              <img src={Clientimagesthirtyseven} alt="" />
+            </div>
+            <div className='client-img' >
+              <img src={Clientimagesthirtyeight} alt="" />
+            </div>
+            <div className='client-img' >
+              <img src={Clientimagesthirtynine} alt="" />
+            </div>
+            <div className='client-img' >
+              <img src={Clientimagesfourty} alt="" />
+            </div>
+            <div className='client-img' >
+              <img src={Clientimagesfourtyone} alt="" />
+            </div>
+         </div>
+          </SwiperSlide>
+
+          <SwiperSlide>
+          
+          <div className='clients-page-image' >
+            <div className='client-img' >
+              <img src={Clientimagesfourtytwo} alt="" />
+            </div>
+            <div className='client-img' >
+              <img src={Clientimagesfourtythree} alt="" />
+            </div>
+            <div className='client-img' >
+              <img src={Clientimagesfourtyfour} alt="" />
+            </div>
+            <div className='client-img' >
+              <img src={Clientimagesfourtyfive} alt="" />
+            </div>
+            <div className='client-img' >
+              <img src={Clientimagesfourtysix} alt="" />
+            </div>
+            <div className='client-img' >
+              <img src={Clientimagesfourtyseven} alt="" />
+            </div>
+            <div className='client-img' >
+              <img src={Clientimagesfourtyeight} alt="" />
+            </div>
+            <div className='client-img' >
+              <img src={Clientimagesfourtynine} alt="" />
+            </div>
+         </div>
+          </SwiperSlide>
+          <SwiperSlide>
+          
+          <div className='clients-page-image' >
+            <div className='client-img' >
+              <img src={Clientimagesfifty} alt="" />
+            </div>
+            <div className='client-img' >
+              <img src={Clientimagesfiftyone} alt="" />
+            </div>
+            <div className='client-img' >
+              <img src={Clientimagesfiftytwo} alt="" />
+            </div>
+            <div className='client-img' >
+              <img src={Clientimagesfiftythree} alt="" />
+            </div>
+            <div className='client-img' >
+              <img src={Clientimagesfiftyfour} alt="" />
+            </div>
+            <div className='client-img' >
+              <img src={Clientimagesfiftyfive} alt="" />
+            </div>
+            <div className='client-img' >
+              <img src={Clientimagesfiftysix} alt="" />
+            </div>
+            <div className='client-img' >
+              <img src={Clientimagesfiftyseven} alt="" />
+            </div>
+         </div>
+          </SwiperSlide>
       </Swiper>
     </div>
     <div>
