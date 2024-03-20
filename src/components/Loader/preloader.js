@@ -5,8 +5,8 @@ function Preloader() {
     return (
         <div className="preloader">
             <div className='text-container'>
-                <span>Dream,</span>
-                <span>Design,</span>
+                <span>Dream.</span>
+                <span>Design.</span>
                 <span>Digitize</span>
             </div>
         </div>

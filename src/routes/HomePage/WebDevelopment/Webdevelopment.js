@@ -9,6 +9,7 @@ import AppDevelopment from '../../../Assets/Images/WebDevelopment/5016 1.png'
 import { Box, Button } from '@mui/material';
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 import { Link } from 'react-router-dom'
+import VideoMobileAppDevelopment from '../../../../src/Assets/Video/Appvideo.mp4'
 
 
 
@@ -42,7 +43,7 @@ function Webdevelopment() {
         </Box>
 </div>
 <div className='webdevimage'>
-<img src={AppDevelopment} alt="" />
+<video src={VideoMobileAppDevelopment} autoPlay loop muted  style={{width:"100%", height:"100%",background:"black"}} alt="" /> 
 
 </div>
 </div>

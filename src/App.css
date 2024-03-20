@@ -132,11 +132,13 @@ html,body{
 
   .heading-section .heading-one,
   .heading-section .heading-three {
-    
-    font-size: 50px !important;
+    font-family: "Epilogue", sans-serif;
+
+    font-size: 42px !important;
     margin-top: 2rem !important;
     font-weight: 400;
     width: 110% !important;
+    color: rgba(255, 255, 255, 1);
     
   }
   .heading-section h1{
