@@ -285,11 +285,8 @@ const StyledTab = ({ selected, ...props }) => (
       fontFamily: "DM Sans18ptLight",
       fontSize: "21px",
       fontWeight: "400",
-      color: 'white',
-      backgroundImage: selected ? 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)' : 'none',
-      WebkitBackgroundClip: 'text',
-      WebkitTextFillColor:  selected ? 'transparent' : "none",
-      '& .MuiTab-label': { borderBottom: 'none' }
+      color:selected ? 'rgba(227, 142, 0, 1)' : 'white',
+      background: selected ? 'white' : 'none',
     }}
   />
 );
