@@ -249,7 +249,7 @@ height: 80vh !important;
 
 
   .Ourclients-home {
-height: 160vh !important;
+height: 130vh !important;
 padding-bottom: 0vh !important;
   }
   .Ourclients-home-list{
@@ -272,10 +272,11 @@ height: 60px !important;
   font-size: 28px !important;
 }
 .Ourclients-home-list {
-  height: 85% !important;
+  height: 75% !important;
 }
 .Ourclients-home-heading{
-  height: 20vh !important;    
+  height: 20vh !important;  
+  padding-top: 0vh !important;  
 }
 .Ourclients-heading-btn button{
   width: 160px !important;
@@ -289,7 +290,7 @@ height: 60px !important;
     padding-top: 0vh !important;
   }
   .reviews {
-    min-height: 40vh !important;
+    min-height: 52vh !important;
     padding: 1rem 1rem !important;
     width: 90% !important;
   }
