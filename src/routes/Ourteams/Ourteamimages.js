@@ -31,7 +31,6 @@ function Ourteamimages() {
     { name: 'Karan Nanesha', image: Karan, role: 'Web Developer', linkedin: 'https://www.linkedin.com/in/karan-nanesha-291b68207/' },
     { name: 'Vrushti Ashar', image: Vrushti, role: 'Project Manager', linkedin: 'https://www.linkedin.com/in/vrushti-ashar-86a852143/' },
     { name: 'Ajay Sharma ', image: Ajay, role: 'Full Stack Developer', linkedin: 'https://www.linkedin.com/in/ajay-sharma-453348142/' },
-    { name: 'Jay Shah ', image: Jay, role: 'Business Partner', linkedin: '' },
     { name: 'Sakshi Virulkar', image: Sakshi, role: 'UI/UX Designer', linkedin: 'https://www.linkedin.com/in/sakshi-virulkar/' },
     { name: 'Aditya Ingle', image: Aditya, role: 'App Developer', linkedin: 'https://www.linkedin.com/in/aditya-ingle-95b582211/' },
     { name: 'Ashish Sawant', image: Sawant, role: 'Full Stack Developer', linkedin: 'https://www.linkedin.com/in/ashish-sawant/' },

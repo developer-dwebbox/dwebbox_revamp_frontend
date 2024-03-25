@@ -8,13 +8,13 @@ import AppDevelopment from '../../../src/Assets/Images/WebDevelopment/5016 1.png
 
 
 
-import servicelogo1 from '../../../src/Assets/Images/Servicesinnerpageicons/image 49.png'
-import servicelogo2 from '../../../src/Assets/Images/Servicesinnerpageicons/image 50.png'
-import servicelogo3 from '../../../src/Assets/Images/Servicesinnerpageicons/image 51.png'
-import servicelogo4 from '../../../src/Assets/Images/Servicesinnerpageicons/image 52.png'
-import servicelogo5 from '../../../src/Assets/Images/Servicesinnerpageicons/image 53.png'
+import servicelogo1 from '../../../src/Assets/Images/Servicesinnerpageicons/Logo Designing/image 49.png'
+import servicelogo2 from '../../../src/Assets/Images/Servicesinnerpageicons/Logo Designing/image 50.png'
+import servicelogo3 from '../../../src/Assets/Images/Servicesinnerpageicons/Logo Designing/image 51.png'
+import servicelogo4 from '../../../src/Assets/Images/Servicesinnerpageicons/Logo Designing/image 52.png'
+import servicelogo5 from '../../../src/Assets/Images/Servicesinnerpageicons/Logo Designing/image 53.png'
 
-const content = ["Understanding the Business", "UI/UX representation and Prototyping","Developing the product","Quality Assurance and Deployment","Website Maintenance"];
+const content = ["Research And Brand Strategy", "Competitive Analysis","Creating Brand Identity","Building your brand guidelines","Brand launch and building"];
 
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -74,7 +74,7 @@ Logo Designing
           marginTop:"10vh",
           display: 'flex', 
           alignItems: 'center',
-          fontSize:"48px",
+          fontSize:"42px",
           fontFamily:"Epilogue",
           fontWeight:"600" ,
           '@media (max-width:600px)': { // Styles for screens with a maximum width of 600px (mobile view)
@@ -82,8 +82,7 @@ Logo Designing
               },
           }}
            >
-          Where Pixels Meet Quirks and Code Dances in Digital Harmony!
-          </Typography>
+Curate the perfect name, design an excellent logo, bring your brand to life with our branding service!          </Typography>
           <Typography paragraph 
           sx={{
             color: "#ffffff",
@@ -94,10 +93,7 @@ Logo Designing
           width:"95%"
           }}
           >
-We have deep expertise in a wide variety of technologies used for web development. 
-From frontend frameworks like Angular and React to Node in the backend,
- we have experience in creating websites with the latest tools and technologies. 
-If you prefer a specific technology, let us know, and we will incorporate it.     
+Experience end-to-end branding excellence, meticulously crafted by our in-house creative design and branding experts. From conceptualization to implementation, we ensure every aspect of your brand reflects its unique essence, resonating powerfully with your audience and leaving an indelible mark on your industry.     
      </Typography>
      <Typography variant='h3'
       sx={{ color: "#ffffff", 

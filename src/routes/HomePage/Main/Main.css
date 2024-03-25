@@ -26,6 +26,7 @@
   }
   
   .video-section {
+    position: relative;
     width: 100%;
     height: 100%;
     border-radius: 50% 0px 0px 50%;
@@ -58,7 +59,15 @@
     -webkit-text-fill-color: #FF9F00;
     background-size: 100%; 
     font-family: 'Salgesis' !important;
+    z-index: 10;
   }
   
   
-  
+  .main-video-wrapper{
+    position: absolute;
+    z-index: 9;
+    width: 100%;
+    height: 100%;
+    background-color: #00000022;
+    border-radius: 50% 0px 0px 50%;
+  }

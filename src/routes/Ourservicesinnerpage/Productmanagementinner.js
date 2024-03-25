@@ -7,11 +7,11 @@ import AppDevelopment from '../../../src/Assets/Images/WebDevelopment/5016 1.png
 import { experimentalStyled as styled } from '@mui/material/styles';
 
 
-import servicelogo1 from '../../../src/Assets/Images/Servicesinnerpageicons/image 49.png'
-import servicelogo2 from '../../../src/Assets/Images/Servicesinnerpageicons/image 50.png'
-import servicelogo3 from '../../../src/Assets/Images/Servicesinnerpageicons/image 51.png'
-import servicelogo4 from '../../../src/Assets/Images/Servicesinnerpageicons/image 52.png'
-import servicelogo5 from '../../../src/Assets/Images/Servicesinnerpageicons/image 53.png'
+import servicelogo1 from '../../../src/Assets/Images/Servicesinnerpageicons/ProductManagement/image 49.png'
+import servicelogo2 from '../../../src/Assets/Images/Servicesinnerpageicons/ProductManagement/image 50.png'
+import servicelogo3 from '../../../src/Assets/Images/Servicesinnerpageicons/ProductManagement/image 51.png'
+import servicelogo4 from '../../../src/Assets/Images/Servicesinnerpageicons/ProductManagement/image 52.png'
+import servicelogo5 from '../../../src/Assets/Images/Servicesinnerpageicons/ProductManagement/image 53.png'
 
 const content = ["Understanding the Business", "UI/UX representation and Prototyping","Developing the product","Quality Assurance and Deployment","Website Maintenance"];
 
@@ -72,7 +72,7 @@ Product Management
           marginTop:"10vh",
           display: 'flex', 
           alignItems: 'center',
-          fontSize:"48px",
+          fontSize:"42px",
           fontFamily:"Epilogue",
           fontWeight:"600" ,
           '@media (max-width:600px)': { // Styles for screens with a maximum width of 600px (mobile view)
@@ -80,8 +80,9 @@ Product Management
               },
           }}
            >
-          Where Pixels Meet Quirks and Code Dances in Digital Harmony!
-          </Typography>
+
+Managing Product planning and development to create products and features that customers love.   
+       </Typography>
           <Typography paragraph 
           sx={{
             color: "#ffffff",
@@ -92,10 +93,7 @@ Product Management
           width:"95%"
           }}
           >
-We have deep expertise in a wide variety of technologies used for web development. 
-From frontend frameworks like Angular and React to Node in the backend,
- we have experience in creating websites with the latest tools and technologies. 
-If you prefer a specific technology, let us know, and we will incorporate it.     
+From idea to deployment, we provide hands-on consulting support to build your products, ensuring every step is infused with intuitive UI/UX design, creating engaging experiences that captivate users from start to finish.    
      </Typography>
      <Typography variant='h3'
       sx={{ color: "#ffffff", 

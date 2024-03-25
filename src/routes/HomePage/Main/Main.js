@@ -24,6 +24,9 @@ function Main() {
       {/* Right Section */}
       <Grid item xs={12} md={6} className='main-left'>
         <div className='video-section'>
+        <div className='main-video-wrapper' >
+
+        </div>
           <video className='dwb-video' src={video} width="100%" autoPlay loop muted></video>
         </div>
       </Grid>

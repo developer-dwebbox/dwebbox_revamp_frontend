@@ -76,7 +76,7 @@ UI/UX Designing
           marginTop:"10vh",
           display: 'flex', 
           alignItems: 'center',
-          fontSize:"48px",
+          fontSize:"42px",
           fontFamily:"Epilogue",
           fontWeight:"600" ,
           '@media (max-width:600px)': { // Styles for screens with a maximum width of 600px (mobile view)
@@ -84,8 +84,7 @@ UI/UX Designing
               },
           }}
            >
-          Where Pixels Meet Quirks and Code Dances in Digital Harmony!
-          </Typography>
+Crafting seamless experiences, one pixel at a time,  elevate digital journeys          </Typography>
           <Typography paragraph 
           sx={{
             color: "#ffffff",
@@ -96,10 +95,7 @@ UI/UX Designing
           width:"95%"
           }}
           >
-We have deep expertise in a wide variety of technologies used for web development. 
-From frontend frameworks like Angular and React to Node in the backend,
- we have experience in creating websites with the latest tools and technologies. 
-If you prefer a specific technology, let us know, and we will incorporate it.     
+Design and user experience that your customers will never forget. Create your product design from scratch or revamp your old UI/UX with the most creative minds at your disposal. best of what your company offers.     
      </Typography>
      <Typography variant='h3'
       sx={{ color: "#ffffff", 
