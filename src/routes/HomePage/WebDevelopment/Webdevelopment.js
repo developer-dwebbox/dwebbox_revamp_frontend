@@ -9,7 +9,11 @@ import AppDevelopment from '../../../Assets/Images/WebDevelopment/5016 1.png'
 import { Box, Button } from '@mui/material';
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 import { Link } from 'react-router-dom'
-import VideoMobileAppDevelopment from '../../../../src/Assets/Video/Appvideo.mp4'
+import VideoMobileAppDevelopment from '../../../../src/Assets/Video/AppVideo.mp4'
+import VideoWebAppDevelopment from '../../../../src/Assets/Video/WebDevelopment.mp4'
+import SeoOptimization from '../../../../src/Assets/Video/Seo.mp4'
+import Staffing from '../../../../src/Assets/Video/Staffing.mp4'
+
 
 
 
@@ -74,7 +78,7 @@ function Webdevelopment() {
         </Box>
      </div>
      <div className='webdevimage'>
-<img src={webdevimg} alt="" />
+     <video src={VideoWebAppDevelopment} autoPlay loop muted  style={{width:"100%", height:"100%",background:"black"}} alt="" /> 
      </div>
     </div>
    
@@ -232,7 +236,7 @@ function Webdevelopment() {
         </Box>
 </div>
 <div className='webdevimage'>
-<img src={AppDevelopment} alt="" />
+<video src={SeoOptimization} autoPlay loop muted  style={{width:"100%", height:"100%",background:"black"}} alt="" /> 
 </div>
 </div>
 
@@ -263,7 +267,7 @@ function Webdevelopment() {
         </Box>
 </div>
 <div className='webdevimage'>
-<img src={AppDevelopment} alt="" />
+<video src={Staffing} autoPlay loop muted  style={{width:"100%", height:"100%",background:"black"}} alt="" /> 
 </div>
 </div>
       
