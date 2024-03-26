@@ -1,6 +1,11 @@
 import React, { useRef } from 'react';
 import './Homeportfolio.css';
-import image1 from '../../../Assets/Images/Rectangle 58.png';
+import Fikaa from '../../../Assets/Images/Fikka.png';
+import MissionToCure from '../../../Assets/Images/MissionToCure.png';
+import Oren from '../../../Assets/Images/Oren.png';
+import Jags from '../../../Assets/Images/Jags.png';
+
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore from 'swiper/core';
 import 'swiper/swiper-bundle.css';
@@ -54,24 +59,24 @@ function Homeportfolio() {
           onSlideChange={() => console.log('slide change')}
         >
           <SwiperSlide className='swiper-slide-section' >
-            <img src={image1} alt="" style={{ width: "100%" }} />
-            <p className='firstheading-portfolio'>Mobile Shoestore</p>
-            <p className='secondheading-portfolio' >UI/UX Design</p>
+            <img src={Fikaa} alt="" style={{ width: "100%" }} />
+            <p className='firstheading-portfolio'>FIKAA - BE FINANCIALLY FREE</p>
+            
           </SwiperSlide>
           <SwiperSlide className='swiper-slide-section'  >
-            <img src={image1} alt="" style={{ width: "100%" }} />
-            <p className='firstheading-portfolio'>Mobile Shoestore</p>
-            <p className='secondheading-portfolio' >UI/UX Design</p>
+            <img src={MissionToCure} alt="" style={{ width: "100%" }} />
+            <p className='firstheading-portfolio'>Mission to Cure</p>
+           
           </SwiperSlide>
           <SwiperSlide className='swiper-slide-section'  >
-            <img src={image1} alt="" style={{ width: "100%" }} />
-            <p className='firstheading-portfolio'>Mobile Shoestore</p>
-            <p className='secondheading-portfolio' >UI/UX Design</p>
+            <img src={Jags} alt="" style={{ width: "100%" }} />
+            <p className='firstheading-portfolio'>Jags</p>
+           
           </SwiperSlide>
           <SwiperSlide className='swiper-slide-section'  >
-            <img src={image1} alt="" style={{ width: "100%" }} />
-            <p className='firstheading-portfolio'>Mobile Shoestore</p>
-            <p className='secondheading-portfolio' >UI/UX Design</p>
+            <img src={Oren} alt="" style={{ width: "100%" }} />
+            <p className='firstheading-portfolio'>Oren</p>
+            
           </SwiperSlide>
         </Swiper>
       </div>
