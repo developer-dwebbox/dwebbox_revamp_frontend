@@ -12,6 +12,8 @@ import servicelogo3 from '../../../src/Assets/Images/Servicesinnerpageicons/imag
 import servicelogo4 from '../../../src/Assets/Images/Servicesinnerpageicons/image 52.png'
 import servicelogo5 from '../../../src/Assets/Images/Servicesinnerpageicons/image 53.png'
 
+import AppVideo from '../../../src/Assets/Video/AppVideo.mp4';
+
 const content = ["Understanding the Business", "UI/UX representation and Prototyping","Developing the product","Quality Assurance and Deployment","Website Maintenance"];
 
 
@@ -137,7 +139,7 @@ height:"90%",
             height:"40%"
               },
 }} >
-   <img src={AppDevelopment} alt="" width="100%"  style={{backgroundSize:"cover",backgroundPosition:"center"}}/>
+<video src={AppVideo} autoPlay loop muted  style={{width:"100%", height:"100%",background:"black"}} alt="" /> 
 </Box>
 
 <Box sx={{

@@ -2,6 +2,8 @@ import React from 'react'
 import { Box,Typography,Container, Button, Card, CardMedia} from '@mui/material'
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward'
 import BlogImageOne from '../../../src/Assets/Images/BlogsImage/Rectangle 67.png'
+import BlogsCardImageOne from '../../../src/Assets/Images/BlogsImage/BlogsCardImageOne.png'
+
 import { Link } from 'react-router-dom'
 
 function Ourblogscards() {
@@ -20,17 +22,17 @@ function Ourblogscards() {
       }}>
       <CardMedia
         sx={{ height: 380,marginBottom:"20px" }}
-        image={BlogImageOne}
+        image={BlogsCardImageOne}
       />
         <Typography variant="body"
          color="#FFFFFF" 
-         fontSize={24} 
+         fontSize={22} 
          fontFamily="DM Sans18ptLight" 
          fontWeight={400}
         
         >
-        Creative advertising in our life became a info noise
-        </Typography>
+Feature Prioritization Unveiled: Navigating the Landscape of Product Management     
+   </Typography>
      
         <Link to="/blogspage" style={{textDecoration:"none"}}>
   <Button

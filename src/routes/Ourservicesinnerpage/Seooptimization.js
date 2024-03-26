@@ -6,15 +6,17 @@ import { Box, Container, Grid, Paper, Typography } from '@mui/material';
 import AppDevelopment from '../../../src/Assets/Images/WebDevelopment/5016 1.png'
 import { experimentalStyled as styled } from '@mui/material/styles';
 
+import SeoOptimization from '../../../src/Assets/Video/Seo.mp4'
 
 
-import servicelogo1 from '../../../src/Assets/Images/Servicesinnerpageicons/image 49.png'
-import servicelogo2 from '../../../src/Assets/Images/Servicesinnerpageicons/image 50.png'
-import servicelogo3 from '../../../src/Assets/Images/Servicesinnerpageicons/image 51.png'
-import servicelogo4 from '../../../src/Assets/Images/Servicesinnerpageicons/image 52.png'
-import servicelogo5 from '../../../src/Assets/Images/Servicesinnerpageicons/image 53.png'
 
-const content = ["Understanding the Business", "UI/UX representation and Prototyping","Developing the product","Quality Assurance and Deployment","Website Maintenance"];
+import servicelogo1 from '../../../src/Assets/Images/Servicesinnerpageicons/SeoImages/image 49.png'
+import servicelogo2 from '../../../src/Assets/Images/Servicesinnerpageicons/SeoImages/image 50.png'
+import servicelogo3 from '../../../src/Assets/Images/Servicesinnerpageicons/SeoImages/image 51.png'
+import servicelogo4 from '../../../src/Assets/Images/Servicesinnerpageicons/SeoImages/image 52.png'
+import servicelogo5 from '../../../src/Assets/Images/Servicesinnerpageicons/SeoImages/image 53.png'
+
+const content = ["Understanding The Audience", "Creating Quality Content","Optimizing Content for Search Engines","Building Relationships and Authority","Monitoring and Adapting"];
 
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -73,7 +75,7 @@ Seo Optimization</Typography>
           marginTop:"10vh",
           display: 'flex', 
           alignItems: 'center',
-          fontSize:"48px",
+          fontSize:"42px",
           fontFamily:"Epilogue",
           fontWeight:"600" ,
           '@media (max-width:600px)': { // Styles for screens with a maximum width of 600px (mobile view)
@@ -81,8 +83,7 @@ Seo Optimization</Typography>
               },
           }}
            >
-          Where Pixels Meet Quirks and Code Dances in Digital Harmony!
-          </Typography>
+Elevate your digital presence with precision: SEO Optimization, where visibility meets value          </Typography>
           <Typography paragraph 
           sx={{
             color: "#ffffff",
@@ -93,10 +94,7 @@ Seo Optimization</Typography>
           width:"95%"
           }}
           >
-We have deep expertise in a wide variety of technologies used for web development. 
-From frontend frameworks like Angular and React to Node in the backend,
- we have experience in creating websites with the latest tools and technologies. 
-If you prefer a specific technology, let us know, and we will incorporate it.     
+ It's more than just a buzzword; it's a powerful tool that can elevate our online presence and drive tangible results for our business. Let's break down why SEO optimization is absolutely crucial.     
      </Typography>
      <Typography variant='h3'
       sx={{ color: "#ffffff", 
@@ -111,8 +109,7 @@ If you prefer a specific technology, let us know, and we will incorporate it.
               },
           }}
       >
-     Here is the five-step process we follow to create the ideal website for you to engage with your customers online:
-     </Typography>
+Unlocking Success: Mastering the five essential steps of SEO Optimization to create the perfect online presence:     </Typography>
         </Container>
 
         <Container component="main" sx={{ pt: 3,pb:5, 
@@ -136,7 +133,7 @@ height:"90%",
             height:"40%"
               },
 }} >
-   <img src={AppDevelopment} alt="" width="100%"  style={{backgroundSize:"cover",backgroundPosition:"center"}}/>
+<video src={SeoOptimization} autoPlay loop muted  style={{width:"100%", height:"100%",background:"black"}} alt="" /> 
 </Box>
 
 <Box sx={{

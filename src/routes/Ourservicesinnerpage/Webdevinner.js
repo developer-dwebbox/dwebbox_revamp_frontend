@@ -5,7 +5,7 @@ import Footer from '../../components/Footer/Footer'
 import { Box, Container, Grid, Paper, Typography } from '@mui/material'
 import { experimentalStyled as styled } from '@mui/material/styles';
 import AppDevelopment from '../../../src/Assets/Images/WebDevelopment/5016 1.png'
-
+import VideoWebAppDevelopment from '../../../src/Assets/Video/WebDevelopment.mp4'
 
 
 
@@ -137,7 +137,7 @@ height:"90%",
             height:"40%"
               },
 }} >
-   <img src={AppDevelopment} alt="" width="100%"  style={{backgroundSize:"cover",backgroundPosition:"center"}}/>
+     <video src={VideoWebAppDevelopment} autoPlay loop muted  style={{width:"100%", height:"100%",background:"black"}} alt="" /> 
 </Box>
 
 <Box sx={{
