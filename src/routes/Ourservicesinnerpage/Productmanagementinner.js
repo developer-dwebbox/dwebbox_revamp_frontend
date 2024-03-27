@@ -6,6 +6,8 @@ import { Box, Container, Grid, Paper, Typography } from '@mui/material'
 import AppDevelopment from '../../../src/Assets/Images/WebDevelopment/5016 1.png'
 import { experimentalStyled as styled } from '@mui/material/styles';
 
+import ProductManagement from '../../../src/Assets/Video/ProductManagement.mp4'
+
 
 import servicelogo1 from '../../../src/Assets/Images/Servicesinnerpageicons/ProductManagement/image 49.png'
 import servicelogo2 from '../../../src/Assets/Images/Servicesinnerpageicons/ProductManagement/image 50.png'
@@ -133,7 +135,7 @@ height:"90%",
             height:"40%"
               },
 }} >
-   <img src={AppDevelopment} alt="" width="100%"  style={{backgroundSize:"cover",backgroundPosition:"center"}}/>
+<video src={ProductManagement} autoPlay loop muted  style={{width:"100%", height:"100%",background:"black"}} alt="" /> 
 </Box>
 
 <Box sx={{

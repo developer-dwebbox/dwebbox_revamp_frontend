@@ -8,6 +8,12 @@ import MobileDev from '../../../src/Assets/Images/PortfolioImages/Rectangle 28.p
 import MobileDevTwo from '../../../src/Assets/Images/PortfolioImages/Rectangle 18.png'
 import './Portfoliopage.css';
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
+
+import FikkaThumnail from '../../../src/Assets/Images/PortfolioImages/FikkaThumnail.png'
+import MissonToCureThumbnail from '../../../src/Assets/Images/PortfolioImages/MissionToCureThumbnails.png'
+import JagsThumbnail from '../../../src/Assets/Images/PortfolioImages/JagsThumbnails.png'
+
 
 export default function Portfoliotabs() {
   const [value, setValue] = React.useState('1');
@@ -60,16 +66,19 @@ export default function Portfoliotabs() {
             <div className='All-Section'>
             <div className='images-section'>
                <div className='Portfolio-images-section fade-in' >
-               <img src={MobileDev} alt="" />
-               <p>Mobile ID Labs</p>
+               <Link to="/fikaacasestudy" style={{textDecoration:"none"}} >
+               <img src={FikkaThumnail} alt="" />
+               <p>Fikaa</p>
+               </Link>
+              
                </div>
                <div className='Portfolio-images-section fade-in'  >
-               <img src={MobileDevTwo} alt="" />
-               <p>Mobile ID Labs</p>
+               <img src={MissonToCureThumbnail} alt="" />
+               <p>Misson To Cure</p>
                </div>
                <div className='Portfolio-images-section fade-in'  >
-               <img src={MobileDev} alt="" />
-               <p>Mobile ID Labs</p>
+               <img src={JagsThumbnail} alt="" />
+               <p>Jags</p>
                </div>
                <div className='Portfolio-images-section fade-in'  >
                <img src={MobileDevTwo} alt=""/>

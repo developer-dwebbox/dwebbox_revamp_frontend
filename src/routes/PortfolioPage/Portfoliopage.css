@@ -76,6 +76,9 @@
 .Portfolio-images-section img{
     width: 100%;
 }
+.Portfolio-images-section p{
+    margin-top: 2vh;
+}
 
 .images-section img{
     margin-top: 5vh;

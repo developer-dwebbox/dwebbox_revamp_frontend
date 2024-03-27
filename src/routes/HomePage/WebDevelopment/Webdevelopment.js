@@ -13,6 +13,12 @@ import VideoMobileAppDevelopment from '../../../../src/Assets/Video/AppVideo.mp4
 import VideoWebAppDevelopment from '../../../../src/Assets/Video/WebDevelopment.mp4'
 import SeoOptimization from '../../../../src/Assets/Video/Seo.mp4'
 import Staffing from '../../../../src/Assets/Video/Staffing.mp4'
+import ProductManagement from '../../../../src/Assets/Video/ProductManagement.mp4'
+
+import LogoDesign from '../../../../src/Assets/Video/LogoDesign.mp4'
+
+
+
 
 
 
@@ -110,7 +116,7 @@ function Webdevelopment() {
         </Box>
 </div>
 <div className='webdevimage'>
-<img src={productmanagementimg} alt="" />
+<video src={ProductManagement} autoPlay loop muted  style={{width:"100%", height:"100%",background:"black"}} alt="" /> 
 </div>
 </div>
  <div className="webdev webdevthree">
@@ -173,7 +179,7 @@ function Webdevelopment() {
         </Box>
 </div>
 <div className='webdevimage'>
-<img src={productbranding} alt="" />
+<video src={LogoDesign} autoPlay loop muted  style={{width:"100%", height:"100%",background:"black"}} alt="" /> 
 </div>
 </div>
 

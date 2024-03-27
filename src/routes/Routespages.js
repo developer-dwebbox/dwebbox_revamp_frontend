@@ -16,6 +16,7 @@ import Appdevinner from './Ourservicesinnerpage/Appdevinner'
 import Socialmediainner from './Ourservicesinnerpage/Socialmediainner'
 import Productmanagementinner from './Ourservicesinnerpage/Productmanagementinner'
 import Seooptimization from './Ourservicesinnerpage/Seooptimization'
+import Fikaacasestudy from './Casestudies/Fikaacasestudy'
 
 function Routespages() {
   return (
@@ -38,6 +39,7 @@ function Routespages() {
 <Route path='/uiux' element={<Uiuxinner/>} />
 <Route path='/socialmedia' element={<Socialmediainner/>} />
 <Route path='/seooptimization' element={<Seooptimization/>} />
+<Route path='/fikaacasestudy'  element={<Fikaacasestudy/>} />
         </Routes>
       </BrowserRouter>
     </div>
