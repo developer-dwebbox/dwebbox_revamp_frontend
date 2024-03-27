@@ -9,7 +9,7 @@ import FikaaFullCasestudies from '../../../src/Assets/Images/PortfolioImages/Fik
 
 function Fikaacasestudy() {
   return (
-    <div>
+    <div style={{background:"#181818"}} >
     <Navbar/>
     <Box sx={{ width: "100%", background: "#181818" }} >
         <Container component="main" sx={{ pt: 10, 
@@ -60,6 +60,62 @@ function Fikaacasestudy() {
             <img src={FikkaBigImage} width= "100%" alt="" />
           </Box>
          
+         <Box sx={{display:"flex", alignItems:"center", width:"100%",background:"rgba(34, 34, 34, 1)",height:"20vh",marginTop:"20vh"}} >
+           <Box sx={{display:"flex",flexDirection:"column",alignItems:"center", width:"30%",color:"rgba(255, 255, 255, 1)"}} >
+           <Typography variant='h5'sx={{
+             '@media (max-width:700px)': { // Styles for screens with a maximum width of 600px (mobile view)
+                          fontSize:"14px",
+                          
+              },
+          }} >
+         Industry
+          </Typography>
+          <Typography paragraph sx={{fontWeight:"300",fontSize:"20px",
+            '@media (max-width:700px)': { // Styles for screens with a maximum width of 600px (mobile view)
+                          fontSize:"12px",
+                          
+              },
+          }} >
+         Finance
+          </Typography>
+           </Box>
+           <Box sx={{display:"flex",flexDirection:"column",alignItems:"center", width:"40%",color:"rgba(255, 255, 255, 1)"}} >
+          <Typography variant='h5'sx={{
+             '@media (max-width:700px)': { // Styles for screens with a maximum width of 600px (mobile view)
+                          fontSize:"14px",
+                          
+              },
+          }} >
+          Services Provided
+          </Typography>
+          <Typography paragraph sx={{fontWeight:"300",fontSize:"20px",
+            '@media (max-width:700px)': { // Styles for screens with a maximum width of 600px (mobile view)
+                          fontSize:"12px",
+                          
+              },
+          }} >
+          Web & App Development
+          </Typography>
+           </Box>
+           <Box sx={{display:"flex",flexDirection:"column",alignItems:"center", width:"30%",color:"rgba(255, 255, 255, 1)"}} >
+           <Typography variant='h5'sx={{
+             '@media (max-width:700px)': { // Styles for screens with a maximum width of 600px (mobile view)
+                          fontSize:"14px",
+                          
+              },
+          }} >
+          Year
+          </Typography>
+          <Typography paragraph sx={{fontWeight:"300",fontSize:"20px",
+            '@media (max-width:700px)': { // Styles for screens with a maximum width of 600px (mobile view)
+                          fontSize:"12px",
+                          
+              },
+          }} >
+          2023-2024
+          </Typography>
+           </Box>
+         </Box>
          
 <Box sx={{background:"rgba(34, 34, 34, 1)",padding:"5vh",marginTop:"10vh"}} >
 <Typography variant='h3' 
@@ -83,7 +139,7 @@ The Challenge
 
           fontFamily:"DM Sans_18pt-ExtraLight" ,
           '@media (max-width:600px)': { // Styles for screens with a maximum width of 600px (mobile view)
-                fontSize: '18px',
+                fontSize: '12px',
               },
           }} >
 Women's financial priorities, such as long-term security and sustainable investing, necessitate specialized services tailored to their needs. Addressing the financial literacy gap requires the provision of easily accessible educational resources. Fostering an inclusive environment devoid of biases is crucial for empowering women in financial decision-making. Trust is foundational, built upon transparent communication and robust security measures. Diverse investment options catering to varying income levels are pivotal in mitigating wealth disparities. Personalized investment recommendations and portfolio customization are indispensable for meeting individual preferences. Access to supportive networks and mentorship bolsters confidence in investing endeavors. Ensuring accessibility through user-friendly interfaces and multilingual support is essential for women from diverse backgrounds. Compliance with legal standards and advocacy for gender equality are imperative facets of the app's operation. Continuous refinement based on user feedback drives ongoing enhancement and relevance.          </Typography>
@@ -111,7 +167,7 @@ Approach
 
           fontFamily:"DM Sans_18pt-ExtraLight" ,
           '@media (max-width:600px)': { // Styles for screens with a maximum width of 600px (mobile view)
-                fontSize: '18px',
+                fontSize: '12px',
               },
           }} >
 Thorough market research engages potential users to understand their financial goals, tailoring app features, investments, and educational content accordingly. Company offered a comprehensive range of educational resources enhances financial literacy, empowering women with the knowledge for informed investment decisions. Creating an inclusive environment challenges stereotypes, showcasing women's achievements in finance and encouraging participation from diverse backgrounds. Transparency is paramount, from fees to security measures, fostering trust through open communication with users. Ensuring accessibility and affordability for women of varying socioeconomic backgrounds involves flexible options and tailored products. Utilizing algorithms for personalized investment recommendations allows customization of portfolios based on individual preferences. Facilitating connections among female investors through forums and mentorship programs provides valuable support. Designing the app with accessibility features and multilingual support prioritizes diverse user needs globally. Adhering to legal standards and advocating for gender equality ensures compliance and inclusivity. Continuous feedback loops drive ongoing improvements, updating the app to meet evolving user needs and market trends.        

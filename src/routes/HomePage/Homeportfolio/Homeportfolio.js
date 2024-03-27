@@ -59,8 +59,11 @@ function Homeportfolio() {
           onSlideChange={() => console.log('slide change')}
         >
           <SwiperSlide className='swiper-slide-section' >
-            <img src={Fikaa} alt="" style={{ width: "100%" }} />
+          <Link to="/fikaacasestudy" style={{textDecoration:"none",color:"black"}} >
+          <img src={Fikaa} alt="" style={{ width: "100%" }} />
             <p className='firstheading-portfolio'>FIKAA - BE FINANCIALLY FREE</p>
+          </Link>
+           
             
           </SwiperSlide>
           <SwiperSlide className='swiper-slide-section'  >
